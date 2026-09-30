@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'models.dart';
+import 'package:platform_prep/models.dart';
 
 /// Shows one question with its 4 options.
 /// - Test mode: tap an option to select it.

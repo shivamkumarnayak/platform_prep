@@ -2,12 +2,11 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'data.dart';
-import 'models.dart';
-import 'question_view.dart';
+import 'package:platform_prep/models.dart';
+import 'package:platform_prep/services/data.dart';
+import 'package:platform_prep/utils/theme.dart';
+import 'package:platform_prep/widgets/question_view.dart';
 import 'result_screen.dart';
-import 'theme.dart'; // file that contains GalleryThemeData
 
 const _cs = GalleryThemeData.colorScheme;
 const _markedColor = Color(0xFF7C3AED);
@@ -263,7 +262,6 @@ class _TestScreenState extends State<TestScreen> {
       isScrollControlled: true,
       showDragHandle: true,
       backgroundColor: Colors.white,
-      surfaceTintColor: Colors.transparent,
       shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(top: Radius.circular(28))),
       builder: (ctx) {

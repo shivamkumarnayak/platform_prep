@@ -2,9 +2,8 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:platform_prep/models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'models.dart';
 
 /// Loads the bundled question bank (7 tests x 100 questions).
 class Repo {

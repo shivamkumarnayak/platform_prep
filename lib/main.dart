@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'data.dart';
-import 'home_screen.dart';
-import 'theme.dart'; 
+import 'package:platform_prep/screens/home_screen.dart';
+import 'package:platform_prep/services/data.dart';
+import 'package:platform_prep/utils/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'data.dart';
-import 'models.dart';
+import 'package:platform_prep/models.dart';
+import 'package:platform_prep/services/data.dart';
+import 'package:platform_prep/utils/theme.dart';
 import 'result_screen.dart';
 import 'test_screen.dart';
-import 'theme.dart'; // file that contains GalleryThemeData
 
 const _cs = GalleryThemeData.colorScheme;
 
