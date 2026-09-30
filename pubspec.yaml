@@ -1,0 +1,28 @@
+name: platform_prep
+description: RRB JE CBT-1 mock tests built from the official answer key (Feb 2026 shifts).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/t1/
+    - assets/images/t2/
+    - assets/images/t3/
+    - assets/images/t4/
+    - assets/images/t5/
+    - assets/images/t6/
+    - assets/images/t7/
