@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:platform_prep/models.dart';
+import 'package:prep_insta/exam.dart';
+import 'package:prep_insta/models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Loads the bundled question bank (7 tests x 100 questions).
@@ -10,39 +11,73 @@ class Repo {
   Repo._();
   static final Repo instance = Repo._();
 
-  final List<TestInfo> tests = [];
+  final List<Exam> exams = [];
+  final Map<int, List<TestInfo>> _testsByExam = {};
   final Map<int, List<Question>> _byTest = {};
   final Map<String, Question> _byRef = {};
 
   Future<void> load() async {
-    if (tests.isNotEmpty) return;
-    final manifest = jsonDecode(
-      await rootBundle.loadString('assets/data/manifest.json'),
+    if (exams.isNotEmpty) return;
+    final list = jsonDecode(
+      await rootBundle.loadString('assets/data/exams.json'),
     ) as List<dynamic>;
-    for (final m in manifest) {
-      final info = TestInfo.fromJson(m as Map<String, dynamic>);
-      final doc = jsonDecode(
-        await rootBundle.loadString('assets/data/test_${info.id}.json'),
-      ) as Map<String, dynamic>;
-      final qs = (doc['questions'] as List<dynamic>)
-          .map((e) => Question.fromJson(e as Map<String, dynamic>, info.id))
-          .toList();
-      _byTest[info.id] = qs;
-      for (final q in qs) {
-        _byRef[q.ref] = q;
+
+    for (final e in list) {
+      final exam = Exam.fromJson(e as Map<String, dynamic>);
+      final dir = 'assets/data/${exam.key}';
+
+      try {
+        final manifest = jsonDecode(
+          await rootBundle.loadString('$dir/manifest.json'),
+        ) as List<dynamic>;
+
+        final infos = <TestInfo>[];
+        for (final m in manifest) {
+          final map = Map<String, dynamic>.from(m as Map);
+          final localId = map['id'] as int;
+          final globalId = exam.base + localId;
+          map['id'] = globalId; // make id unique across exams
+
+          final info = TestInfo.fromJson(map);
+          final doc = jsonDecode(
+            await rootBundle.loadString('$dir/test_$localId.json'),
+          ) as Map<String, dynamic>;
+
+          final qs = (doc['questions'] as List<dynamic>)
+              .map(
+                  (q) => Question.fromJson(q as Map<String, dynamic>, globalId))
+              .toList();
+
+          _byTest[globalId] = qs;
+          for (final q in qs) {
+            _byRef[q.ref] = q;
+          }
+          infos.add(info);
+        }
+        _testsByExam[exam.id] = infos;
+        exams.add(exam);
+      } catch (_) {
+        // Exam folder missing or incomplete: skip it instead of crashing.
       }
-      tests.add(info);
     }
   }
+
+  List<TestInfo> testsOf(int examId) => _testsByExam[examId] ?? const [];
 
   List<Question> questionsOf(int testId) => _byTest[testId] ?? const [];
 
   Question? find(String ref) => _byRef[ref];
 
-  int get totalQuestions => _byRef.length;
+  int totalQuestionsOf(int examId) => _byTest.entries
+      .where((e) => examIdOfTest(e.key) == examId)
+      .fold(0, (sum, e) => sum + e.value.length);
 
-  List<Question> randomQuestions(int count) {
-    final all = _byRef.values.toList()..shuffle(Random());
+  List<Question> randomQuestions(int count, {required int examId}) {
+    final all = _byTest.entries
+        .where((e) => examIdOfTest(e.key) == examId)
+        .expand((e) => e.value)
+        .toList()
+      ..shuffle(Random());
     return all.take(count).toList();
   }
 }

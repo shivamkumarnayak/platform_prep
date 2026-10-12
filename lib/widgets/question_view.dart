@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:platform_prep/models.dart';
+import 'package:prep_insta/models.dart';
 
-/// Shows one question with its 4 options.
-/// - Test mode: tap an option to select it.
-/// - Review mode: correct option is green, a wrong selection is red.
 class QuestionView extends StatelessWidget {
   const QuestionView({
     super.key,

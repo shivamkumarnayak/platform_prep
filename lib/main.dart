@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:platform_prep/screens/home_screen.dart';
-import 'package:platform_prep/services/data.dart';
-import 'package:platform_prep/utils/theme.dart';
+import 'package:prep_insta/screens/exam_list_screen.dart';
+import 'package:prep_insta/services/data.dart';
+import 'package:prep_insta/utils/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -67,7 +67,7 @@ class _LoaderState extends State<_Loader> {
             ),
           );
         }
-        return const HomeScreen();
+        return const ExamListScreen();
       },
     );
   }

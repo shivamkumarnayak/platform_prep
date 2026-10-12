@@ -1,4 +1,4 @@
-name: platform_prep
+name: prep_insta
 description: RRB JE CBT-1 mock tests built from the official answer key (Feb 2026 shifts).
 publish_to: 'none'
 version: 1.0.0+1
@@ -20,6 +20,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/
+    - assets/data/rrb_je/
+    - assets/data/ssc_je/
+    - assets/data/stet_bihar/
     - assets/images/t1/
     - assets/images/t2/
     - assets/images/t3/

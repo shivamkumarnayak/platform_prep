@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:platform_prep/models.dart';
-import 'package:platform_prep/services/data.dart';
-import 'package:platform_prep/utils/theme.dart';
-import 'package:platform_prep/widgets/question_view.dart';
+import 'package:prep_insta/models.dart';
+import 'package:prep_insta/services/data.dart';
+import 'package:prep_insta/utils/theme.dart';
+import 'package:prep_insta/widgets/question_view.dart';
 enum _Filter { all, correct, wrong, skipped }
 
 class ResultScreen extends StatefulWidget {

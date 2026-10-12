@@ -6,8 +6,8 @@ Mock-test app built from `RRB_JE_CBT_1_Key_Hindi.pdf`:
 ## Run it
 Requires Flutter 3.22 or newer (Dart 3.4+).
 
-    cd platform_prep_test
-    flutter create --project-name platform_prep .    # generates android/ ios/ etc. (keeps lib/ and pubspec.yaml)
+    cd prep_insta_test
+    flutter create --project-name prep_insta .    # generates android/ ios/ etc. (keeps lib/ and pubspec.yaml)
     flutter pub get
     flutter run                                     # or: flutter build apk --release
 

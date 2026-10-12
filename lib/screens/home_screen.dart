@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:platform_prep/models.dart';
-import 'package:platform_prep/services/data.dart';
-import 'package:platform_prep/utils/theme.dart';
+import 'package:prep_insta/exam.dart';
+import 'package:prep_insta/models.dart';
+import 'package:prep_insta/services/data.dart';
+import 'package:prep_insta/utils/theme.dart';
 import 'result_screen.dart';
 import 'test_screen.dart';
 
@@ -16,7 +17,8 @@ TextStyle _t(double size, FontWeight w, [Color? c]) => GoogleFonts.montserrat(
     );
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  const HomeScreen({super.key, required this.exam});
+  final Exam exam;
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -33,9 +35,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _refresh() async {
-    final a = await Store.load();
+    final all = await Store.load();
     if (!mounted) return;
-    setState(() => _attempts = a);
+    setState(() => _attempts =
+        all.where((a) => examIdOfTest(a.testId) == widget.exam.id).toList());
   }
 
   Future<void> _start({
@@ -63,8 +66,13 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 18),
             _rule(Icons.check_circle, GalleryThemeData.successColor,
                 '+1 mark for each correct answer'),
-            _rule(Icons.cancel, GalleryThemeData.redColor,
-                '-1/3 mark for each wrong answer'),
+            _rule(
+              Icons.cancel,
+              GalleryThemeData.redColor,
+              widget.exam.hasNegative
+                  ? '-${widget.exam.negativeLabel} mark for each wrong answer'
+                  : 'No negative marking',
+            ),
             _rule(Icons.remove_circle_outline, GalleryThemeData.inActiveColor,
                 'No mark for unanswered questions'),
             const SizedBox(height: 10),
@@ -183,8 +191,8 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Container(
                 padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                    color: _cs.secondary, shape: BoxShape.circle),
+                decoration:
+                    BoxDecoration(color: _cs.secondary, shape: BoxShape.circle),
                 child: Icon(Icons.train, size: 20, color: _cs.onSecondary),
               ),
               const SizedBox(width: 10),
@@ -214,7 +222,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 18),
             Row(
               children: [
-                _stat('${repo.tests.length}', 'Tests'),
+                _stat('${repo.testsOf(widget.exam.id).length}', 'Tests'),
                 const SizedBox(width: 10),
                 _stat('${_attempts.length}', 'Attempts'),
                 const SizedBox(width: 10),
@@ -239,8 +247,8 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Text(value, style: _t(18, FontWeight.w800, Colors.white)),
             Text(label,
-                style:
-                    _t(11, FontWeight.w500, Colors.white.withValues(alpha: .8))),
+                style: _t(
+                    11, FontWeight.w500, Colors.white.withValues(alpha: .8))),
           ],
         ),
       ),
@@ -251,6 +259,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _testsTab() {
     final repo = Repo.instance;
+    final tests = repo.testsOf(widget.exam.id);
     return ListView(
       padding: const EdgeInsets.fromLTRB(16, 18, 16, 24),
       children: [
@@ -260,16 +269,14 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.only(left: 4, bottom: 12),
           child: Text('Full mock tests', style: _t(16, FontWeight.w700)),
         ),
-        for (final t in repo.tests) _testTicket(t),
+        for (final t in tests) _testTicket(t),
         const SizedBox(height: 6),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 6),
-          child: Text(
-            'Questions and correct answers come from the official RRB JE CBT-1 '
-            'answer key (Feb 2026). Tap any picture inside a question to zoom.',
-            style: _t(11, FontWeight.w500, GalleryThemeData.subtitleColor),
+        if (widget.exam.note.isNotEmpty)
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 6),
+            child: Text(widget.exam.note,
+                style: _t(11, FontWeight.w500, GalleryThemeData.subtitleColor)),
           ),
-        ),
       ],
     );
   }
@@ -299,7 +306,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text('Quick practice', style: _t(15, FontWeight.w700)),
                 const SizedBox(height: 2),
                 Text(
-                  '25 random questions from ${repo.totalQuestions}  -  25 min',
+                  '25 random questions from ${repo.totalQuestionsOf(widget.exam.id)}  -  25 min',
                   style:
                       _t(11, FontWeight.w500, GalleryThemeData.subtitleColor),
                 ),
@@ -315,10 +322,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   borderRadius: BorderRadius.circular(30)),
             ),
             onPressed: () => _start(
-              testId: 0,
-              title: 'Quick practice',
+              testId: widget.exam.base,
+              title: '${widget.exam.name} quick practice',
               minutes: 25,
-              questions: repo.randomQuestions(25),
+              questions: repo.randomQuestions(25, examId: widget.exam.id),
             ),
             child: Text('Start', style: _t(13, FontWeight.w700, Colors.white)),
           ),
@@ -425,9 +432,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           child: Text(
                             mine.isEmpty ? 'Start' : 'Retake',
-                            style: _t(
-                                13,
-                                FontWeight.w700,
+                            style: _t(13, FontWeight.w700,
                                 mine.isEmpty ? Colors.white : _cs.primary),
                           ),
                         ),
@@ -583,8 +588,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             _mini(Icons.cancel, GalleryThemeData.redColor,
                                 '${a.wrong}'),
                             _mini(Icons.remove_circle_outline,
-                                GalleryThemeData.inActiveColor,
-                                '${a.skipped}'),
+                                GalleryThemeData.inActiveColor, '${a.skipped}'),
                           ]),
                         ],
                       ),
@@ -634,8 +638,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   borderRadius: BorderRadius.circular(30)),
             ),
             onPressed: () => Navigator.pop(ctx, true),
-            child: Text('Delete',
-                style: _t(14, FontWeight.w700, Colors.white)),
+            child: Text('Delete', style: _t(14, FontWeight.w700, Colors.white)),
           ),
         ],
       ),
