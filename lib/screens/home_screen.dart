@@ -170,6 +170,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _header() {
     final repo = Repo.instance;
+    final exam = widget.exam;
     double? best;
     for (final a in _attempts) {
       if (best == null || a.score > best) best = a.score;
@@ -181,7 +182,8 @@ class _HomeScreenState extends State<HomeScreen> {
       padding: EdgeInsets.fromLTRB(
           20, MediaQuery.of(context).padding.top + 16, 20, 22),
       decoration: BoxDecoration(
-        color: _cs.primary,
+        color: exam
+            .color, // each exam gets its own colour (use _cs.primary to keep one colour)
         borderRadius: const BorderRadius.vertical(bottom: Radius.circular(30)),
       ),
       child: Column(
@@ -189,16 +191,29 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Row(
             children: [
+              IconButton(
+                tooltip: 'Back',
+                padding: EdgeInsets.zero,
+                constraints: const BoxConstraints(),
+                icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
+                onPressed: () => Navigator.of(context).pop(),
+              ),
+              const SizedBox(width: 12),
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration:
                     BoxDecoration(color: _cs.secondary, shape: BoxShape.circle),
-                child: Icon(Icons.train, size: 20, color: _cs.onSecondary),
+                child: Icon(exam.icon, size: 20, color: _cs.onSecondary),
               ),
               const SizedBox(width: 10),
-              Text('PlatformPrep',
-                  style: _t(20, FontWeight.w800, Colors.white)),
-              const Spacer(),
+              Expanded(
+                child: Text(
+                  exam.name, // "RRB JE" or "STET Bihar"
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: _t(20, FontWeight.w800, Colors.white),
+                ),
+              ),
               if (!onTests && _attempts.isNotEmpty)
                 IconButton(
                   tooltip: 'Clear all',
@@ -209,8 +224,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           const SizedBox(height: 18),
-          Text(onTests ? 'RRB JE CBT-1\nMock Tests' : 'My attempts',
-              style: _t(26, FontWeight.w700, Colors.white)),
+          Text(
+            onTests ? '${exam.title}\nMock Tests' : 'My attempts',
+            style: _t(26, FontWeight.w700, Colors.white),
+          ),
           const SizedBox(height: 6),
           Text(
             onTests
@@ -222,7 +239,7 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 18),
             Row(
               children: [
-                _stat('${repo.testsOf(widget.exam.id).length}', 'Tests'),
+                _stat('${repo.testsOf(exam.id).length}', 'Tests'),
                 const SizedBox(width: 10),
                 _stat('${_attempts.length}', 'Attempts'),
                 const SizedBox(width: 10),
