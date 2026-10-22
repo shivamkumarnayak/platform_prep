@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prep_insta/exam.dart';
-import 'package:prep_insta/models.dart';
-import 'package:prep_insta/services/data.dart';
-import 'package:prep_insta/utils/theme.dart';
+import 'package:prepmock/exam.dart';
+import 'package:prepmock/models.dart';
+import 'package:prepmock/services/data.dart';
+import 'package:prepmock/utils/theme.dart';
 import 'result_screen.dart';
 import 'test_screen.dart';
 
@@ -191,14 +191,6 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Row(
             children: [
-              // IconButton(
-              //   tooltip: 'Back',
-              //   padding: EdgeInsets.zero,
-              //   constraints: const BoxConstraints(),
-              //   icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
-              //   onPressed: () => Navigator.of(context).pop(),
-              // ),
-              // const SizedBox(width: 12),
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration:

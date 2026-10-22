@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prep_insta/screens/exam_list_screen.dart';
-import 'package:prep_insta/services/data.dart';
-import 'package:prep_insta/utils/theme.dart';
+import 'package:prepmock/screens/exam_list_screen.dart';
+import 'package:prepmock/services/data.dart';
+import 'package:prepmock/utils/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +14,7 @@ class MockApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PlatformPrep',
+      title: 'PrepMock',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         pageTransitionsTheme: const PageTransitionsTheme(

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:prep_insta/models.dart';
-import 'package:prep_insta/services/data.dart';
-import 'package:prep_insta/utils/theme.dart';
-import 'package:prep_insta/widgets/question_view.dart';
+import 'package:prepmock/models.dart';
+import 'package:prepmock/services/data.dart';
+import 'package:prepmock/utils/theme.dart';
+import 'package:prepmock/widgets/question_view.dart';
+
 enum _Filter { all, correct, wrong, skipped }
 
 class ResultScreen extends StatefulWidget {
@@ -261,14 +262,23 @@ class _ResultScreenState extends State<ResultScreen> {
   }
 
   (String, String) _message(double pct) {
-    if (pct >= 0.8) return ('Excellent work', 'You are well prepared. Keep this pace.');
-    if (pct >= 0.5) return ('Good effort', 'Review the wrong answers to push your score higher.');
-    if (pct > 0) return ('Keep practising', 'Go through each answer below and learn from it.');
+    if (pct >= 0.8)
+      return ('Excellent work', 'You are well prepared. Keep this pace.');
+    if (pct >= 0.5)
+      return (
+        'Good effort',
+        'Review the wrong answers to push your score higher.'
+      );
+    if (pct > 0)
+      return (
+        'Keep practising',
+        'Go through each answer below and learn from it.'
+      );
     return ('Fresh start', 'Review the answers below and try again.');
   }
 
-  Widget _outcomeTile(String label, String value, IconData icon, Color iconColor,
-      Color valueColor, Color tint) {
+  Widget _outcomeTile(String label, String value, IconData icon,
+      Color iconColor, Color valueColor, Color tint) {
     return Expanded(
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 12),
@@ -403,7 +413,8 @@ class _ResultScreenState extends State<ResultScreen> {
       padding: const EdgeInsets.symmetric(vertical: 40),
       child: Column(
         children: [
-          Icon(Icons.inbox_outlined, size: 40, color: GalleryThemeData.inActiveColor),
+          Icon(Icons.inbox_outlined,
+              size: 40, color: GalleryThemeData.inActiveColor),
           const SizedBox(height: 10),
           Text(
             'No questions in this filter',

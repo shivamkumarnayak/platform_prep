@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prep_insta/models.dart';
-import 'package:prep_insta/services/data.dart';
-import 'package:prep_insta/utils/theme.dart';
-import 'package:prep_insta/widgets/question_view.dart';
+import 'package:prepmock/models.dart';
+import 'package:prepmock/services/data.dart';
+import 'package:prepmock/utils/theme.dart';
+import 'package:prepmock/widgets/question_view.dart';
 import 'result_screen.dart';
 
 const _cs = GalleryThemeData.colorScheme;

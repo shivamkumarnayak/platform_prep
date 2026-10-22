@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:prep_insta/exam.dart';
-import 'package:prep_insta/models.dart';
+import 'package:prepmock/exam.dart';
+import 'package:prepmock/models.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Loads the bundled question bank (7 tests x 100 questions).

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prep_insta/models.dart';
+import 'package:prepmock/models.dart';
 
 class QuestionView extends StatelessWidget {
   const QuestionView({
@@ -117,8 +117,8 @@ class _OptionTile extends StatelessWidget {
                     : cs.surfaceContainerHighest,
                 foregroundColor:
                     isSelected && !review ? cs.onPrimary : cs.onSurface,
-                child: Text('${index + 1}',
-                    style: const TextStyle(fontSize: 13)),
+                child:
+                    Text('${index + 1}', style: const TextStyle(fontSize: 13)),
               ),
               const SizedBox(width: 12),
               Expanded(

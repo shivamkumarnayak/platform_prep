@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prep_insta/exam.dart';
-import 'package:prep_insta/utils/theme.dart';
+import 'package:prepmock/exam.dart';
+import 'package:prepmock/utils/theme.dart';
 
 const _cs = GalleryThemeData.colorScheme;
 
@@ -29,7 +29,6 @@ class AppDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Drawer(
       backgroundColor: Colors.white,
       surfaceTintColor: Colors.transparent,
@@ -66,8 +65,8 @@ class AppDrawer extends StatelessWidget {
   Widget _header(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.fromLTRB(
-          20, MediaQuery.of(context).padding.top, 20, 24),
+      padding:
+          EdgeInsets.fromLTRB(20, MediaQuery.of(context).padding.top, 20, 24),
       decoration: BoxDecoration(
         color: _cs.primary,
         borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30)),
@@ -82,7 +81,7 @@ class AppDrawer extends StatelessWidget {
             child: Icon(Icons.train, size: 28, color: _cs.onSecondary),
           ),
           const SizedBox(height: 14),
-          Text('PlatformPrep', style: _t(20, FontWeight.w800, Colors.white)),
+          Text('PrepMock', style: _t(20, FontWeight.w800, Colors.white)),
           const SizedBox(height: 4),
           Text('Mock tests for every exam',
               style:

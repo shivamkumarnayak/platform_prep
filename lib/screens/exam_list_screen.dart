@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prep_insta/exam.dart';
-import 'package:prep_insta/models.dart';
-import 'package:prep_insta/services/data.dart';
-import 'package:prep_insta/utils/theme.dart';
-import 'package:prep_insta/widgets/app_drawer.dart';
+import 'package:prepmock/exam.dart';
+import 'package:prepmock/models.dart';
+import 'package:prepmock/services/data.dart';
+import 'package:prepmock/utils/theme.dart';
+import 'package:prepmock/widgets/app_drawer.dart';
 import 'home_screen.dart';
 
 const _cs = GalleryThemeData.colorScheme;
@@ -108,7 +108,7 @@ class _ExamListScreenState extends State<ExamListScreen> {
               ),
             ),
             const SizedBox(width: 10),
-            Text('PlatformPrep', style: _t(20, FontWeight.w800, Colors.white)),
+            Text('PrepMock', style: _t(20, FontWeight.w800, Colors.white)),
           ]),
           const SizedBox(height: 18),
           Text('Mock tests for\nevery exam',

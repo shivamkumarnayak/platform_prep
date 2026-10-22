@@ -1,4 +1,4 @@
-name: prep_insta
+name: prepmock
 description: RRB JE CBT-1 mock tests built from the official answer key (Feb 2026 shifts).
 publish_to: 'none'
 version: 1.0.0+1
