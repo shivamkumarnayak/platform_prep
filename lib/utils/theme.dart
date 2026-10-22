@@ -24,7 +24,7 @@ class GalleryThemeData {
   static Color primaryColorSecondVersion = const Color(0xFFD3E0F5);
 
   static const ColorScheme colorScheme = ColorScheme(
-    primary: Color(0xFF1E4FA3),
+    primary: Color(0xFF0052CC),
     onPrimary: Colors.white,
     secondary: Color(0xFFF59E0B),
     onSecondary: Color(0xFF1A1A1A),
