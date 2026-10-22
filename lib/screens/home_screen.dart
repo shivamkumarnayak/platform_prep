@@ -151,8 +151,8 @@ class _HomeScreenState extends State<HomeScreen> {
           onDestinationSelected: (i) => setState(() => _tab = i),
           destinations: [
             NavigationDestination(
-              icon: const Icon(Icons.quiz_outlined),
-              selectedIcon: Icon(Icons.quiz, color: _cs.primary),
+              icon: const Icon(Icons.lightbulb_outline),
+              selectedIcon: Icon(Icons.lightbulb, color: _cs.primary),
               label: 'Tests',
             ),
             NavigationDestination(
@@ -191,14 +191,14 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Row(
             children: [
-              IconButton(
-                tooltip: 'Back',
-                padding: EdgeInsets.zero,
-                constraints: const BoxConstraints(),
-                icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
-                onPressed: () => Navigator.of(context).pop(),
-              ),
-              const SizedBox(width: 12),
+              // IconButton(
+              //   tooltip: 'Back',
+              //   padding: EdgeInsets.zero,
+              //   constraints: const BoxConstraints(),
+              //   icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
+              //   onPressed: () => Navigator.of(context).pop(),
+              // ),
+              // const SizedBox(width: 12),
               Container(
                 padding: const EdgeInsets.all(8),
                 decoration:

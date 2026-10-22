@@ -43,6 +43,8 @@ class _TestScreenState extends State<TestScreen> {
   late final List<bool> _visited =
       List<bool>.filled(widget.questions.length, false);
   final ScrollController _scroll = ScrollController();
+  late final List<bool> _revealed =
+      List<bool>.filled(widget.questions.length, false);
 
   int _i = 0;
   late int _left;
@@ -165,8 +167,7 @@ class _TestScreenState extends State<TestScreen> {
         backgroundColor: color,
         foregroundColor: Colors.white,
         padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 12),
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
       ),
       onPressed: () => Navigator.pop(ctx, true),
       child: Text(label, style: _t(14, FontWeight.w700, Colors.white)),
@@ -252,7 +253,9 @@ class _TestScreenState extends State<TestScreen> {
       : Colors.white;
 
   void _openPalette() {
-    final notAnswered = _visited.asMap().entries
+    final notAnswered = _visited
+        .asMap()
+        .entries
         .where((e) => e.value && _ans[e.key] < 0 && !_marked[e.key])
         .length;
     final notVisited = _visited.where((v) => !v).length;
@@ -282,8 +285,8 @@ class _TestScreenState extends State<TestScreen> {
                     spacing: 14,
                     runSpacing: 8,
                     children: [
-                      _legend(GalleryThemeData.successColor,
-                          'Answered $_answered'),
+                      _legend(
+                          GalleryThemeData.successColor, 'Answered $_answered'),
                       _legend(GalleryThemeData.redColor,
                           'Not answered $notAnswered'),
                       _legend(_markedColor, 'Marked $_markedCount'),
@@ -315,8 +318,7 @@ class _TestScreenState extends State<TestScreen> {
                                   : null,
                             ),
                             child: Text('${k + 1}',
-                                style:
-                                    _t(13, FontWeight.w700, _statusText(k))),
+                                style: _t(13, FontWeight.w700, _statusText(k))),
                           ),
                         ),
                     ],
@@ -327,6 +329,31 @@ class _TestScreenState extends State<TestScreen> {
           ),
         );
       },
+    );
+  }
+
+  Widget _answerBox(Question q) {
+    final text = q.optionImages[q.answer] != null
+        ? 'Correct answer: option ${q.answer + 1}'
+        : 'Correct answer: option ${q.answer + 1}  -  ${q.options[q.answer]}';
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: GalleryThemeData.successColor.withValues(alpha: .12),
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(Icons.lightbulb_outline_rounded,
+              size: 18, color: GalleryThemeData.successColor),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(text, style: _t(12, FontWeight.w600)),
+          ),
+        ],
+      ),
     );
   }
 
@@ -410,8 +437,8 @@ class _TestScreenState extends State<TestScreen> {
                   borderRadius: BorderRadius.circular(20)),
             ),
             onPressed: _askSubmit,
-            child: Text('Submit',
-                style: _t(12, FontWeight.w800, _cs.onSecondary)),
+            child:
+                Text('Submit', style: _t(12, FontWeight.w800, _cs.onSecondary)),
           ),
         ),
       ],
@@ -485,8 +512,8 @@ class _TestScreenState extends State<TestScreen> {
                                     size: 16, color: _markedColor),
                                 const SizedBox(width: 4),
                                 Text('Marked for review',
-                                    style: _t(11, FontWeight.w700,
-                                        _markedColor)),
+                                    style:
+                                        _t(11, FontWeight.w700, _markedColor)),
                               ]),
                           ]),
                           const SizedBox(height: 14),
@@ -494,29 +521,63 @@ class _TestScreenState extends State<TestScreen> {
                             key: ValueKey(q.ref),
                             question: q,
                             selected: _ans[_i],
-                            onSelect: (idx) => setState(
-                                () => _ans[_i] = _ans[_i] == idx ? -1 : idx),
+                            review: _revealed[
+                                _i], // highlights correct option in green
+                            onSelect: _revealed[_i]
+                                ? null // lock selection while the answer is shown
+                                : (idx) => setState(() =>
+                                    _ans[_i] = _ans[_i] == idx ? -1 : idx),
                           ),
+                          if (_revealed[_i]) ...[
+                            const SizedBox(height: 4),
+                            _answerBox(q),
+                          ],
                         ],
                       ),
                     ),
-                    if (_ans[_i] >= 0)
-                      Align(
-                        alignment: Alignment.centerRight,
-                        child: Padding(
-                          padding: const EdgeInsets.only(top: 6),
-                          child: TextButton.icon(
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: Row(
+                        children: [
+                          TextButton.icon(
                             style: TextButton.styleFrom(
-                                backgroundColor: Colors.transparent,
-                                foregroundColor: GalleryThemeData.subtitleColor),
-                            onPressed: () => setState(() => _ans[_i] = -1),
-                            icon: const Icon(Icons.clear, size: 18),
-                            label: Text('Clear response',
-                                style: _t(12, FontWeight.w600,
-                                    GalleryThemeData.subtitleColor)),
+                              backgroundColor: _cs.secondaryContainer,
+                              foregroundColor: _cs.onSecondary,
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 14, vertical: 10),
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(30)),
+                            ),
+                            onPressed: () =>
+                                setState(() => _revealed[_i] = !_revealed[_i]),
+                            icon: Icon(
+                              _revealed[_i]
+                                  ? Icons.visibility_off_outlined
+                                  : Icons.lightbulb_outline,
+                              size: 18,
+                              color: _cs.secondary,
+                            ),
+                            label: Text(
+                              _revealed[_i] ? 'Hide answer' : 'Show answer',
+                              style: _t(12, FontWeight.w700, _cs.onSecondary),
+                            ),
                           ),
-                        ),
+                          const Spacer(),
+                          if (_ans[_i] >= 0 && !_revealed[_i])
+                            TextButton.icon(
+                              style: TextButton.styleFrom(
+                                  backgroundColor: Colors.transparent,
+                                  foregroundColor:
+                                      GalleryThemeData.subtitleColor),
+                              onPressed: () => setState(() => _ans[_i] = -1),
+                              icon: const Icon(Icons.clear, size: 18),
+                              label: Text('Clear response',
+                                  style: _t(12, FontWeight.w600,
+                                      GalleryThemeData.subtitleColor)),
+                            ),
+                        ],
                       ),
+                    ),
                   ],
                 ),
               ),
@@ -562,9 +623,12 @@ class _TestScreenState extends State<TestScreen> {
                   onPressed: _i == 0 ? null : () => _go(_i - 1),
                   icon: const Icon(Icons.arrow_back_rounded, size: 18),
                   label: Text('Prev',
-                      style: _t(13, FontWeight.w700, _i == 0
-                          ? GalleryThemeData.inActiveColor
-                          : _cs.primary)),
+                      style: _t(
+                          13,
+                          FontWeight.w700,
+                          _i == 0
+                              ? GalleryThemeData.inActiveColor
+                              : _cs.primary)),
                 ),
               ),
               const SizedBox(width: 8),

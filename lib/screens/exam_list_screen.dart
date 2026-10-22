@@ -4,6 +4,7 @@ import 'package:prep_insta/exam.dart';
 import 'package:prep_insta/models.dart';
 import 'package:prep_insta/services/data.dart';
 import 'package:prep_insta/utils/theme.dart';
+import 'package:prep_insta/widgets/app_drawer.dart';
 import 'home_screen.dart';
 
 const _cs = GalleryThemeData.colorScheme;
@@ -23,6 +24,7 @@ class ExamListScreen extends StatefulWidget {
 }
 
 class _ExamListScreenState extends State<ExamListScreen> {
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   List<Attempt> _attempts = [];
 
   @override
@@ -48,7 +50,9 @@ class _ExamListScreenState extends State<ExamListScreen> {
   Widget build(BuildContext context) {
     final repo = Repo.instance;
     return Scaffold(
+      key: _scaffoldKey,
       backgroundColor: GalleryThemeData.bodyBackgroundColor,
+      drawer: AppDrawer(onExamTap: _open),
       body: Column(
         children: [
           _header(repo),
@@ -91,11 +95,17 @@ class _ExamListScreenState extends State<ExamListScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(children: [
-            Container(
-              padding: const EdgeInsets.all(8),
-              decoration:
-                  BoxDecoration(color: _cs.secondary, shape: BoxShape.circle),
-              child: Icon(Icons.train, size: 20, color: _cs.onSecondary),
+            Material(
+              color: _cs.secondary,
+              shape: const CircleBorder(),
+              child: InkWell(
+                customBorder: const CircleBorder(),
+                onTap: () => _scaffoldKey.currentState?.openDrawer(),
+                child: Padding(
+                  padding: const EdgeInsets.all(8),
+                  child: Icon(Icons.train, size: 20, color: _cs.onSecondary),
+                ),
+              ),
             ),
             const SizedBox(width: 10),
             Text('PlatformPrep', style: _t(20, FontWeight.w800, Colors.white)),
