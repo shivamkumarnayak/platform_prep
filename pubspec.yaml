@@ -15,10 +15,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
   assets:
+    - assets/images/
     - assets/data/
     - assets/data/rrb_je/
     - assets/data/ssc_je/
@@ -30,3 +32,10 @@ flutter:
     - assets/images/t5/
     - assets/images/t6/
     - assets/images/t7/
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
