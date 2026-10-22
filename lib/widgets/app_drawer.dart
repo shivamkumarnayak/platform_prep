@@ -65,8 +65,8 @@ class AppDrawer extends StatelessWidget {
   Widget _header(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding:
-          EdgeInsets.fromLTRB(20, MediaQuery.of(context).padding.top, 20, 24),
+      padding: EdgeInsets.fromLTRB(
+          20, MediaQuery.of(context).padding.top + 20, 20, 24),
       decoration: BoxDecoration(
         color: _cs.primary,
         borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30)),
@@ -74,12 +74,7 @@ class AppDrawer extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
-            padding: const EdgeInsets.all(12),
-            decoration:
-                BoxDecoration(color: _cs.secondary, shape: BoxShape.circle),
-            child: Icon(Icons.train, size: 28, color: _cs.onSecondary),
-          ),
+          _logo(),
           const SizedBox(height: 14),
           Text('PrepMock', style: _t(20, FontWeight.w800, Colors.white)),
           const SizedBox(height: 4),
@@ -87,6 +82,34 @@ class AppDrawer extends StatelessWidget {
               style:
                   _t(12, FontWeight.w500, Colors.white.withValues(alpha: .8))),
         ],
+      ),
+    );
+  }
+
+  /// Same logo style as the dashboard header (not tappable here).
+  Widget _logo() {
+    return Container(
+      width: 64,
+      height: 64,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        border: Border.all(
+          color: Colors.white.withValues(alpha: .9),
+          width: 2,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: .18),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: ClipOval(
+        child: Image.asset(
+          'assets/images/app_icon.png',
+          fit: BoxFit.cover,
+        ),
       ),
     );
   }

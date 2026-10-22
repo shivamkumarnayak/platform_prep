@@ -95,23 +95,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(children: [
-            Material(
-              color: _cs.secondary,
-              shape: const CircleBorder(),
-              child: InkWell(
-                customBorder: const CircleBorder(),
-                onTap: () => _scaffoldKey.currentState?.openDrawer(),
-                child: Padding(
-                  padding: const EdgeInsets.all(8),
-                  child: Image.asset(
-                    'assets/images/app_icon.png',
-                    width: 20,
-                    height: 20,
-                    fit: BoxFit.contain,
-                  ),
-                ),
-              ),
-            ),
+            _logoButton(),
             const SizedBox(width: 10),
             Text('PrepMock', style: _t(20, FontWeight.w800, Colors.white)),
           ]),
@@ -149,6 +133,47 @@ class _DashboardScreenState extends State<DashboardScreen> {
               style:
                   _t(11, FontWeight.w500, Colors.white.withValues(alpha: .8))),
         ]),
+      ),
+    );
+  }
+
+  Widget _logoButton() {
+    return Container(
+      width: 48,
+      height: 48,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        border: Border.all(
+          color: Colors.white.withValues(alpha: .9),
+          width: 2,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: .18),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
+      ),
+      child: ClipOval(
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            // Logo fills the full circle
+            Image.asset(
+              'assets/images/app_icon.png',
+              fit: BoxFit.cover,
+            ),
+            // Ripple on top of the image
+            Material(
+              color: Colors.transparent,
+              child: InkWell(
+                splashColor: _cs.primary.withValues(alpha: .25),
+                onTap: () => _scaffoldKey.currentState?.openDrawer(),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
