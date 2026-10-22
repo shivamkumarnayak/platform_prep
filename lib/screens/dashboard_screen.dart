@@ -103,7 +103,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 onTap: () => _scaffoldKey.currentState?.openDrawer(),
                 child: Padding(
                   padding: const EdgeInsets.all(8),
-                  child: Icon(Icons.train, size: 20, color: _cs.onSecondary),
+                  child: Image.asset(
+                    'assets/images/app_icon.png',
+                    width: 20,
+                    height: 20,
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
             ),
