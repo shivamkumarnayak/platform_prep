@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prepmock/screens/exam_list_screen.dart';
+import 'package:prepmock/screens/dashboard_screen.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
 
@@ -67,7 +67,7 @@ class _LoaderState extends State<_Loader> {
             ),
           );
         }
-        return const ExamListScreen();
+        return const DashboardScreen();
       },
     );
   }

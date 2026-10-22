@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prepmock/exam.dart';
-import 'package:prepmock/models.dart';
+import 'package:prepmock/screens/model/exam.dart';
+import 'package:prepmock/screens/model/models.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
 import 'package:prepmock/widgets/app_drawer.dart';
@@ -16,14 +16,14 @@ TextStyle _t(double size, FontWeight w, [Color? c]) => GoogleFonts.montserrat(
       height: 1.3,
     );
 
-class ExamListScreen extends StatefulWidget {
-  const ExamListScreen({super.key});
+class DashboardScreen extends StatefulWidget {
+  const DashboardScreen({super.key});
 
   @override
-  State<ExamListScreen> createState() => _ExamListScreenState();
+  State<DashboardScreen> createState() => _DashboardScreenState();
 }
 
-class _ExamListScreenState extends State<ExamListScreen> {
+class _DashboardScreenState extends State<DashboardScreen> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   List<Attempt> _attempts = [];
 

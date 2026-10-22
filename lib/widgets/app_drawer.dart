@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prepmock/exam.dart';
+import 'package:prepmock/screens/model/exam.dart';
 import 'package:prepmock/utils/theme.dart';
 
 const _cs = GalleryThemeData.colorScheme;

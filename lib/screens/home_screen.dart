@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prepmock/exam.dart';
-import 'package:prepmock/models.dart';
+import 'package:prepmock/screens/model/exam.dart';
+import 'package:prepmock/screens/model/models.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
 import 'result_screen.dart';

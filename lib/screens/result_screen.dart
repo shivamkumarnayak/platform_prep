@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prepmock/models.dart';
+import 'package:prepmock/screens/model/models.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
 import 'package:prepmock/widgets/question_view.dart';

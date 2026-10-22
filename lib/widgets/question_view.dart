@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prepmock/models.dart';
+import 'package:prepmock/screens/model/models.dart';
 
 class QuestionView extends StatelessWidget {
   const QuestionView({
