@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:prepmock/screens/about_screen.dart';
+import 'package:prepmock/screens/feedback_screen.dart';
 import 'package:prepmock/screens/model/exam.dart';
 import 'package:prepmock/screens/model/models.dart';
+import 'package:prepmock/screens/privacy_policy.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
+import 'package:prepmock/utils/utility.dart';
 import 'package:prepmock/widgets/app_drawer.dart';
 import 'home_screen.dart';
 
@@ -46,36 +50,57 @@ class _DashboardScreenState extends State<DashboardScreen> {
     await _refresh();
   }
 
+  void _push(Widget page) {
+    Navigator.of(context).push(MaterialPageRoute<void>(builder: (_) => page));
+  }
+
+
   @override
   Widget build(BuildContext context) {
     final repo = Repo.instance;
-    return Scaffold(
-      key: _scaffoldKey,
-      backgroundColor: GalleryThemeData.bodyBackgroundColor,
-      drawer: AppDrawer(onExamTap: _open),
-      body: Column(
-        children: [
-          _header(repo),
-          Expanded(
-            child: repo.exams.isEmpty
-                ? Center(
-                    child: Text('No exams found',
-                        style: _t(14, FontWeight.w500,
-                            GalleryThemeData.subtitleColor)),
-                  )
-                : ListView(
-                    padding: const EdgeInsets.fromLTRB(16, 18, 16, 24),
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(left: 4, bottom: 12),
-                        child: Text('Choose your exam',
-                            style: _t(16, FontWeight.w700)),
-                      ),
-                      for (final e in repo.exams) _examCard(repo, e),
-                    ],
-                  ),
-          ),
-        ],
+    return WillPopScope(
+      onWillPop: () async {
+        var value = await Utility.exitPopup(
+            context, '', 'Do you really want to exit the app?', null);
+        if (value != null) {
+          return Future.value(value);
+        } else {
+          return Future.value(false);
+        }
+      },
+      child: Scaffold(
+        key: _scaffoldKey,
+        backgroundColor: GalleryThemeData.bodyBackgroundColor,
+        drawer: AppDrawer(
+          onExamTap: _open,
+          onFeedbackTap: () =>_push(const FeedbackScreen()),
+          onPrivacyTap: () => _push(const PrivacyScreen()),
+          onAboutTap: () => _push(const AboutScreen()),
+        ),
+        body: Column(
+          children: [
+            _header(repo),
+            Expanded(
+              child: repo.exams.isEmpty
+                  ? Center(
+                      child: Text('No exams found',
+                          style: _t(14, FontWeight.w500,
+                              GalleryThemeData.subtitleColor)),
+                    )
+                  : ListView(
+                      padding: const EdgeInsets.fromLTRB(16, 18, 16, 24),
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 4, bottom: 12),
+                          child: Text('Choose your exam',
+                              style: _t(16, FontWeight.w700)),
+                        ),
+                        for (final e in repo.exams) _examCard(repo, e),
+                      ],
+                    ),
+            ),
+          ],
+        ),
       ),
     );
   }
