@@ -46,7 +46,7 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                   const SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      "Privacy Policy",
+                      "Privacy Policy for $appName",
                       style: tt.titleLarge!.copyWith(
                         color: cs.primary,
                         fontWeight: FontWeight.bold,
@@ -57,7 +57,7 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
               ),
               const SizedBox(height: 6),
               Text(
-                "Effective Date: 23 October, 2026",
+                "Effective Date: 9 November, 2026",
                 style: tt.bodySmall!.copyWith(
                   fontStyle: FontStyle.italic,
                   color: Colors.grey[700],
@@ -67,20 +67,34 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
 
               // Intro
               Text(
-                "$appName respects your privacy. This Privacy Policy explains how our app handles your information while you practice and take PrepMocks.",
+                "Welcome to $appName. We respect your privacy and are committed to protecting the personal information you share with us while using our exam mock test application. This Privacy Policy explains what data we collect, how we use it, and how we protect your information.",
                 style: tt.bodyMedium!.copyWith(height: 1.4),
               ),
               const Divider(height: 28),
 
               // Section 1
               _buildSection(
-                icon: Icons.person_off_rounded,
+                icon: Icons.person_search_rounded,
                 title: "1. Information We Collect",
-                text:
-                    "$appName does not collect, sell, or share any personal information from its users.\n\n"
-                    "• We do not require you to create an account.\n"
-                    "• We do not ask for personal details such as name, email, or phone number.\n"
-                    "• We do not collect location data, contacts, photos, or files from your device.",
+                intro:
+                    "To provide a seamless mock test experience and track your exam performance, we may collect the following types of information:",
+                bullets: const [
+                  _Bullet(
+                    label: "Account & Profile Information",
+                    text:
+                        "Basic details such as your name, email address, or phone number when you register, log in, or create a profile on $appName.",
+                  ),
+                  _Bullet(
+                    label: "Exam & Performance Data",
+                    text:
+                        "Mock test scores, attempt history, time taken per test, and bookmarked questions to help track your preparation progress.",
+                  ),
+                  _Bullet(
+                    label: "Device & Technical Information",
+                    text:
+                        "Anonymous information such as device model, operating system version, app version, and crash logs to optimize app performance and fix bugs.",
+                  ),
+                ],
                 tt: tt,
               ),
               const Divider(height: 28),
@@ -88,55 +102,98 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
               // Section 2
               _buildSection(
                 icon: Icons.quiz_rounded,
-                title: "2. Test Data & Progress",
-                text:
-                    "Your test attempts, scores, answers, and progress are used only to show you your results and performance inside the app.\n\n"
-                    "• This data is stored locally on your device.\n"
-                    "• It is not uploaded to our servers or shared with anyone.\n"
-                    "• Clearing the app data or uninstalling the app will permanently remove it.",
+                title: "2. How We Use Your Information",
+                intro:
+                    "We use the collected information strictly for educational and app functional purposes, including:",
+                bullets: const [
+                  _Bullet(
+                    text:
+                        "Conducting mock tests, scoring your responses, and generating performance analytics.",
+                  ),
+                  _Bullet(
+                    text:
+                        "Managing your account and saving your test progress.",
+                  ),
+                  _Bullet(
+                    text:
+                        "Improving app functionality, fixing technical issues, and optimizing performance.",
+                  ),
+                  _Bullet(
+                    text:
+                        "Sending important updates regarding exam schedules, mock tests, or account notices.",
+                  ),
+                ],
                 tt: tt,
               ),
               const Divider(height: 28),
 
               // Section 3
               _buildSection(
-                icon: Icons.link_rounded,
-                title: "3. Third-Party Services",
-                text:
-                    "Our app may open external links for your convenience, such as study resources, official exam websites, or our support contact.\n\n"
-                    "Please note: These links open in your device browser or another app. Any information you share there is governed by that service's own privacy policy.",
+                icon: Icons.security_rounded,
+                title: "3. Permissions Used",
+                intro:
+                    "$appName requests minimal permissions required for smooth operation:",
+                bullets: const [
+                  _Bullet(
+                    label: "Internet Access",
+                    text:
+                        "Required to load online mock tests, fetch updated question banks, and sync performance data.",
+                  ),
+                  _Bullet(
+                    label: "Storage Access (Optional)",
+                    text:
+                        "Required only if you choose to download mock test papers, solution PDFs, or report cards to your device.",
+                  ),
+                ],
                 tt: tt,
               ),
               const Divider(height: 28),
 
               // Section 4
               _buildSection(
-                icon: Icons.security_rounded,
-                title: "4. Permissions Used",
-                text:
-                    "The app uses only the minimum permissions necessary to function:\n\n"
-                    "• Internet Access – To load question content, updates, and open external links.\n\n"
-                    "We do not misuse or sell any data accessed through these permissions.",
+                icon: Icons.link_rounded,
+                title: "4. Third-Party Services & Links",
+                intro:
+                    "Our app may use trusted third-party services for app stability, analytics, or user support, such as:",
+                bullets: const [
+                  _Bullet(
+                    label: "Firebase Analytics / Crashlytics",
+                    text:
+                        "To monitor app performance and resolve crashes.",
+                  ),
+                  _Bullet(
+                    label: "Google Play Services",
+                    text:
+                        "For core app infrastructure and authentication.",
+                  ),
+                  _Bullet(
+                    label: "External Links",
+                    text:
+                        "WhatsApp, Telegram, or email support channels for resolving user queries.",
+                  ),
+                ],
+                footer:
+                    "These third-party services operate under their own privacy policies, and we advise users to review them.",
                 tt: tt,
               ),
               const Divider(height: 28),
 
               // Section 5
               _buildSection(
-                icon: Icons.child_care_rounded,
-                title: "5. Children’s Privacy",
-                text:
-                    "$appName does not knowingly collect any personal information from children under the age of 13. Since we do not collect personal data from any user, no such information is gathered.",
+                icon: Icons.lock_rounded,
+                title: "5. Data Security",
+                intro:
+                    "We prioritize your data security. All connections and data transmissions are handled through secure SSL channels. We take reasonable precautions to protect your personal information and test records against unauthorized access, disclosure, or misuse.",
                 tt: tt,
               ),
               const Divider(height: 28),
 
               // Section 6
               _buildSection(
-                icon: Icons.lock_rounded,
-                title: "6. Data Security",
-                text:
-                    "Since we do not collect or store your personal data on our servers, there is no risk of it being misused by us. Data kept on your device is protected by your device's own security features.",
+                icon: Icons.child_care_rounded,
+                title: "6. Children’s Privacy",
+                intro:
+                    "$appName is designed for students preparing for competitive exams and general learning. We do not knowingly collect personal information from children under the age of 13. If we discover that a child under 13 has provided us with personal data, we will immediately delete it from our systems.",
                 tt: tt,
               ),
               const Divider(height: 28),
@@ -144,9 +201,9 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
               // Section 7
               _buildSection(
                 icon: Icons.update_rounded,
-                title: "7. Changes to This Privacy Policy",
-                text:
-                    "We may update this Privacy Policy from time to time. Any changes will be posted within the app or on the Play Store listing, along with the updated effective date.",
+                title: "7. Policy Updates",
+                intro:
+                    "We may update this Privacy Policy from time to time to reflect app improvements or regulatory changes. The latest version will always be accessible within the $appName app and on our Google Play Store listing.",
                 tt: tt,
               ),
               const Divider(height: 28),
@@ -155,9 +212,15 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
               _buildSection(
                 icon: Icons.mail_rounded,
                 title: "8. Contact Us",
-                text:
-                    "If you have any questions or concerns about this Privacy Policy, you can contact us at:\n\n"
-                    "📧 $contactEmail",
+                intro:
+                    "If you have any questions, feedback, or concerns regarding this Privacy Policy, please reach out to us:",
+                bullets: const [
+                  _Bullet(
+                    label: "📧 Email",
+                    text: contactEmail,
+                  ),
+                ],
+                footer: "We will respond to your query as soon as possible.",
                 tt: tt,
               ),
               const SizedBox(height: 28),
@@ -202,7 +265,7 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                     ),
                     const SizedBox(height: 14),
                     Text(
-                      "Your Privacy is Safe",
+                      "Your Privacy Matters",
                       style: tt.titleMedium!.copyWith(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
@@ -211,8 +274,8 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
                     ),
                     const SizedBox(height: 10),
                     Text(
-                      "$appName does not collect, store, or misuse any personal data. "
-                      "Practice your tests with complete peace of mind.",
+                      "$appName is committed to protecting your personal information. "
+                      "Practice your tests with confidence.",
                       style: tt.bodyLarge!.copyWith(
                         color: Colors.white.withValues(alpha: 0.95),
                         height: 1.5,
@@ -233,8 +296,10 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
   Widget _buildSection({
     required IconData icon,
     required String title,
-    required String text,
+    required String intro,
     required TextTheme tt,
+    List<_Bullet> bullets = const [],
+    String? footer,
   }) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -256,10 +321,49 @@ class _PrivacyScreenState extends State<PrivacyScreen> {
         ),
         const SizedBox(height: 8),
         Text(
-          text,
+          intro,
           style: tt.bodyMedium!.copyWith(height: 1.4),
         ),
+        if (bullets.isNotEmpty) const SizedBox(height: 8),
+        for (final b in bullets)
+          Padding(
+            padding: const EdgeInsets.only(left: 4, bottom: 6),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text("•  ", style: tt.bodyMedium!.copyWith(height: 1.4)),
+                Expanded(
+                  child: Text.rich(
+                    TextSpan(
+                      children: [
+                        if (b.label != null)
+                          TextSpan(
+                            text: "${b.label}: ",
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                        TextSpan(text: b.text),
+                      ],
+                    ),
+                    style: tt.bodyMedium!.copyWith(height: 1.4),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        if (footer != null) ...[
+          const SizedBox(height: 4),
+          Text(
+            footer,
+            style: tt.bodyMedium!.copyWith(height: 1.4),
+          ),
+        ],
       ],
     );
   }
+}
+
+class _Bullet {
+  final String? label;
+  final String text;
+  const _Bullet({this.label, required this.text});
 }
