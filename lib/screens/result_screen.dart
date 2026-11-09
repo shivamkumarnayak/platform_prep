@@ -3,6 +3,7 @@ import 'package:prepmock/screens/model/models.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
 import 'package:prepmock/widgets/question_view.dart';
+import 'package:prepmock/widgets/skeleton.dart';
 
 enum _Filter { all, correct, wrong, skipped }
 
@@ -18,6 +19,10 @@ class ResultScreen extends StatefulWidget {
 class _ResultScreenState extends State<ResultScreen> {
   _Filter _filter = _Filter.all;
 
+  /// How long the skeleton is shown (milliseconds). 0 = no skeleton.
+  static const int _skeletonMs = 600;
+  bool _loading = _skeletonMs > 0;
+
   // Palette, all taken from GalleryThemeData
   static const _cs = GalleryThemeData.colorScheme;
   static final Color _ok = GalleryThemeData.successColor;
@@ -27,6 +32,16 @@ class _ResultScreenState extends State<ResultScreen> {
   static final Color _bg = GalleryThemeData.bodyBackgroundColor;
   static final Color _title = GalleryThemeData.primaryFontColor;
   static final Color _sub = GalleryThemeData.subtitleColor;
+
+  @override
+  void initState() {
+    super.initState();
+    if (_loading) {
+      Future.delayed(const Duration(milliseconds: _skeletonMs), () {
+        if (mounted) setState(() => _loading = false);
+      });
+    }
+  }
 
   // 0 = correct, 1 = wrong, 2 = skipped
   int _status(Question q, int chosen) {
@@ -76,15 +91,118 @@ class _ResultScreenState extends State<ResultScreen> {
         backgroundColor: _bg,
         surfaceTintColor: _bg,
       ),
-      body: ListView.builder(
-        padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
-        itemCount: shown.isEmpty ? 2 : shown.length + 1,
-        itemBuilder: (context, index) {
-          if (index == 0) return _header(context, a);
-          if (shown.isEmpty) return _emptyState();
-          final r = shown[index - 1];
-          return _reviewCard(r.no, r.q, r.chosen);
-        },
+      body: _loading
+          ? _skeleton()
+          : ListView.builder(
+              padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
+              itemCount: shown.isEmpty ? 2 : shown.length + 1,
+              itemBuilder: (context, index) {
+                if (index == 0) return _header(context, a);
+                if (shown.isEmpty) return _emptyState();
+                final r = shown[index - 1];
+                return _reviewCard(r.no, r.q, r.chosen);
+              },
+            ),
+    );
+  }
+
+  // ───────────────────────── Skeleton ─────────────────────────
+
+  Widget _skeleton() {
+    return SingleChildScrollView(
+      physics: const NeverScrollableScrollPhysics(),
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
+      child: Skel.shimmer(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Score hero
+            Container(
+              padding: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(24),
+              ),
+              child: Row(
+                children: [
+                  Skel.circle(116),
+                  const SizedBox(width: 18),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Skel.box(width: 150, height: 20),
+                        const SizedBox(height: 10),
+                        Skel.box(height: 12),
+                        const SizedBox(height: 6),
+                        Skel.box(width: 110, height: 12),
+                        const SizedBox(height: 14),
+                        Skel.box(width: 130, height: 24, radius: 20),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 14),
+            // Outcome tiles
+            Row(
+              children: [
+                for (var i = 0; i < 3; i++) ...[
+                  if (i > 0) const SizedBox(width: 10),
+                  Expanded(child: Skel.box(height: 100, radius: 16)),
+                ],
+              ],
+            ),
+            const SizedBox(height: 14),
+            // Details strip
+            Skel.box(height: 72, radius: 16),
+            const SizedBox(height: 22),
+            // "Review answers" title + chips
+            Skel.box(width: 130, height: 16),
+            const SizedBox(height: 12),
+            Row(
+              children: [
+                for (var i = 0; i < 4; i++) ...[
+                  Skel.box(width: 78, height: 34, radius: 50),
+                  const SizedBox(width: 8),
+                ],
+              ],
+            ),
+            const SizedBox(height: 14),
+            // Review cards
+            for (var i = 0; i < 2; i++)
+              Container(
+                margin: const EdgeInsets.only(bottom: 12),
+                padding: const EdgeInsets.all(14),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(18),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Skel.box(width: 44, height: 26),
+                        Skel.box(width: 90, height: 26, radius: 20),
+                      ],
+                    ),
+                    const SizedBox(height: 14),
+                    Skel.box(height: 14),
+                    const SizedBox(height: 8),
+                    Skel.box(width: 220, height: 14),
+                    const SizedBox(height: 14),
+                    for (var j = 0; j < 4; j++) ...[
+                      Skel.box(height: 40, radius: 12),
+                      const SizedBox(height: 8),
+                    ],
+                  ],
+                ),
+              ),
+          ],
+        ),
       ),
     );
   }
@@ -262,18 +380,21 @@ class _ResultScreenState extends State<ResultScreen> {
   }
 
   (String, String) _message(double pct) {
-    if (pct >= 0.8)
+    if (pct >= 0.8) {
       return ('Excellent work', 'You are well prepared. Keep this pace.');
-    if (pct >= 0.5)
+    }
+    if (pct >= 0.5) {
       return (
         'Good effort',
         'Review the wrong answers to push your score higher.'
       );
-    if (pct > 0)
+    }
+    if (pct > 0) {
       return (
         'Keep practising',
         'Go through each answer below and learn from it.'
       );
+    }
     return ('Fresh start', 'Review the answers below and try again.');
   }
 

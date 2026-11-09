@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:prepmock/screens/dashboard_screen.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
+import 'package:prepmock/widgets/skeleton.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,8 +55,7 @@ class _LoaderState extends State<_Loader> {
       future: _future,
       builder: (context, snap) {
         if (snap.connectionState != ConnectionState.done) {
-          return const Scaffold(
-              body: Center(child: CircularProgressIndicator()));
+          return const _LoadingSkeleton();
         }
         if (snap.hasError) {
           return Scaffold(
@@ -69,6 +69,59 @@ class _LoaderState extends State<_Loader> {
         }
         return const DashboardScreen();
       },
+    );
+  }
+}
+
+class _LoadingSkeleton extends StatelessWidget {
+  const _LoadingSkeleton();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: GalleryThemeData.bodyBackgroundColor,
+      body: Skel.shimmer(
+        child: SingleChildScrollView(
+          physics: const NeverScrollableScrollPhysics(),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              // Header block
+              Container(
+                width: double.infinity,
+                padding: EdgeInsets.fromLTRB(
+                    20, MediaQuery.of(context).padding.top + 16, 20, 22),
+                decoration: const BoxDecoration(
+                  color: Colors.white,
+                  borderRadius:
+                      BorderRadius.vertical(bottom: Radius.circular(30)),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(children: [
+                      Skel.circle(36),
+                      const SizedBox(width: 10),
+                      Skel.box(width: 140, height: 20),
+                    ]),
+                    const SizedBox(height: 22),
+                    Skel.box(width: 220, height: 26),
+                    const SizedBox(height: 10),
+                    Skel.box(width: 160, height: 14),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 22),
+              // Card placeholders
+              for (var i = 0; i < 4; i++)
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
+                  child: Skel.box(height: 96, radius: 20),
+                ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }

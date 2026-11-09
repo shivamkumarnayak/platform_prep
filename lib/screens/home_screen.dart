@@ -4,6 +4,7 @@ import 'package:prepmock/screens/model/exam.dart';
 import 'package:prepmock/screens/model/models.dart';
 import 'package:prepmock/services/data.dart';
 import 'package:prepmock/utils/theme.dart';
+import 'package:prepmock/widgets/skeleton.dart';
 import 'result_screen.dart';
 import 'test_screen.dart';
 
@@ -28,6 +29,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int _tab = 0;
   List<Attempt> _attempts = [];
 
+  /// True only until the first Store.load() finishes (drives the shimmer).
+  bool _loading = true;
+
   @override
   void initState() {
     super.initState();
@@ -37,8 +41,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> _refresh() async {
     final all = await Store.load();
     if (!mounted) return;
-    setState(() => _attempts =
-        all.where((a) => examIdOfTest(a.testId) == widget.exam.id).toList());
+    setState(() {
+      _attempts =
+          all.where((a) => examIdOfTest(a.testId) == widget.exam.id).toList();
+      _loading = false;
+    });
   }
 
   Future<void> _start({
@@ -231,11 +238,13 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 18),
             Row(
               children: [
+                // Tests count comes from the repo (already loaded)
                 _stat('${repo.testsOf(exam.id).length}', 'Tests'),
                 const SizedBox(width: 10),
-                _stat('${_attempts.length}', 'Attempts'),
+                _stat('${_attempts.length}', 'Attempts', loading: _loading),
                 const SizedBox(width: 10),
-                _stat(best == null ? '-' : best.toStringAsFixed(1), 'Best'),
+                _stat(best == null ? '-' : best.toStringAsFixed(1), 'Best',
+                    loading: _loading),
               ],
             ),
           ],
@@ -244,7 +253,7 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _stat(String value, String label) {
+  Widget _stat(String value, String label, {bool loading = false}) {
     return Expanded(
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 10),
@@ -254,7 +263,15 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         child: Column(
           children: [
-            Text(value, style: _t(18, FontWeight.w800, Colors.white)),
+            if (loading)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 2),
+                child: Skel.shimmerOnDark(
+                  child: Skel.box(width: 36, height: 19, radius: 6),
+                ),
+              )
+            else
+              Text(value, style: _t(18, FontWeight.w800, Colors.white)),
             Text(label,
                 style: _t(
                     11, FontWeight.w500, Colors.white.withValues(alpha: .8))),
@@ -409,44 +426,51 @@ class _HomeScreenState extends State<HomeScreen> {
                       size: const Size(1, double.infinity)),
                   SizedBox(
                     width: stubWidth,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        if (best != null) ...[
-                          Text(best.toStringAsFixed(2),
-                              style: _t(18, FontWeight.w800,
-                                  GalleryThemeData.successColor)),
-                          Text('Best  -  ${mine.length}x',
-                              style: _t(10, FontWeight.w500,
-                                  GalleryThemeData.subtitleColor)),
-                          const SizedBox(height: 8),
-                        ],
-                        FilledButton(
-                          style: FilledButton.styleFrom(
-                            backgroundColor:
-                                mine.isEmpty ? _cs.primary : Colors.white,
-                            foregroundColor:
-                                mine.isEmpty ? Colors.white : _cs.primary,
-                            side: BorderSide(color: _cs.primary, width: 1.5),
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 18, vertical: 10),
-                            shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30)),
+                    child: _loading
+                        ? _stubSkeleton()
+                        : Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              if (best != null) ...[
+                                Text(best.toStringAsFixed(2),
+                                    style: _t(18, FontWeight.w800,
+                                        GalleryThemeData.successColor)),
+                                Text('Best  -  ${mine.length}x',
+                                    style: _t(10, FontWeight.w500,
+                                        GalleryThemeData.subtitleColor)),
+                                const SizedBox(height: 8),
+                              ],
+                              FilledButton(
+                                style: FilledButton.styleFrom(
+                                  backgroundColor:
+                                      mine.isEmpty ? _cs.primary : Colors.white,
+                                  foregroundColor:
+                                      mine.isEmpty ? Colors.white : _cs.primary,
+                                  side: BorderSide(
+                                      color: _cs.primary, width: 1.5),
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 18, vertical: 10),
+                                  shape: RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.circular(30)),
+                                ),
+                                onPressed: () => _start(
+                                  testId: t.id,
+                                  title: t.title,
+                                  minutes: t.duration,
+                                  questions: Repo.instance.questionsOf(t.id),
+                                ),
+                                child: Text(
+                                  mine.isEmpty ? 'Start' : 'Retake',
+                                  style: _t(
+                                      13,
+                                      FontWeight.w700,
+                                      mine.isEmpty
+                                          ? Colors.white
+                                          : _cs.primary),
+                                ),
+                              ),
+                            ],
                           ),
-                          onPressed: () => _start(
-                            testId: t.id,
-                            title: t.title,
-                            minutes: t.duration,
-                            questions: Repo.instance.questionsOf(t.id),
-                          ),
-                          child: Text(
-                            mine.isEmpty ? 'Start' : 'Retake',
-                            style: _t(13, FontWeight.w700,
-                                mine.isEmpty ? Colors.white : _cs.primary),
-                          ),
-                        ),
-                      ],
-                    ),
                   ),
                 ],
               ),
@@ -472,9 +496,75 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+  /// Shimmer placeholder for the ticket's right-hand stub.
+  Widget _stubSkeleton() {
+    return Center(
+      child: Skel.shimmer(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Skel.box(width: 52, height: 18, radius: 6),
+            const SizedBox(height: 6),
+            Skel.box(width: 66, height: 10, radius: 5),
+            const SizedBox(height: 10),
+            Skel.box(width: 76, height: 38, radius: 30),
+          ],
+        ),
+      ),
+    );
+  }
+
   // ---------------------------------------------------------- history tab
 
+  Widget _historySkeleton() {
+    return ListView.builder(
+      physics: const NeverScrollableScrollPhysics(),
+      padding: const EdgeInsets.fromLTRB(16, 18, 16, 24),
+      itemCount: 5,
+      itemBuilder: (context, i) => Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
+        ),
+        child: Skel.shimmer(
+          child: Row(
+            children: [
+              Skel.circle(56),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Skel.box(width: 150, height: 15),
+                    const SizedBox(height: 6),
+                    Skel.box(width: 110, height: 11),
+                    const SizedBox(height: 10),
+                    Skel.box(width: 120, height: 12),
+                    const SizedBox(height: 8),
+                    Row(children: [
+                      Skel.box(width: 28, height: 14),
+                      const SizedBox(width: 10),
+                      Skel.box(width: 28, height: 14),
+                      const SizedBox(width: 10),
+                      Skel.box(width: 28, height: 14),
+                    ]),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 10),
+              Skel.circle(28),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _historyTab() {
+    if (_loading) return _historySkeleton();
+
     if (_attempts.isEmpty) {
       return Center(
         child: Padding(
