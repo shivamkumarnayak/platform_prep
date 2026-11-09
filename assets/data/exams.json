@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "key": "rrb_je",
+    "name": "RRB JE",
+    "title": "RRB JE CBT-1",
+    "subtitle": "Railway Junior Engineer",
+    "icon": "train",
+    "color": "FF1E3A8A",
+    "negative": 0.3333,
+    "negativeLabel": "1/3",
+    "note": "Questions and correct answers come from the official RRB JE CBT-1 answer key (Feb 2026). Tap any picture inside a question to zoom."
+  },
+  {
+    "id": 1,
+    "key": "ssc_je",
+    "name": "SSC JE",
+    "title": "SSC JE Paper-1",
+    "subtitle": "Staff Selection Commission JE",
+    "icon": "engineering",
+    "color": "FF0F766E",
+    "negative": 0.25,
+    "negativeLabel": "1/4",
+    "note": "Based on previous year SSC JE papers. Tap any picture to zoom."
+  },
+  {
+    "id": 2,
+    "key": "stet_bihar",
+    "name": "STET Bihar",
+    "title": "Bihar STET",
+    "subtitle": "Secondary Teacher Eligibility Test",
+    "icon": "school",
+    "color": "FF7C3AED",
+    "negative": 0,
+    "negativeLabel": "",
+    "note": "Based on previous Bihar STET papers. Tap any picture to zoom."
+  }
+]

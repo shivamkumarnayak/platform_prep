@@ -68,8 +68,13 @@ unlinked_spec.ds
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
-android/.kotlin/
 *.jks
+android/.kotlin/
+android/.idea/
+android/.gradle/
+android/.vscode/
+android/app/build/
+android/build/
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
@@ -121,16 +126,3 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
-
-# Fastlane generated files
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/
-fastlane/test_output/
-
-# Temporary keystore or JSON credentials
-android/keystores/
-android/release_builds/
-android/fastlane/report.xml
-*.jks
-*.json

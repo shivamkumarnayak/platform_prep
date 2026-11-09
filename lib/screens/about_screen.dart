@@ -147,7 +147,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 ],
               ),
               child: Text(
-                "This app is built with love and dedication to make Delhi Metro travel easier and smarter for everyone.",
+                "PrepMock is made with love and dedication to make exam preparation easier and smarter for every aspirant.",
                 style: tt.bodyLarge!.copyWith(
                   color: Colors.white,
                   fontWeight: FontWeight.w600,

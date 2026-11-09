@@ -1,0 +1,2059 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Cat-5, Cat-5E and Cat-6 are examples of which of the following cables ?",
+   "o": [
+    "Coaxial Cable",
+    "Shielded Twisted Pair Cable",
+    "Fiber Optic cable",
+    "Unshielded Twisted Pair Cable"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 2,
+   "q": "In the context of minimum spanning trees, the \"cut property\" is used to justify the correctness of Prim's algorithm. What does the cut property state?",
+   "o": [
+    "The algorithm always cuts the maximum weight edge.",
+    "The algorithm always cuts the minimum weight edge.",
+    "The algorithm always cuts an edge crossing the cut with the minimum weight.",
+    "The algorithm always cuts an edge crossing the cut with the maximum weight."
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 3,
+   "q": "Aggregate functions can be used with………….clause. They can not be used with……… clause.",
+   "o": [
+    "WHERE, HAVING",
+    "HAVING, WHERE",
+    "GROUP BY, HAVING",
+    "SELECT, HAVING"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 4,
+   "q": "The concept of NP-Completeness was introduced by:",
+   "o": [
+    "Stephen Cook",
+    "Richard Karp",
+    "Donald Knuth",
+    "John Nash"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 5,
+   "q": "ISO 9000 and SEI CMM are both frameworks related to:",
+   "o": [
+    "Network protocols",
+    "Software architecture",
+    "Software quality standards and process improvement",
+    "Software development languages"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 6,
+   "q": "Which among the followings is/ are true as per the ZigBee standards?",
+   "o": [
+    "Low power consumption",
+    "Low data rate",
+    "Low range",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 7,
+   "q": "The minimum number of edges in a spanning tree of a connected graph with \"n\" vertices is:",
+   "o": [
+    "n",
+    "n - 1",
+    "n + 1",
+    "n(n-1)/2"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 8,
+   "q": "A) Knowledge base (KB) is consists of set of statements. B) Inference is deriving a new sentence from the KB. Choose the correct option.",
+   "o": [
+    "A is True, B is True",
+    "A is False, B is False",
+    "A is True, B is false",
+    "A is false, B is True"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 9,
+   "q": "Which concept allows a class to inherit properties and behaviors from multiple classes?",
+   "o": [
+    "Encapsulation",
+    "Inheritance",
+    "Polymorphism",
+    "Multiple Inheritance"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 10,
+   "q": "In Audio and Video Compression, each frame is divided into small grids, called picture 0 elements or___________",
+   "o": [
+    "packets",
+    "mega pixels",
+    "frame",
+    "pixels"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 11,
+   "q": "Micro teaching is more effective 1",
+   "o": [
+    "always",
+    "after the teaching-practice",
+    "during the teaching-practice",
+    "during the preparation for teaching-practice"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 12,
+   "q": "Pedagogy is a 2",
+   "o": [
+    "science of behavior",
+    "science of learning",
+    "science of teaching",
+    "science of testing"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 13,
+   "q": "A blackboard cannot be used for __________. 3",
+   "o": [
+    "Improvement of a paragraph",
+    "Making reports based on information",
+    "Show schematic diagrams",
+    "Summary of relationships between facts"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 14,
+   "q": "An ongoing dialogue between the teacher and the student during the learning process 4 is a characteristic of:",
+   "o": [
+    "Formative assessment",
+    "Summative assessment",
+    "Diagnostic assessment",
+    "Norm-referenced assessment"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 15,
+   "q": "How can a teacher enhance effective learning in her elementary classroom? 5",
+   "o": [
+    "By connecting the context to the lives of the students",
+    "By drill and practice",
+    "By encouraging competition",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 16,
+   "q": "In order to keep himself alive and up to date, a teacher is required to dedicate himself to 6 acquire knowledge at the frontiers of new knowledge. This is required",
+   "o": [
+    "to develop his I.Q.",
+    "to develop his emotion",
+    "to enhance his competence in teaching",
+    "to enhance his knowledge"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 17,
+   "q": "Learning is a natural activity of- 7",
+   "o": [
+    "Learners",
+    "Teachers",
+    "Individuals",
+    "Living organism"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 18,
+   "q": "Investigate and classify different objects is an example of 8",
+   "o": [
+    "Explore",
+    "Elaborate",
+    "Engage",
+    "Explain"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 19,
+   "q": "Teacher’s interest in teaching and the children can 9",
+   "o": [
+    "never help children in any way",
+    "motivate the learners to learn",
+    "help the learners to learn everything",
+    "never encourage the learners"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 20,
+   "q": "Sangeeta asks her colleague for her project work and then copies the entire work and submits it to her team leader claiming it to be her own work. The act performed by Sangeeta is known as _________________ .",
+   "o": [
+    "Phishing",
+    "Plagiarism",
+    "Spamming",
+    "Virus"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 21,
+   "q": "Which of the following uses the principle of specific to general? 0",
+   "o": [
+    "Analysis method",
+    "Research/Discovery method",
+    "Synthesis method",
+    "Inductive method"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 22,
+   "q": "Which of the following verbs is at greatest risk for misinterpretation: 1",
+   "o": [
+    "List",
+    "Construct",
+    "Understand",
+    "Demonstrate"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 23,
+   "q": "Which component of Lesson Plan is based on Flink’s Taxonomy ? 2",
+   "o": [
+    "Creating",
+    "Understanding",
+    "Analysing",
+    "Caring"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 24,
+   "q": "Which of the following is the sequence of different levels of teaching? 3",
+   "o": [
+    "Memory level-Understanding level-Reflective level",
+    "Understanding level-Memory level-Reflective level",
+    "Reflective level-Understanding level-Memory Level",
+    "Memory level-Reflective level-Understanding level"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 25,
+   "q": "A _________ is a guideline that can help you organize what learning and how learning 4 will take place in your lesson.",
+   "o": [
+    "Content",
+    "Lesson plan.",
+    "Map",
+    "All of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 26,
+   "q": "In problem solving method, a systematic and orderly process is adopted for carrying 5 out",
+   "o": [
+    "the teaching-learning process",
+    "data collection",
+    "evaluation",
+    "analysis"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 27,
+   "q": "As a teacher when you see that children are fighting on the road, what will you do? 6",
+   "o": [
+    "Ignore the sitution and move away",
+    "Tell the people to resolve the issue",
+    "Pacify them by giving advice",
+    "Tell them to run away"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 28,
+   "q": "An assessment technique that allows students to demonstrate their knowledge through 7 oral presentations or performances is called:",
+   "o": [
+    "Formative assessment",
+    "Summative assessment",
+    "Authentic assessment",
+    "Individual assessment"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 29,
+   "q": "The essential factor to make the learning attractive is 8",
+   "o": [
+    "Reward",
+    "Punishment",
+    "Neither reward not pinishment",
+    "Both reward and punishment"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 30,
+   "q": "Which is not true about lesson plan 9",
+   "o": [
+    "It develops confidence",
+    "It helps in oderly delivery of contents",
+    "It is developed by students",
+    "It saves from haphazard teaching"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 31,
+   "q": "What is the default format of data in MySQL?",
+   "o": [
+    "DD-MM-YYYY",
+    "MM-DD-YYYY",
+    "YYYY-MM-DD",
+    "YYYY-DD-MM"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 32,
+   "q": "Which of them is NOT a formal assessment? 0",
+   "o": [
+    "Interview",
+    "Observation",
+    "Project",
+    "Quizzes"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 33,
+   "q": "Development of curriculum at higher level and its application at different levels is: 1",
+   "o": [
+    "Horizontal organization",
+    "Vertical organization",
+    "Centralized",
+    "Decentralized"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 34,
+   "q": "Professional ethics help teachers to understand their profession as a 2",
+   "o": [
+    "guide",
+    "helper",
+    "teacher",
+    "director"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 35,
+   "q": "Sociological foundations are concerned with: 3",
+   "o": [
+    "History",
+    "Economy",
+    "Society",
+    "Idea"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 36,
+   "q": "Which is not the characteristic of authoritative administration 4",
+   "o": [
+    "Rudeness",
+    "Suppression the subordinates",
+    "Strict discipline",
+    "Sharing"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 37,
+   "q": "Learner-centered learning leads to____________ 5",
+   "o": [
+    "holistic development",
+    "Enhanced Activity",
+    "loss of interest",
+    "None of these"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 38,
+   "q": "Two components of an educational objective are 6",
+   "o": [
+    "Cognitive and affective",
+    "Expected behavior and learner’s outcome",
+    "Performance and skills",
+    "General and specific"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 39,
+   "q": "Teacher can utilize both assessment for learning and assessment of learning to------- 7",
+   "o": [
+    "Know learning needs of child and select teaching strategy accordingly",
+    "Assess child’s performance at periodic intervals and certify his/her performance",
+    "Monitor children’s progress and set appropriate goals to fill their learning gaps",
+    "Know children’s progress and achievement level"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 40,
+   "q": "_______ is the apex institution involved in the planned and coordinated development of 8 the teacher education system in the country.",
+   "o": [
+    "UGC",
+    "NCERT",
+    "NCTE",
+    "XSEED"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 41,
+   "q": "When classroom climate is positive, then learners know that they are valued 9 __________.",
+   "o": [
+    "as individuals regardless of their appearance, personality or achievement",
+    "only if they confirm to classroom norms",
+    "only if they perform well in examinations",
+    "only if they stay in their seats and speak only when asked."
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 42,
+   "q": "Which of the following is true for the language: { ap| p is a prime}",
+   "o": [
+    "It is regular but not context-free",
+    "It is neither regular nor context-free, but accepted by a Turing machine",
+    "It is not accepted by a Turing Machine",
+    "It is context-free but not regular"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 43,
+   "q": "The use of poems and storytelling to explain concepts in an EVS class helps 0 to…………..",
+   "o": [
+    "take care of the language and cultural diversity among learners",
+    "channelise the energies of the students in the right direction",
+    "make the lesson enjoyable and interesting",
+    "promote the ability to imagine and explore the nature of the world at the local and global level"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Art of Teaching",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 44,
+   "q": "Which statement is incorrect about the Tetris game? 1",
+   "o": [
+    "The game was created by Alexey Pajitnov in 1984",
+    "The game consists of falling blocks, known as tetrominoes.",
+    "The game is played on a 10x10 grid",
+    "The objective is to clear lines by aligning blocks of the same color."
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 45,
+   "q": "A square pyramid has…...... 2",
+   "o": [
+    "Four faces",
+    "Three faces",
+    "Five faces",
+    "None of these"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 46,
+   "q": "if A means +, B means-, Z means÷ and C means*, then 3 10C2A5B5=?",
+   "o": [
+    "5",
+    "10",
+    "15",
+    "20"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 47,
+   "q": "If F,V and E are respectively the number of faces, vertices and edges of a triangular 4 prism, then which of the following statements is true?",
+   "o": [
+    "4F+2V-3E=6",
+    "2F+3V-2E = 10",
+    "2F+4V-3E=8",
+    "3F+2V-2E=11"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 48,
+   "q": "Which group of organisms does not have claws? 5",
+   "o": [
+    "Mammals",
+    "Reptiles",
+    "Fishes",
+    "Amphibians"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 49,
+   "q": "Choose the correct option instead of the question mark in the given question. 6 DRAW : WARD :: TRAP : ?",
+   "o": [
+    "RATP",
+    "PART",
+    "USBQ",
+    "ARTP"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 50,
+   "q": "Seema facing East walks 6 m. then turn right and walks 9 m. then she turn left and 7 walked 6 m. How far is she from starting point ?",
+   "o": [
+    "5 m.",
+    "10 m.",
+    "15 m.",
+    "20 m."
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 51,
+   "q": "Vitamin A and K is rich in………….. 8",
+   "o": [
+    "Rice crop",
+    "Poultry feed",
+    "Parasites",
+    "Manure"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 52,
+   "q": "Which food group is mostly consumed by teenagers to get more calcium? 9",
+   "o": [
+    "Grains",
+    "Meats and beans",
+    "Dairy",
+    "All of these"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 53,
+   "q": "Debugging is the process of:",
+   "o": [
+    "Creating new software modules",
+    "Removing defects from software",
+    "Analysing software requirements",
+    "Generating test cases"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 54,
+   "q": "Calculate the sum of lengths: 21 m 93 cm, 33 m 95 cm and 45 m 86 cm. 0",
+   "o": [
+    "99 m 74 cm",
+    "98 m 74 cm",
+    "99 m 75 cm",
+    "101 m 74 cm"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 55,
+   "q": "In a code language BHOPAL is written as OLOLOL, then what will be RANCHI written in 1 that language?",
+   "o": [
+    "RIRIRI",
+    "SBODIJ",
+    "NININI",
+    "THCNAR"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 56,
+   "q": "A Rectangular SandBox is 5 m wide and 2 m long. How many Cubic Metres of Sand is 2 needed to fill the Box into a Depth of 10 cm?",
+   "o": [
+    "2.5",
+    "1",
+    "5",
+    "3"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 57,
+   "q": "Which of the following statements is not correct with regard to a mathematics 3 textbook?",
+   "o": [
+    "Examples in a mathematics textbook should be related to daily life of the students.",
+    "A mathematics textbook should have solved examples only.",
+    "A textbook of mathematics should not be very thick or heavy.",
+    "A mathematics textbook should have varied exercises to give practice to students."
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 58,
+   "q": "Which one of the following is the language of the famous political treatise 4 Amuktmalyada?",
+   "o": [
+    "Sanksrit",
+    "Tamil",
+    "Kannada",
+    "Telugu"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 59,
+   "q": "In which five year plan of independent India the focus was on the development of 5 industrialization -",
+   "o": [
+    "Second",
+    "Third",
+    "Fifth",
+    "Sixth"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 60,
+   "q": "Which of the port is not a Natural Port? 6",
+   "o": [
+    "Chennai",
+    "Mumbai",
+    "Cochin",
+    "Paradip"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 61,
+   "q": "The Kyoto Protocol specifically relates to which one among the following issues? 7",
+   "o": [
+    "Emission reduction",
+    "Ozone layer depletion",
+    "Chlorofluorocarbons",
+    "Biodiversity management"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 62,
+   "q": "Who was the founder of Mewar Praja Mandal ? 8",
+   "o": [
+    "Motilal Tejawat",
+    "Vallabh Bahi Patel",
+    "Manik Lal Verma",
+    "Swami Govindanand"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 63,
+   "q": "Which of the following statements is/are correct? 9 (1) First Law Commssion recommended Indian Penal Code, 1860. (2) Indian Penal Code, 1860 has been completely replaced by the Bharatiya Nyaya Sanhita, 2023. Select the correct answer from the given options:",
+   "o": [
+    "1 Only.",
+    "2 Only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 64,
+   "q": "RFID is used for?",
+   "o": [
+    "3G Connectivity",
+    "Measuring WiFi strength",
+    "Providing WiFi Connection",
+    "Object Identification"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 65,
+   "q": "In the following question, from the given alternative words, select the word which 0 cannot be formed using the letters of the given word. Nightwalker",
+   "o": [
+    "Talker",
+    "Tailer",
+    "Waller",
+    "Winer"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Other Skills",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 66,
+   "q": "Upward multiplexing involves:",
+   "o": [
+    "Combining multiple data streams into one",
+    "Distributing data to different physical channels",
+    "Separating data into smaller units",
+    "Reordering data packets"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 67,
+   "q": "Consider the statements given below and then choose the correct output from the given options : N='5' try : print ( 'WORD ' + N, end= '#') except : print ( 'ERROR' , end= ' # ' ) finally : print ( ' OVER ')",
+   "o": [
+    "ERROR#",
+    "WORD5#OVER",
+    "WORD5#",
+    "ERROR#OVER"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 68,
+   "q": "What is synonymy relation?",
+   "o": [
+    "A is part of B",
+    "A denotes same as B",
+    "A is a kind of B",
+    "A is superordinate of B"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 69,
+   "q": "To capture data from the realworld IoT uses-------",
+   "o": [
+    "Sensors",
+    "Actuators",
+    "Microprocesspr",
+    "Microcontroller"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 70,
+   "q": "The \"producer-consumer problem\" is a classic synchronization problem that involves:",
+   "o": [
+    "Two processes competing for the same resources",
+    "Two processes exchanging data through shared buffers",
+    "Two processes competing for CPU time",
+    "Two processes communicating over a network"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 71,
+   "q": "In the context of recursion, what is the purpose of the \"stack\" data structure?",
+   "o": [
+    "To store variables and function calls for backtracking",
+    "To store only variables",
+    "To store only function calls",
+    "To store loop counters"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 72,
+   "q": "Which aggregate function in SQL displays the number of values in the specified column ignoring the NULL values ?",
+   "o": [
+    "len ( )",
+    "count ( )",
+    "number ( )",
+    "num ( )"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 73,
+   "q": "Resource management in IoT can be done by implementing--------",
+   "o": [
+    "Protocols",
+    "Algorithms",
+    "Networks",
+    "Protocols and Algorithms"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 74,
+   "q": "Which of the following is not a valid relational operator used with WHERE clause in SQL?",
+   "o": [
+    ">",
+    "<=",
+    "=>",
+    "<>"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 75,
+   "q": "Which of the following statement is false?",
+   "o": [
+    "A recursive language is also a regular language",
+    "A context free language is also a regular language",
+    "A context free language is also recursive enumerable language",
+    "Both (a) and (b)"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 76,
+   "q": "Which tag is used to create a line break in an HTML document ?",
+   "o": [
+    "<lb>",
+    "<break>",
+    "<br>",
+    "<newline>"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 77,
+   "q": "In Huffman coding, which characters are usually assigned shorter codes?",
+   "o": [
+    "Characters with higher frequency",
+    "Characters with lower frequency",
+    "Characters with longer ASCII values",
+    "Characters with shorter ASCII values"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 78,
+   "q": "What is a session in web development?",
+   "o": [
+    "A type of HTTP request",
+    "A way to store data on the client side",
+    "A temporary storage for user-specific data during a browsing session",
+    "A method to encrypt data for secure transmission"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 79,
+   "q": "Which of the following device provides the necessary translation of data received from network into a format or protocol recognized by devices with the internal network?",
+   "o": [
+    "Bridge",
+    "Gateway",
+    "Router",
+    "Modem"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 80,
+   "q": "Regular expression for all strings starts with b and ends with bba is.",
+   "o": [
+    "aba*b*bba",
+    "ab(ab)*bba",
+    "b(a+b)*bba",
+    "All of the mentioned"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 81,
+   "q": "The hexadecimal number F4 is equivalent to which binary number?",
+   "o": [
+    "11111001",
+    "11110100",
+    "11111100",
+    "11111010"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 82,
+   "q": "Algorithm analysis is primarily concerned with:",
+   "o": [
+    "Determining the best algorithm for a specific problem",
+    "Measuring the time and space efficiency of an algorithm",
+    "Creating new algorithms from scratch",
+    "Solving algorithmic problems using any available approach"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 83,
+   "q": "A web server is _____________.",
+   "o": [
+    "A program that downloads files",
+    "A type of web browser",
+    "A protocol used for secure communication",
+    "A computer that stores and delivers web pages"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 84,
+   "q": "What is encapsulation in OOP?",
+   "o": [
+    "The ability to inherit properties from multiple classes",
+    "The process of creating objects",
+    "The bundling of data and methods that operate on the data",
+    "The use of abstract classes only"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 85,
+   "q": "Which of the following programming medium is used by MobileMe to create the appearance of desktop application inside a browser?",
+   "o": [
+    "HTML",
+    "DHTML",
+    "Jquery",
+    "All of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 86,
+   "q": "Which SQL statement is used to update data in a database?",
+   "o": [
+    "ALTER",
+    "CHANGE",
+    "UPDATE",
+    "MODIFY"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 87,
+   "q": "Which term describes the way devices are interconnected in a network?",
+   "o": [
+    "Topology",
+    "Bandwidth",
+    "Encoding",
+    "Transmission"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 88,
+   "q": "Subnetting allows for:",
+   "o": [
+    "Faster data transmission",
+    "Improved error control",
+    "Efficient use of IP addresses",
+    "Increased network security"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 89,
+   "q": "This is a Assertion and Reason type questions. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : FTP is a networking protocol used for transferring files.Reason (R) : FTP is used when we want to view some data from a website.",
+   "o": [
+    "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A",
+    "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A)",
+    "Assertion (A) is true, but Reason (R) is false.",
+    "Assertion (A) is false, but Reason (R) is true."
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 90,
+   "q": "Which one is a communication channel security protocol?",
+   "o": [
+    "SSL",
+    "SET",
+    "S-HTTP",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 91,
+   "q": "Church’s Thesis supports---------",
+   "o": [
+    "Both TM is an general-purpose computer and TM is an algorithm and vice-versa are correct",
+    "A Turing machine an algorithm and an algorithm as a Turing machine",
+    "A Turing machine as a general-purpose computer system",
+    "None of them is correct"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 92,
+   "q": "A priority encoder is used to:",
+   "o": [
+    "Convert binary information into a more compact form",
+    "Assign priority to input lines based on their values",
+    "Compare two binary numbers",
+    "Combine multiple input signals into a single output"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 93,
+   "q": "Which type of queue allows insertion and deletion of elements at both the front and rear ends?",
+   "o": [
+    "Circular queue",
+    "Linear queue",
+    "Dequeue (Double-ended queue)",
+    "Priority queue"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 94,
+   "q": "Open System ________ tends to evolve more quickly than proprietary systems?",
+   "o": [
+    "Hardware",
+    "Software",
+    "Hardware and Software",
+    "None of these"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 95,
+   "q": "Can a DFA recognize a palindrome number?",
+   "o": [
+    "Yes",
+    "No",
+    "Yes, with input alphabet as ∑*",
+    "Can’t be determined"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 96,
+   "q": "Which HTTP method is used for retrieving data from a server?",
+   "o": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 97,
+   "q": "A large computer information system maintains many different computer files. Which amongst them is called a perpetual file?",
+   "o": [
+    "Specialized File",
+    "Master File",
+    "Log File",
+    "Update File"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 98,
+   "q": "Which of the following could be a disadvantage of 'open source' software?",
+   "o": [
+    "High quality software with lots of features",
+    "Not as customizable",
+    "May not have been tested as much as proprietary software so might have bugs",
+    "You can edit the source code to customize it"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 99,
+   "q": "The process of acquiring a semaphore and entering a critical section while ensuring mutual exclusion is often called:",
+   "o": [
+    "Wait-free synchronization",
+    "Lock-free synchronization",
+    "Critical section synchronization",
+    "Barrier synchronization"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 100,
+   "q": "The presense of _______ makes a card smart?",
+   "o": [
+    "Memory",
+    "Money",
+    "Microchip",
+    "Message Queue Telemetry Transport"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 101,
+   "q": "Which of the following is a database?",
+   "o": [
+    "MySQL",
+    "Informix",
+    "SQL Server",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 102,
+   "q": "The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",
+   "o": [
+    "TCL (Transaction Control Language)",
+    "DCL (Data Control Language)",
+    "DDL (Data Definition Langauge)",
+    "DML (Data Manipulation Langauge)"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 103,
+   "q": "Which of the following options is a network protocol that enables secure and encrypted file transfers between a client and a server ?",
+   "o": [
+    "SFTP",
+    "Telnet",
+    "SCP",
+    "HTTP"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 104,
+   "q": "In a Binary Search Tree (BST), the operation of deleting a node with one child involves:",
+   "o": [
+    "Removing the node and replacing it with its left child",
+    "Removing the node and replacing it with its right child",
+    "Removing the node and replacing it with its parent",
+    "Removing the node and leaving the subtree unaltered"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 105,
+   "q": "A ____________(invented by Paul Roget in 1828) is a simple mechanical toy which creates the illusion of movement.",
+   "o": [
+    "Binocular",
+    "Zoetrope",
+    "Thaumatrope",
+    "BOOM"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 106,
+   "q": "Questions given below is Assertion (A) and Reason (R) based questions. Mark the correct choice as : Assertion (A) : We can retrieve records from more than one table in MYSQL. Reason (R) :Foreign key is used to establish a relationship between two tables.",
+   "o": [
+    "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation for Assertion (A).",
+    "Both Assertion (A) and Reason (R) are true and Reason (R) is not the correct explanation for Assertion (A).",
+    "Assertion (A) is true but, Reason (R) is false.",
+    "Assertion (A) is false but, Reason (R) is true ."
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 107,
+   "q": "A regular language over an alphabet ∑ is closed under following operation(s)",
+   "o": [
+    "Union",
+    "Concatenation",
+    "Kleene*",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 108,
+   "q": "The default value for the type attribute of an Unordered List in HTML is :",
+   "o": [
+    "circle",
+    "disc",
+    "square",
+    "triangle"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 109,
+   "q": "Which of the following is not an e-Reservation portal in India ?",
+   "o": [
+    "https://www.amazon.in",
+    "https://www.yatra.com",
+    "https://www.makemytrip.com",
+    "https://www.irctc.co.in"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 110,
+   "q": "The Tower of Hanoi problem is a classic example of a problem that can be solved using recursion. How many minimum moves are required to solve the Tower of Hanoi problem with 3 disks?",
+   "o": [
+    "3",
+    "7",
+    "15",
+    "63"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 111,
+   "q": "Identify the output of the following code segment: S = \"an apple. a toy.\" S = s. find ( 'a ' , 2) print (s)",
+   "o": [
+    "0",
+    "1",
+    "3",
+    "a'"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 112,
+   "q": "______________ is an agreement between the communicating parties on how communication is to proceed over a network.",
+   "o": [
+    "Ethernet",
+    "Protocol",
+    "Operating System",
+    "Antivirus"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 113,
+   "q": "What is the main advantage of using exception handling in programming?",
+   "o": [
+    "It prevents code from running",
+    "It improves code readability",
+    "It handles unexpected errors and allows graceful program termination",
+    "It eliminates the need for classes and objects"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 114,
+   "q": "What is the term for creating a new class based on an existing class?",
+   "o": [
+    "Overriding",
+    "Implementing",
+    "Inheriting",
+    "Overloading"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 115,
+   "q": "In OOP, which term refers to a mechanism by which a class can inherit properties and behaviors from another class?",
+   "o": [
+    "Polymorphism",
+    "Abstraction",
+    "Encapsulation",
+    "Inheritance"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 116,
+   "q": "The components expert system is/ are",
+   "o": [
+    "Knowledge Base",
+    "Inference Engine",
+    "User Interface",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 117,
+   "q": "In an AVL tree, the balance factor of a node is the difference between the heights of its:",
+   "o": [
+    "Left and right subtrees",
+    "Left subtree and parent",
+    "Right subtree and parent",
+    "Left and right children"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 118,
+   "q": "A technique that was developed to determine whether a machine could or could not demonstrate the artificial intelligence known as the___?",
+   "o": [
+    "Algorithm",
+    "Logaritham",
+    "Turing Test",
+    "Boolean algebra"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 119,
+   "q": "…………..compares neighbouring elements only and swaps them when necessary.",
+   "o": [
+    "Selection Sort",
+    "Bubble Sort",
+    "Insertion Sort",
+    "Quick Sort"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 120,
+   "q": "Which of the following protocol defines that how the data is formatted and transmitted over the network ?",
+   "o": [
+    "HTTP",
+    "SMTP",
+    "FTP",
+    "POP3"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 121,
+   "q": "Public key encryption uses multiple keys. One key is used to encrypt data, while another is used to decrypt data. The key used to encrypt data is called the _____ key, while the key used to decrypt data is called the _____ key.",
+   "o": [
+    "Encryption, decryption",
+    "Encryption, public",
+    "Public, private",
+    "Private, public"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 122,
+   "q": "What is the primary purpose of an interface in OOP?",
+   "o": [
+    "To provide a blueprint for creating objects",
+    "To define a set of methods that must be implemented by implementing classes",
+    "To define constructors for classes",
+    "To create static methods"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 123,
+   "q": "An index is clustered, if",
+   "o": [
+    "it is on a set of fields that form a candidate key.",
+    "it is on a set of fields that include the primary key.",
+    "the data records of the file are organized in the same order as the data entries of the index.",
+    "the data records of the file are organized not in the same order as the data entries of the index."
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 124,
+   "q": "In pointer implementation of linked lists, which operation can be performed in constant time (O(1)) when inserting or deleting nodes?",
+   "o": [
+    "Inserting at the beginning",
+    "Inserting at the end",
+    "Inserting at a specific position",
+    "Deleting a specific node"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 125,
+   "q": "Which of the following options is the correct protocol used for phone calls over the internet ?",
+   "o": [
+    "PPP",
+    "FTP",
+    "HTTP",
+    "VoIP"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 126,
+   "q": "What does the acronym \"HTTP\" stand for?",
+   "o": [
+    "HyperText Transmission Protocol",
+    "HyperText Transfer Protocol",
+    "High-Tech Text Protocol",
+    "HyperTransfer Text Protocol"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 127,
+   "q": "The default color of vlink is _________ .",
+   "o": [
+    "Green",
+    "Purple",
+    "Blue",
+    "Yellow"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 128,
+   "q": "In binary subtraction using the simple method, if a borrow is needed from a digit and the borrowed digit is 1, what happens to the next digit's value?",
+   "o": [
+    "It remains unchanged",
+    "It is incremented by 1",
+    "It is decremented by 1",
+    "It becomes 0"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 129,
+   "q": "Which programming language is often used for server-side web development?",
+   "o": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 130,
+   "q": "What does Structured Analysis focus on?",
+   "o": [
+    "Hardware components",
+    "Database management",
+    "Data flow and processes",
+    "User interfaces"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 131,
+   "q": "Questions given below is of Assertion and Reason type question. This question consists of two statements, namely, Assertion (A) and Reason (R). Select the most suitable option considering the Assertion and Reason. Assertion (A) : When you enter a query into a search engine, it retrieves and presents a list of web pages, documents, images, videos, or other types of content that are relevant to your search. Reason (R) : The goal of information retrieval is to effectively and efficiently find and present information that matches the user’s search criteria.",
+   "o": [
+    "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+    "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+    "Assertion (A) is true, but Reason (R) is false.",
+    "Assertion (A) is false, but Reason (R) is true."
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 132,
+   "q": "When adding two positive binary numbers using the 2's complement method, if the result has a carry-out from the most significant bit (MSB), what should be done?",
+   "o": [
+    "Ignore the carry",
+    "Add the carry to the least significant bit (LSB)",
+    "Add the carry to the sign bit",
+    "Subtract the carry from the MSB"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 133,
+   "q": "What is the purpose of a destructor in OOP?",
+   "o": [
+    "To create instances of classes",
+    "To handle exceptions",
+    "To free up resources when an object is destroyed",
+    "To define default values for properties"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 134,
+   "q": "What is the main purpose of the Data Link Control in the data link layer?",
+   "o": [
+    "Error correction",
+    "Data encryption",
+    "Data routing",
+    "Data framing"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 135,
+   "q": "In the context of software project management, what is LOC an acronym for?",
+   "o": [
+    "Line of Change",
+    "Level of Complexity",
+    "Lines of Code",
+    "List of Components"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 136,
+   "q": "Which concept allows a subclass to provide a specific implementation of a method that is already defined in the superclass?",
+   "o": [
+    "Overloading",
+    "Inheritance",
+    "Polymorphism",
+    "Overriding"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  },
+  {
+   "n": 137,
+   "q": "If you need to transfer money to another person via the internet, which of the following methods could you use?",
+   "o": [
+    "Financial Cybermediary",
+    "E Bill Presentation and payment",
+    "E Check",
+    "Any of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2025 – 03 Nov Shift 2"
+  }
+ ]
+}
