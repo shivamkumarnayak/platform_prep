@@ -1,0 +1,814 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Who invented C++?",
+   "o": [
+    "Dennis Ritchie",
+    "Ken Thompson",
+    "Brian Kernighan",
+    "Bjarne Stroustrup"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 2,
+   "q": "What is C++?",
+   "o": [
+    "C++ is an object oriented programming language",
+    "C++ is a procedural programming language",
+    "C++ supports both procedural and object oriented programming language",
+    "C++ is a functional programming language"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 3,
+   "q": "Which is more effective while calling the C++ functions?",
+   "o": [
+    "call by object",
+    "call by pointer",
+    "call by value",
+    "call by reference"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 4,
+   "q": "Which of the following is used to terminate the function declaration in C++?",
+   "o": [
+    ";",
+    "]",
+    ")",
+    ":"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 5,
+   "q": "The C++ code which causes abnormal termination/behaviour of a program should be written under _________ block.",
+   "o": [
+    "catch",
+    "throw",
+    "try",
+    "finally"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 6,
+   "q": "Which of the following class allows to declare only one object of it?",
+   "o": [
+    "Abstract class",
+    "Virtual class",
+    "Singleton class",
+    "Friend class"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 7,
+   "q": "Which of the following is not a type of Constructor?",
+   "o": [
+    "Friend constructor",
+    "Copy constructor",
+    "Default constructor",
+    "Parameterized constructor"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 8,
+   "q": "Which operator is overloaded for a cout object?",
+   "o": [
+    ">>",
+    "<<",
+    "<",
+    ">"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 9,
+   "q": "Which of the following cannot be used with the virtual keyword?",
+   "o": [
+    "Class",
+    "Member functions",
+    "Constructors",
+    "Destructors"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 10,
+   "q": "Which concept is used to implement late binding?",
+   "o": [
+    "Virtual functions",
+    "Operator functions",
+    "Constant functions",
+    "Static functions"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 11,
+   "q": "Which of the following is correct?",
+   "o": [
+    "C++ allows static type checking",
+    "C++ allows dynamic type checking.",
+    "C++ allows static member function to be of type const.",
+    "C++ allows both static and dynamic type checking"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 12,
+   "q": "Which of the following computer language is written in binary codes only?",
+   "o": [
+    "pascal",
+    "machine language",
+    "C",
+    "C#"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 13,
+   "q": "Which of the following is the brain of the computer?",
+   "o": [
+    "Central Processing Unit",
+    "Memory",
+    "Arithmetic and Logic unit",
+    "Control unit"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 14,
+   "q": "Which of the following is not a characteristic of a computer?",
+   "o": [
+    "Versatility",
+    "Accuracy",
+    "Diligence",
+    "I.Q."
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 15,
+   "q": "What is the full form of DBMS?",
+   "o": [
+    "Data of Binary Management System",
+    "Database Management System",
+    "Database Management Service",
+    "Data Backup Management System"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 16,
+   "q": "What is a database?",
+   "o": [
+    "Organized collection of information that cannot be accessed, updated, and managed",
+    "Collection of data or information without organizing",
+    "Organized collection of data or information that can be accessed, updated, and managed",
+    "Organized collection of data that cannot be updated"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 17,
+   "q": "Which type of data can be stored in the database?",
+   "o": [
+    "Image oriented data",
+    "Text, files containing data",
+    "Data in the form of audio or video",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 18,
+   "q": "In which of the following formats data is stored in the database management system?",
+   "o": [
+    "Image",
+    "Text",
+    "Table",
+    "Graph"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 19,
+   "q": "Which of the following is not a type of database?",
+   "o": [
+    "Hierarchical",
+    "Network",
+    "Distributed",
+    "Decentralized"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 20,
+   "q": "Which of the following is not an example of DBMS?",
+   "o": [
+    "MySQL",
+    "Microsoft Acess",
+    "IBM DB2",
+    "Google"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 21,
+   "q": "Which of the following is not a feature of DBMS?",
+   "o": [
+    "Minimum Duplication and Redundancy of Data",
+    "High Level of Security",
+    "Single-user Access only",
+    "Support ACID Property"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 22,
+   "q": "Which of the following is a function of the DBMS?",
+   "o": [
+    "Storing data",
+    "Providing multi-users access control",
+    "Data Integrity",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 23,
+   "q": "Which of the following is a component of the DBMS?",
+   "o": [
+    "Data",
+    "Data Languages",
+    "Data Manager",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 24,
+   "q": "SELECT name ____ instructor name, course id       FROM instructor, teaches WHERE instructor.ID= teaches.ID; Which keyword must be used here to rename the field name?",
+   "o": [
+    "From",
+    "Rename",
+    "As",
+    "Join"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 25,
+   "q": "SELECT emp_name FROM department WHERE dept_name LIKE ’ _____ Computer Science’;  Which one of the following has to be added into the blank to select the dept_name which has Computer Science as its ending string?",
+   "o": [
+    "%",
+    "_",
+    "||",
+    "$"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 26,
+   "q": "SELECT name FROM instructor WHERE dept name = ’Physics’ ORDER BY name;  By default, the order by clause lists items in ______ order.",
+   "o": [
+    "Descending",
+    "Any",
+    "Same",
+    "Ascending"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 27,
+   "q": "The ______ format is usually used to store data.",
+   "o": [
+    "BCD",
+    "Decimal",
+    "Hexadecimal",
+    "Octal"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 28,
+   "q": "The 8-bit encoding format used to store data in a computer is ______",
+   "o": [
+    "ASCII",
+    "EBCDIC",
+    "ANCI",
+    "USCII"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 29,
+   "q": "A source program is usually in _______",
+   "o": [
+    "Assembly language",
+    "Machine level language",
+    "High-level language",
+    "Natural language"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 30,
+   "q": "Which memory device is generally made of semiconductors?",
+   "o": [
+    "RAM",
+    "Hard-disk",
+    "Floppy disk",
+    "Cd disk"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 31,
+   "q": "The small extremely fast, RAM’s are called as _______",
+   "o": [
+    "Cache",
+    "Heaps",
+    "Accumulators",
+    "Stacks"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 32,
+   "q": "The ALU makes use of _______ to store the intermediate results.",
+   "o": [
+    "Accumulators",
+    "Registers",
+    "Heap",
+    "Stack"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 33,
+   "q": "The control unit controls other units by generating ___________",
+   "o": [
+    "Control signals",
+    "Timing signals",
+    "Transfer signals",
+    "Command Signals"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 34,
+   "q": "To reduce the memory access time we generally make use of ______",
+   "o": [
+    "Heaps",
+    "Higher capacity RAM’s",
+    "SDRAM’s",
+    "Cache’s"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 35,
+   "q": "______ is generally used to increase the apparent size of physical memory.",
+   "o": [
+    "Secondary memory",
+    "Virtual memory",
+    "Hard-disk",
+    "Disks"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 36,
+   "q": "What is a data structure?",
+   "o": [
+    "A programming language",
+    "A collection of algorithms",
+    "A way to store and organize data",
+    "A type of computer hardware"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 37,
+   "q": "What are the disadvantages of arrays?",
+   "o": [
+    "Index value of an array can be negative",
+    "Elements are sequentially accessed",
+    "Data structure like queue or stack cannot be implemented",
+    "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 38,
+   "q": "Which data structure is used for implementing recursion?",
+   "o": [
+    "Stack",
+    "Queue",
+    "List",
+    "Array"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 39,
+   "q": "The data structure required to check whether an expression contains a balanced parenthesis is?",
+   "o": [
+    "Queue",
+    "Stack",
+    "Tree",
+    "Array"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 40,
+   "q": "Which data structure is needed to convert infix notation to postfix notation?",
+   "o": [
+    "Tree",
+    "Branch",
+    "Stack",
+    "Queue"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 41,
+   "q": "The prefix form of A-B/ (C * D ^ E) is?",
+   "o": [
+    "-A/B*C^DE",
+    "-A/BC*^DE",
+    "-ABCD*^DE",
+    "-/*^ACBDE"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 42,
+   "q": "Which data structure is based on the Last In First Out (LIFO) principle?",
+   "o": [
+    "Tree",
+    "Linked List",
+    "Stack",
+    "Queue"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 43,
+   "q": "Which of the following application makes use of a circular linked list?",
+   "o": [
+    "Recursive function calls",
+    "Undo operation in a text editor",
+    "Implement Hash Tables",
+    "Allocating CPU to resources"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 44,
+   "q": "Which of the following is not the type of queue?",
+   "o": [
+    "Priority queue",
+    "Circular queue",
+    "Single ended queue",
+    "Ordinary queue"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 45,
+   "q": "What is an AVL tree?",
+   "o": [
+    "a tree which is unbalanced and is a height balanced tree",
+    "a tree which is balanced and is a height balanced tree",
+    "a tree with atmost 3 children",
+    "a tree with three children"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 46,
+   "q": "The optimal data structure used to solve Tower of Hanoi is _________",
+   "o": [
+    "Tree",
+    "Heap",
+    "Priority queue",
+    "Stack"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 47,
+   "q": "Which is the most appropriate data structure for reversing a word?",
+   "o": [
+    "stack",
+    "queue",
+    "graph",
+    "tree"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 48,
+   "q": "Which of the following devices forwards packets between networks by\nprocessing the routing information included in the packet?",
+   "o": [
+    "firewall",
+    "bridge",
+    "hub",
+    "router"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 49,
+   "q": "Which of this is not a network edge device?",
+   "o": [
+    "Switch",
+    "PC",
+    "Smartphones",
+    "Servers"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 50,
+   "q": "Which type of network shares the communication channel among all the machines?",
+   "o": [
+    "anycast network",
+    "multicast network",
+    "unicast network",
+    "broadcast network"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 51,
+   "q": "Which topology requires a multipoint connection?",
+   "o": [
+    "Ring",
+    "Bus",
+    "Star",
+    "Mesh"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 52,
+   "q": "What is the term for the data communication system within a building or campus?",
+   "o": [
+    "MAN",
+    "LAN",
+    "PAN",
+    "WAN"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 53,
+   "q": "What was the name of the first network?",
+   "o": [
+    "ASAPNET",
+    "ARPANET",
+    "CNNET",
+    "NSFNET"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  },
+  {
+   "n": 54,
+   "q": "Which network topology requires a central controller or hub?",
+   "o": [
+    "Ring",
+    "Bus",
+    "Star",
+    "Mesh"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 1"
+  }
+ ]
+}

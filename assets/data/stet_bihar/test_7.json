@@ -1,0 +1,889 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which of the following is the correct syntax of including a user defined header files in C++?",
+   "o": [
+    "#include [userdefined]",
+    "#include “userdefined”",
+    "#include <userdefined.h>",
+    "#include <userdefined>"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 2,
+   "q": "Which of the following is used for comments in C++?",
+   "o": [
+    "/* comment */",
+    "// comment */",
+    "// comment",
+    "both // comment or /* comment */"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 3,
+   "q": "What is Inheritance in C++?",
+   "o": [
+    "Deriving new classes from existing classes",
+    "Overloading of classes",
+    "Classes with same names",
+    "Wrapping of data into a single class"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 4,
+   "q": "Which of the following symbol is used to declare the preprocessor directives in C++?",
+   "o": [
+    "$",
+    "^",
+    "#",
+    "*"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 5,
+   "q": "What is meant by a polymorphism in C++?",
+   "o": [
+    "class having only single form",
+    "class having four forms",
+    "class having many forms",
+    "class having two forms"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 6,
+   "q": "Which of the following is correct?",
+   "o": [
+    "Base class pointer object cannot point to a derived class object",
+    "Derived class pointer object cannot point to a base class object",
+    "A derived class cannot have pointer objects",
+    "A base class cannot have pointer objects"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 7,
+   "q": "Out of the following, which is not a member of the class?",
+   "o": [
+    "Static function",
+    "Friend function",
+    "Constant function",
+    "Virtual function"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 8,
+   "q": "Which of the following is a static polymorphism mechanism?",
+   "o": [
+    "Function overloading",
+    "Operator overloading",
+    "Templates",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 9,
+   "q": "Which of the following is true? I) All operators in C++ can be overloaded. II) The basic meaning of an operator can be changed.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 10,
+   "q": "Which of the following is not a type of inheritance?",
+   "o": [
+    "Multiple",
+    "Multilevel",
+    "Distributive",
+    "Hierarchical"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 11,
+   "q": "What happens if a class does not have a name?",
+   "o": [
+    "It will not have a constructor",
+    "It will not have a destructor",
+    "It is not allowed",
+    "It will neither have a constructor or destructor"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 12,
+   "q": "Which members are inherited but are not accessible in any case?",
+   "o": [
+    "Private",
+    "Public",
+    "Protected",
+    "Both private and protected"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 13,
+   "q": "Which of the following is correct?",
+   "o": [
+    "Friend functions can access public members of a class",
+    "Friend functions can access protected members of a class",
+    "Friend functions can access private members of a class",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 14,
+   "q": "Which of the following is correct in C++?",
+   "o": [
+    "Classes cannot have protected data members",
+    "Structures can have member functions",
+    "Class members are public by default",
+    "Structure members are private by default"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 15,
+   "q": "Which of the following is used to make an abstract class?",
+   "o": [
+    "By using virtual keyword in front of a class declaration",
+    "By using an abstract keyword in front of a class declaration",
+    "By declaring a virtual function in a class",
+    "By declaring a pure virtual function in a class"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 16,
+   "q": "Which of the following is correct?",
+   "o": [
+    "A class is an instance of its objects",
+    "An object is an instance of its class",
+    "A class is an instance of the data type that the class have",
+    "An object is an instance of the data type of the class"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 17,
+   "q": "Which of the following is the smallest unit of data in a computer?",
+   "o": [
+    "Bit",
+    "KB",
+    "Nibble",
+    "Byte"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 18,
+   "q": "Which of the following unit is responsible for converting the data received from the user into a computer understandable format?",
+   "o": [
+    "Output Unit",
+    "Input Unit",
+    "Memory Unit",
+    "Arithmetic & Logic Unit"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 19,
+   "q": "Which of the following is not a type of computer code?",
+   "o": [
+    "EDIC",
+    "ASCII",
+    "BCD",
+    "EBCDIC"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 20,
+   "q": "Which of the following is designed to control the operations of a computer?",
+   "o": [
+    "User",
+    "Application Software",
+    "System Software",
+    "Utility Software"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 21,
+   "q": "Which of the following is used in EBCDIC?",
+   "o": [
+    "Super Computers",
+    "Mainframes",
+    "Machine Codes",
+    "Programming"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 22,
+   "q": "Which of the following is the device used for converting maps, pictures, and drawings into digital form for storage in computers?",
+   "o": [
+    "Image Scanner",
+    "Digitizer",
+    "MICR",
+    "Scanner"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 23,
+   "q": "Which of the following can access the server?",
+   "o": [
+    "Web Client",
+    "User",
+    "Web Browser",
+    "Web Server"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 24,
+   "q": "Which of the following is known as the language made up of binary-coded instructions?",
+   "o": [
+    "High level",
+    "BASIC",
+    "C",
+    "Machine"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 25,
+   "q": "Which of the following is known as a set of entities of the same type that share same properties, or attributes?",
+   "o": [
+    "Relation set",
+    "Tuples",
+    "Entity set",
+    "Entity Relation model"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 26,
+   "q": "What is information about data called?",
+   "o": [
+    "Hyper data",
+    "Tera data",
+    "Meta data",
+    "Relations"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 27,
+   "q": "What does an RDBMS consist of?",
+   "o": [
+    "Collection of Records",
+    "Collection of Keys",
+    "Collection of Tables",
+    "Collection of Fields"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 28,
+   "q": "The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____________________ integrity constraint.",
+   "o": [
+    "Referential",
+    "Primary",
+    "Referencing",
+    "Specific"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 29,
+   "q": "The DBMS acts as an interface between ________________ and\n________________ of an enterprise-class system.",
+   "o": [
+    "Data and the DBMS",
+    "Application and SQL",
+    "Database application and the database",
+    "The user and the software"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 30,
+   "q": "The ability to query data, as well as insert, delete, and alter tuples, is offered by ____________",
+   "o": [
+    "TCL (Transaction Control Language)",
+    "DCL (Data Control Language)",
+    "DDL (Data Definition Langauge)",
+    "DML (Data Manipulation Langauge)"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 31,
+   "q": "______________ is a set of one or more attributes taken collectively to uniquely identify a record.",
+   "o": [
+    "Primary Key",
+    "Foreign key",
+    "Super key",
+    "Candidate key"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 32,
+   "q": "Which command is used to remove a relation from an SQL?",
+   "o": [
+    "Drop table",
+    "Delete",
+    "Purge",
+    "Remove"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 33,
+   "q": "After groups have been established, SQL applies predicates in the ___________ clause, allowing aggregate functions to be used.",
+   "o": [
+    "Where",
+    "Having",
+    "Group by",
+    "With"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 34,
+   "q": "Which of the following is the subset of SQL commands used to manipulate Oracle Structures, including tables?",
+   "o": [
+    "Data Described Language",
+    "Data Retrieval Language",
+    "Data Manipulation Language",
+    "Data Definition Language"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 35,
+   "q": "The decoded instruction is stored in ______",
+   "o": [
+    "IR",
+    "PC",
+    "Registers",
+    "MDR"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 36,
+   "q": "Which registers can interact with the secondary storage?",
+   "o": [
+    "MAR",
+    "PC",
+    "IR",
+    "R0"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 37,
+   "q": "During the execution of a program which gets initialized first?",
+   "o": [
+    "MDR",
+    "IR",
+    "PC",
+    "MAR"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 38,
+   "q": "Which of the register/s of the processor is/are connected to Memory Bus?",
+   "o": [
+    "PC",
+    "MAR",
+    "IR",
+    "Both PC and MAR"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 39,
+   "q": "_______ is used to store data in registers.",
+   "o": [
+    "D flip flop",
+    "JK flip flop",
+    "RS flip flop",
+    "None of the mentioned"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 40,
+   "q": "______ are used to overcome the difference in data transfer speeds of various devices.",
+   "o": [
+    "Speed enhancing circuitory",
+    "Bridge circuits",
+    "Multiple Buses",
+    "Buffer registers"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 41,
+   "q": "To extend the connectivity of the processor bus we use ________",
+   "o": [
+    "PCI bus",
+    "SCSI bus",
+    "Controllers",
+    "Multiple bus"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 42,
+   "q": "ANSI stands for __________",
+   "o": [
+    "American National Standards Institute",
+    "American National Standard Interface",
+    "American Network Standard Interfacing",
+    "American Network Security Interrupt"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 43,
+   "q": "Which of these best describes an array?",
+   "o": [
+    "A data structure that shows a hierarchical behavior",
+    "Container of objects of similar types",
+    "Arrays are immutable once initialised",
+    "Array is not a data structure"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 44,
+   "q": "How do you initialize an array in C?",
+   "o": [
+    "int arr[3] = (1,2,3);",
+    "int arr(3) = {1,2,3};",
+    "int arr[3] = {1,2,3};",
+    "int arr(3) = (1,2,3);"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 45,
+   "q": "What are the advantages of arrays?",
+   "o": [
+    "Objects of mixed data types can be stored",
+    "Elements in an array cannot be sorted",
+    "Index of first element of an array is 1",
+    "Easier to store elements of same data type"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 46,
+   "q": "What are the disadvantages of arrays?",
+   "o": [
+    "Data structure like queue or stack cannot be implemented",
+    "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size",
+    "Index value of an array can be negative",
+    "Elements are sequentially accessed"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 47,
+   "q": "Assuming int is of 4bytes, what is the size of int arr[15];?",
+   "o": [
+    "15",
+    "19",
+    "11",
+    "60"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 48,
+   "q": "In general, the index of the first element in an array is __________",
+   "o": [
+    "0",
+    "-1",
+    "2",
+    "1"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 49,
+   "q": "Elements in an array are accessed _____________",
+   "o": [
+    "randomly",
+    "sequentially",
+    "exponentially",
+    "logarithmically"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 50,
+   "q": "Process of inserting an element in stack is called ____________",
+   "o": [
+    "Create",
+    "Push",
+    "Evaluation",
+    "Pop"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 51,
+   "q": "Process of removing an element from stack is called __________",
+   "o": [
+    "Create",
+    "Push",
+    "Evaluation",
+    "Pop"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 52,
+   "q": "In a stack, if a user tries to remove an element from an empty stack it is called _________",
+   "o": [
+    "Underflow",
+    "Empty collection",
+    "Overflow",
+    "Garbage Collection"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 53,
+   "q": "What is a computer network?",
+   "o": [
+    "A device used to display information on a computer screen",
+    "A collection of interconnected computers and devices that can communicate and share resources",
+    "A type of software used to create documents and presentations",
+    "The physical casing that protects a computer’s internal components"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 54,
+   "q": "What is internet?",
+   "o": [
+    "A network of interconnected local area networks",
+    "A collection of unrelated computers",
+    "Interconnection of wide area networks",
+    "A single network"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 55,
+   "q": "Which of the following is an example of Bluetooth?",
+   "o": [
+    "wide area network",
+    "virtual private network",
+    "local area network",
+    "personal area network"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 56,
+   "q": "What is the full form of OSI?",
+   "o": [
+    "optical service implementation",
+    "open service Internet",
+    "open system interconnection",
+    "operating system interface"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 57,
+   "q": "How many layers are there in the ISO OSI reference model?",
+   "o": [
+    "7",
+    "5",
+    "4",
+    "6"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 58,
+   "q": "What are nodes in a computer network?",
+   "o": [
+    "the computer that routes the data",
+    "the computer that terminates the data",
+    "the computer that originates the data",
+    "all of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  },
+  {
+   "n": 59,
+   "q": "Which one of the following is not a function of network layer?",
+   "o": [
+    "congestion control",
+    "error control",
+    "routing",
+    "inter-networking"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 2"
+  }
+ ]
+}

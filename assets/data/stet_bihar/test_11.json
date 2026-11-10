@@ -1,0 +1,769 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "What is the full form of IoT?",
+   "o": [
+    "Internet of Technology",
+    "Incorporate of Things",
+    "Internet of Things",
+    "Incorporate of Technology"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 2,
+   "q": "What is IoT?",
+   "o": [
+    "network of physical objects embedded with sensors",
+    "network of virtual objects",
+    "network of objects in the ring structure",
+    "network of sensors"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 3,
+   "q": "Who coined the term “Internet of Things”?",
+   "o": [
+    "Kevin Aston",
+    "John Wright",
+    "Edward Jameson",
+    "George Garton"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 4,
+   "q": "When was the actual term “Internet of Things” coined?",
+   "o": [
+    "1998",
+    "1999",
+    "2000",
+    "2002"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 5,
+   "q": "Which of the following is not an IoT device?",
+   "o": [
+    "Table",
+    "Laptop",
+    "Arduino",
+    "Tablet"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 6,
+   "q": "Communication between a computer and a keyboard involves ______________ transmission.",
+   "o": [
+    "Automatic",
+    "Half-duplex",
+    "Full-duplex",
+    "Simplex"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 7,
+   "q": "The first Network was called ________",
+   "o": [
+    "CNNET",
+    "NSFNET",
+    "ASAPNET",
+    "ARPANET"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 8,
+   "q": "A _______ is the physical path over which a message travels.",
+   "o": [
+    "Path",
+    "Medium",
+    "Protocol",
+    "Route"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 9,
+   "q": "Which of this is not a network edge device?",
+   "o": [
+    "PC",
+    "Smartphones",
+    "Servers",
+    "Switch"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 10,
+   "q": "A _________ set of rules that governs data communication.",
+   "o": [
+    "Protocols",
+    "Standards",
+    "RFCs",
+    "Servers"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 11,
+   "q": "Three or more devices share a link in ________ connection.",
+   "o": [
+    "Unipoint",
+    "Multipoint",
+    "Point to point",
+    "Simplex"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 12,
+   "q": "RAD stands for",
+   "o": [
+    "Relative Application Development",
+    "Rapid Application Development",
+    "Rapid Application Document",
+    "None of the mentioned"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 13,
+   "q": "Which one of the following models is not suitable for accommodating any change?",
+   "o": [
+    "Build & Fix Model",
+    "Prototyping Model",
+    "RAD Model",
+    "Waterfall Model"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 14,
+   "q": "Which one of the following is not a phase of Prototyping Model?",
+   "o": [
+    "Quick Design",
+    "Coding",
+    "Prototype Refinement",
+    "Engineer Product"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 15,
+   "q": "SDLC stands for",
+   "o": [
+    "Software Development Life Cycle",
+    "System Development Life cycle",
+    "Software Design Life Cycle",
+    "System Design Life Cycle"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 16,
+   "q": "Which model can be selected if user is involved in all the phases of SDLC?",
+   "o": [
+    "Waterfall Model",
+    "Prototyping Model",
+    "RAD Model",
+    "both Prototyping Model & RAD Model"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 17,
+   "q": "The spiral model has two dimensions namely _____________ and ____________",
+   "o": [
+    "diagonal, angular",
+    "radial, perpendicular",
+    "radial, angular",
+    "diagonal, perpendicular"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 18,
+   "q": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
+   "o": [
+    "Spiral",
+    "Waterfall",
+    "RAD",
+    "Iterative Enhancement Model"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 19,
+   "q": "If you were a lead developer of a software company and you are asked to submit a project/product within a stipulated time-frame with no cost barriers, which model would you select?",
+   "o": [
+    "Waterfall",
+    "Spiral",
+    "RAD",
+    "Incremental"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 20,
+   "q": "Which two of the following models will not be able to give the desired outcome if user’s participation is not involved?",
+   "o": [
+    "Waterfall & Spiral",
+    "RAD & Spiral",
+    "RAD & Waterfall",
+    "RAD & Prototyping"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 21,
+   "q": "What is the full form of “AI”?",
+   "o": [
+    "Artificially Intelligent",
+    "Artificial Intelligence",
+    "Artificially Intelligence",
+    "Advanced Intelligence"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 22,
+   "q": "What is Artificial Intelligence?",
+   "o": [
+    "Artificial Intelligence is a field that aims to make humans more intelligent",
+    "Artificial Intelligence is a field that aims to improve the security",
+    "Artificial Intelligence is a field that aims to develop intelligent machines",
+    "Artificial Intelligence is a field that aims to mine the data"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 23,
+   "q": "Who is the inventor of Artificial Intelligence?",
+   "o": [
+    "Geoffrey Hinton",
+    "Andrew Ng",
+    "John McCarthy",
+    "Jürgen Schmidhuber"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 24,
+   "q": "Which of the following is the branch of Artificial Intelligence?",
+   "o": [
+    "Machine Learning",
+    "Cyber forensics",
+    "Full-Stack Developer",
+    "Network Design"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 25,
+   "q": "Which of the following is an application of Artificial Intelligence?",
+   "o": [
+    "It helps to exploit vulnerabilities to secure the firm",
+    "Language understanding and problem-solving (Text analytics and NLP)",
+    "Easy to create a website",
+    "It helps to deploy applications on the cloud"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 26,
+   "q": "Each ___ represents a particular colour.",
+   "o": [
+    "Frame",
+    "Character",
+    "Pixel value",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 27,
+   "q": "A photograph is an analog image and a ___ can convert it into a digital image.",
+   "o": [
+    "Printer",
+    "Scanner",
+    "Webcam",
+    "Camera"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 28,
+   "q": "Sound is a result of ___.",
+   "o": [
+    "Vibration",
+    "Talking",
+    "Light",
+    "Action"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 29,
+   "q": "___ signals are digitized using pulse code modulation.",
+   "o": [
+    "Video",
+    "Radio",
+    "Audio",
+    "Digital"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 30,
+   "q": "Digital samples of sound are generated using a -----------.",
+   "o": [
+    "Scanner",
+    "Digitizer",
+    "Synthesizer",
+    "Modifier"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 31,
+   "q": "The ___ is performed at the decoder.",
+   "o": [
+    "Decompression",
+    "Compression",
+    "Depression",
+    "Encoding"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 32,
+   "q": "Lossless compression algorithm is said to be ___.",
+   "o": [
+    "Irreversible",
+    "Reversible",
+    "Fixed",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 33,
+   "q": "___ is the process that groups data and procedures into an entity called objects.",
+   "o": [
+    "Object development methodology",
+    "Linear programming",
+    "Structured programming",
+    "Object oriented system development"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 34,
+   "q": "___ identifies the same data structure and behaviour, and groups them into a\nclass.",
+   "o": [
+    "Polymorphism",
+    "Identity",
+    "Classification",
+    "Inheritance"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 35,
+   "q": "We classify different objects of the program with the same properties into a\nclass using ___.",
+   "o": [
+    "Categorization",
+    "Instantiation",
+    "Decomposition",
+    "Generalization"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 36,
+   "q": "A ___ is defined as a group of objects with the same structure and behaviour.",
+   "o": [
+    "Association",
+    "Polymorphism",
+    "Class",
+    "Method"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 37,
+   "q": "Wrapping data and its related functionality into a single entity is known as _____________",
+   "o": [
+    "Abstraction",
+    "Encapsulation",
+    "Polymorphism",
+    "Modularity"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 38,
+   "q": "What does polymorphism in OOPs mean?",
+   "o": [
+    "Concept of allowing overloading of functions",
+    "Concept of hiding data",
+    "Concept of keeping things in different modules/files",
+    "Concept of wrapping things into a single unit"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 39,
+   "q": "How access specifiers in Class helps in Abstraction?",
+   "o": [
+    "They does not helps in any way",
+    "They allows us to show only required things to outer world",
+    "They help in keeping things together",
+    "Abstraction concept is not used in classes"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 40,
+   "q": "What does modularity mean?",
+   "o": [
+    "Hiding part of program",
+    "Subdividing program into small independent parts",
+    "Overriding parts of program",
+    "Wrapping things into single unit"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 41,
+   "q": "Which of the following feature of OOPs is not used in the following C++ code?\n\nclass A\n{\nint i;\npublic:\nvoid print()\n{cout<<\"hello\"<<i;}\n}\n\nclass B: public A\n{\nint j;\npublic:\nvoid assign(int a)\n{j = a;}\n}",
+   "o": [
+    "Abstraction",
+    "Encapsulation",
+    "Inheritance",
+    "Polymorphism"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 42,
+   "q": "Actual instructions in flowcharting are represented in __________",
+   "o": [
+    "Circles",
+    "Boxes",
+    "Arrows",
+    "Lines"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 43,
+   "q": "The following box (a diamond shape in a flowchart) denotes?",
+   "o": [
+    "Decision",
+    "Initiation",
+    "Initialization",
+    "I/O"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 44,
+   "q": "A detailed flowchart is called ______",
+   "o": [
+    "Stack",
+    "Macro",
+    "Micro",
+    "Union"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 45,
+   "q": "The number of min terms for an expression comprising of 3 variables?",
+   "o": [
+    "8",
+    "3",
+    "0",
+    "1"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 46,
+   "q": "The gate which is used to reverse the output obtained is _____",
+   "o": [
+    "NOR",
+    "NAND",
+    "EXOR",
+    "NOT"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 47,
+   "q": "Which concept means the addition of new components to a program as it runs?",
+   "o": [
+    "Data hiding",
+    "Dynamic binding",
+    "Dynamic loading",
+    "Dynamic typing"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 48,
+   "q": "Which reference modifier is used to define the reference variable?",
+   "o": [
+    "&",
+    "$",
+    "#",
+    "@"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 49,
+   "q": "What does a reference provide?",
+   "o": [
+    "Alternate name for the class",
+    "Alternate name for the variable",
+    "Alternate name for the pointer",
+    "Alternate name for the object"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 50,
+   "q": "What will be used when terminating a structure?",
+   "o": [
+    ":",
+    "}",
+    ";",
+    ";;"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  },
+  {
+   "n": 51,
+   "q": "Which of the following accesses a variable in structure *b?",
+   "o": [
+    "b->var;",
+    "b.var;",
+    "b-var;",
+    "b>var;"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 6"
+  }
+ ]
+}

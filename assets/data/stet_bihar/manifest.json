@@ -1,26 +1,5 @@
 [
  {
-  "id": 1,
-  "title": "STET 2023 – Shift 1",
-  "subtitle": "12 Sep 2023",
-  "count": 150,
-  "duration": 150
- },
- {
-  "id": 2,
-  "title": "STET 2025 – 03 Nov Shift 1",
-  "subtitle": "03 Nov 2025",
-  "count": 134,
-  "duration": 150
- },
- {
-  "id": 3,
-  "title": "STET 2025 – 03 Nov Shift 2",
-  "subtitle": "03 Nov 2025",
-  "count": 137,
-  "duration": 150
- },
- {
   "id": 4,
   "title": "STET 2025 – 04 Nov Shift 2",
   "subtitle": "04 Nov 2025",
@@ -32,6 +11,97 @@
   "title": "STET 2025 – 07 Nov Shift 1",
   "subtitle": "07 Nov 2025",
   "count": 140,
+  "duration": 150
+ },
+ {
+  "id": 3,
+  "title": "STET 2025 – 03 Nov Shift 2",
+  "subtitle": "03 Nov 2025",
+  "count": 137,
+  "duration": 150
+ },
+ {
+  "id": 2,
+  "title": "STET 2025 – 03 Nov Shift 1",
+  "subtitle": "03 Nov 2025",
+  "count": 134,
+  "duration": 150
+ },
+ {
+  "id": 1,
+  "title": "STET 2023 – Shift 1",
+  "subtitle": "12 Sep 2023",
+  "count": 150,
+  "duration": 150
+ },
+ {
+  "id": 6,
+  "title": "STET Mock Test 1 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 54,
+  "duration": 54
+ },
+ {
+  "id": 7,
+  "title": "STET Mock Test 2 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 59,
+  "duration": 59
+ },
+ {
+  "id": 8,
+  "title": "STET Mock Test 3 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 51,
+  "duration": 51
+ },
+ {
+  "id": 9,
+  "title": "STET Mock Test 4 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 51,
+  "duration": 51
+ },
+ {
+  "id": 10,
+  "title": "STET Mock Test 5 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 49,
+  "duration": 49
+ },
+ {
+  "id": 11,
+  "title": "STET Mock Test 6 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 51,
+  "duration": 51
+ },
+ {
+  "id": 12,
+  "title": "STET Mock Test 7 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 50,
+  "duration": 50
+ },
+ {
+  "id": 13,
+  "title": "STET Mock Test 8 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 50,
+  "duration": 50
+ },
+ {
+  "id": 14,
+  "title": "STET Mock Test 9 – Computer Science",
+  "subtitle": "Practice set (STET 2023 pattern)",
+  "count": 50,
+  "duration": 50
+ },
+ {
+  "id": 15,
+  "title": "STET 2019 – Shift 2",
+  "subtitle": "Computer Science (Set H)",
+  "count": 150,
   "duration": 150
  }
 ]

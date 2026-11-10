@@ -1,0 +1,769 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which of the following is a correct identifier in C++?",
+   "o": [
+    "VAR_1234",
+    "$var_name",
+    "7VARNAME",
+    "7var_name"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 2,
+   "q": "Which of the following is not a type of Constructor in C++?",
+   "o": [
+    "Default constructor",
+    "Parameterized constructor",
+    "Copy constructor",
+    "Friend constructor"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 3,
+   "q": "Pick the incorrect statement about inline functions in C++?",
+   "o": [
+    "Saves overhead of a return call from a function",
+    "They are generally very large and complicated function",
+    "These functions are inserted/substituted at the point of call",
+    "They reduce function call overheads"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 4,
+   "q": "What is abstract class in C++?",
+   "o": [
+    "Any Class in C++ is an abstract class",
+    "Class from which any class is derived",
+    "Class specifically used as a base class with atleast one virtual functions",
+    "Class specifically used as a base class with atleast one pure virtual functions"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 5,
+   "q": "Which concept allows you to reuse the written code in C++?",
+   "o": [
+    "Inheritance",
+    "Polymorphism",
+    "Abstraction",
+    "Encapsulation"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 6,
+   "q": "What is the other name used for functions inside a class?",
+   "o": [
+    "Member variables",
+    "Member functions",
+    "Class functions",
+    "Class variables"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 7,
+   "q": "Which of the following cannot be a friend?",
+   "o": [
+    "Function",
+    "Class",
+    "Object",
+    "Operator function"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 8,
+   "q": "What is the size of a boolean variable in C++?",
+   "o": [
+    "1 bit",
+    "1 byte",
+    "4 bytes",
+    "2 bytes"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 9,
+   "q": "Which of the following is C++ equivalent for scanf()?",
+   "o": [
+    "cin",
+    "cout",
+    "print",
+    "input"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 10,
+   "q": "Which of the following is C++ equivalent for printf()?",
+   "o": [
+    "cin",
+    "cout",
+    "print",
+    "input"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 11,
+   "q": "Which of the following is an exit-controlled loop?",
+   "o": [
+    "for",
+    "while",
+    "do-while",
+    "all of the mentioned"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 12,
+   "q": "Which of the following is an entry-controlled loop?",
+   "o": [
+    "for",
+    "while",
+    "do-while",
+    "both while and for"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 13,
+   "q": "Which of the following are physical devices of a computer?",
+   "o": [
+    "Hardware",
+    "Software",
+    "System Software",
+    "Package"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 14,
+   "q": "Which of the following devices provides the communication between a computer and the outer world?",
+   "o": [
+    "Compact",
+    "I/O",
+    "Drivers",
+    "Storage"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 15,
+   "q": "Which of the following is a technique that marked the beginning of computer communications?",
+   "o": [
+    "User Environment",
+    "Batch Environment",
+    "Time Sharing",
+    "Message passing"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 16,
+   "q": "Which of the following service allows a user to log in to another computer somewhere on the Internet?",
+   "o": [
+    "e-mail",
+    "UseNet",
+    "Telnet",
+    "FTP"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 17,
+   "q": "Which of the following is not a type of computer on the basis of operation?",
+   "o": [
+    "Digital",
+    "Analog",
+    "Hybrid",
+    "Remote"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 18,
+   "q": "A relational database consists of a collection of",
+   "o": [
+    "Tables",
+    "Fields",
+    "Records",
+    "Keys"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 19,
+   "q": "A ________ in a table represents a relationship among a set of values.",
+   "o": [
+    "Column",
+    "Key",
+    "Row",
+    "Entry"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 20,
+   "q": "The term _______ is used to refer to a row.",
+   "o": [
+    "Attribute",
+    "Tuple",
+    "Field",
+    "Instance"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 21,
+   "q": "The term attribute refers to a ___________ of a table.",
+   "o": [
+    "Record",
+    "Column",
+    "Tuple",
+    "Key"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 22,
+   "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
+   "o": [
+    "Domain",
+    "Relation",
+    "Set",
+    "Schema"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 23,
+   "q": "Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.",
+   "o": [
+    "Instance, Schema",
+    "Relation, Schema",
+    "Relation, Domain",
+    "Schema, Instance"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 24,
+   "q": "Course(course_id,sec_id,semester) Here the course_id,sec_id and semester are __________ and course is a _________",
+   "o": [
+    "Relations, Attribute",
+    "Attributes, Relation",
+    "Tuple, Relation",
+    "Tuple, Attributes"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 25,
+   "q": "The tuples of the relations can be of ________ order.",
+   "o": [
+    "Any",
+    "Same",
+    "Sorted",
+    "Constant"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 26,
+   "q": "During the execution of the instructions, a copy of the instructions is placed in the ______",
+   "o": [
+    "Register",
+    "RAM",
+    "System heap",
+    "Cache"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 27,
+   "q": "When Performing a looping operation, the instruction gets stored in the ______",
+   "o": [
+    "Registers",
+    "Cache",
+    "System Heap",
+    "System stack"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 28,
+   "q": "CISC stands for _______",
+   "o": [
+    "Complete Instruction Sequential Compilation",
+    "Computer Integrated Sequential Compiler",
+    "Complex Instruction Set Computer",
+    "Complex Instruction Sequential Compilation"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 29,
+   "q": "The addressing mode, where you directly specify the operand value is _______",
+   "o": [
+    "Immediate",
+    "Direct",
+    "Definite",
+    "Relative"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 30,
+   "q": "The register used to store the flags is called as _________",
+   "o": [
+    "Flag register",
+    "Status register",
+    "Test register",
+    "Log register"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 31,
+   "q": "HTML stands for __________",
+   "o": [
+    "HyperText Markup Language",
+    "HyperText Machine Language",
+    "HyperText Marking Language",
+    "HighText Marking Language"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 32,
+   "q": "What is the correct syntax of doctype in HTML5?",
+   "o": [
+    "</doctype html>",
+    "<doctype html>",
+    "<doctype html!>",
+    "<!doctype html>"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 33,
+   "q": "Which of the following is used to read an HTML page and render it?",
+   "o": [
+    "Web server",
+    "Web network",
+    "Web browser",
+    "Web matrix"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 34,
+   "q": "Which of the following tag is used for inserting the largest heading in HTML?",
+   "o": [
+    "head",
+    "<h1>",
+    "<h6>",
+    "heading"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 35,
+   "q": "In which part of the HTML metadata is contained?",
+   "o": [
+    "head tag",
+    "title tag",
+    "html tag",
+    "body tag"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 36,
+   "q": "How many two input AND gates and two input OR gates are required to realize Y = BD + CE + AB?",
+   "o": [
+    "3, 2",
+    "4, 2",
+    "1, 1",
+    "2, 3"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 37,
+   "q": "Which of the following are known as universal gates?",
+   "o": [
+    "NAND & NOR",
+    "AND & OR",
+    "XOR & OR",
+    "EX-NOR & XOR"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 38,
+   "q": "A single transistor can be used to build which of the following digital logic gates?",
+   "o": [
+    "AND gates",
+    "OR gates",
+    "NOT gates",
+    "NAND gates"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 39,
+   "q": "How many truth table entries are necessary for a four-input circuit?",
+   "o": [
+    "4",
+    "8",
+    "12",
+    "16"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 40,
+   "q": "The basic logic gate whose output is the complement of the input is the ___________",
+   "o": [
+    "OR gate",
+    "AND gate",
+    "INVERTER gate",
+    "XOR gate"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 41,
+   "q": "SSI refers to ___________",
+   "o": [
+    "Small Scale Integration",
+    "Short Scale Integration",
+    "Small Set Integration",
+    "Short Set Integration"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 42,
+   "q": "MSI means ___________",
+   "o": [
+    "Merged Scale Integration",
+    "Main Scale Integration",
+    "Medium Scale Integration",
+    "Main Set Integration"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 43,
+   "q": "The result “X + XY = X” follows which of these laws?",
+   "o": [
+    "Consensus law",
+    "Distributive law",
+    "Duality law",
+    "Absorption law"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 44,
+   "q": "The decimal equivalent of the octal number (645)8 is ______",
+   "o": [
+    "(450)10",
+    "(451)10",
+    "(421)10",
+    "(501)10"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 45,
+   "q": "The largest two digit hexadecimal number is ________",
+   "o": [
+    "(FE)16",
+    "(FD)16",
+    "(FF)16",
+    "(EF)16"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 46,
+   "q": "The octal equivalent of the decimal number (417)10 is _____",
+   "o": [
+    "(641)8",
+    "(619)8",
+    "(640)8",
+    "(598)8"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 47,
+   "q": "What layer in the TCP/IP stack is equivalent to the Transport layer of the OSI model?",
+   "o": [
+    "Application",
+    "Host to host",
+    "Internet",
+    "Network Access"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 48,
+   "q": "Which of the following protocols uses both TCP and UDP?",
+   "o": [
+    "FTP",
+    "SMTP",
+    "Telnet",
+    "DNS"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 49,
+   "q": "Virtual terminal protocol is an example of _________",
+   "o": [
+    "Network layer",
+    "Application layer",
+    "Transport layer",
+    "Physical layer"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 50,
+   "q": "TCP/IP is related to __________",
+   "o": [
+    "ARPANET",
+    "OSI",
+    "DECNET",
+    "ALOHA"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  },
+  {
+   "n": 51,
+   "q": "A device operating at network layer is called __________",
+   "o": [
+    "Router",
+    "Equalizer",
+    "Bridge",
+    "Repeater"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 3"
+  }
+ ]
+}

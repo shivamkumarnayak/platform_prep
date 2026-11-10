@@ -1,0 +1,754 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which of the following is not a sensor in IoT?",
+   "o": [
+    "BMP280",
+    "DHT11",
+    "Photoresistor",
+    "LED"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 2,
+   "q": "Which of the following is not an actuator in IoT?",
+   "o": [
+    "Stepper motor",
+    "A fan",
+    "An LED",
+    "Arduino"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 3,
+   "q": "What is the use of PWM signals in IoT development boards?",
+   "o": [
+    "They are used by sensors to have analog input",
+    "They are used by sensors to have digital input",
+    "They are used by actuators to have analog input",
+    "They are used by actuators to have digital input"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 4,
+   "q": "Which of the following is used to reprogram a Bootloader in IoT devices?",
+   "o": [
+    "VHDL programming",
+    "IDE",
+    "ICSP",
+    "MANET"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 5,
+   "q": "Which of the following is true about Arduino IoT devices?",
+   "o": [
+    "They are open-source software",
+    "They can only read analog inputs",
+    "They have their own operating systems",
+    "They don’t have pre-programmed firmware"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 6,
+   "q": "How many number of elements in the Open IoT Architecture?",
+   "o": [
+    "3 elements",
+    "7 elements",
+    "8 elements",
+    "6 elements"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 7,
+   "q": "IoT-A stands for ________",
+   "o": [
+    "Internet of Things Area",
+    "Industrial of things Architecture",
+    "Internet of Things Address",
+    "Internet of Things Architecture"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 8,
+   "q": "How many layers are present in the Internet protocol stack (TCP/IP model)?",
+   "o": [
+    "5",
+    "7",
+    "6",
+    "10"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 9,
+   "q": "The number of layers in ISO OSI reference model is __________",
+   "o": [
+    "5",
+    "7",
+    "6",
+    "10"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 10,
+   "q": "Which of the following layers is an addition to OSI model when compared with TCP IP model?",
+   "o": [
+    "Application layer",
+    "Presentation layer",
+    "Session layer",
+    "Session and Presentation layer"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 11,
+   "q": "Application layer is implemented in ____________",
+   "o": [
+    "End system",
+    "NIC",
+    "Ethernet",
+    "Packet transport"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 12,
+   "q": "Transport layer is implemented in ______________",
+   "o": [
+    "End system",
+    "NIC",
+    "Ethernet",
+    "Signal transmission"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 13,
+   "q": "The functionalities of the presentation layer include ____________",
+   "o": [
+    "Data compression",
+    "Data encryption",
+    "Data description",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 14,
+   "q": "Delimiting and synchronization of data exchange is provided by __________",
+   "o": [
+    "Application layer",
+    "Session layer",
+    "Transport layer",
+    "Link layer"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 15,
+   "q": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______",
+   "o": [
+    "Added",
+    "Removed",
+    "Rearranged",
+    "Randomized"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 16,
+   "q": "Which layer is used to link the network support layers and user support layers?",
+   "o": [
+    "session layer",
+    "data link layer",
+    "transport layer",
+    "network layer"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 17,
+   "q": "What all has to be identified as per risk identification?",
+   "o": [
+    "Threats",
+    "Vulnerabilities",
+    "Consequences",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 18,
+   "q": "Which one is not a risk management activity?",
+   "o": [
+    "Risk assessment",
+    "Risk generation",
+    "Risk control",
+    "None of the mentioned"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 19,
+   "q": "Risk management is one of the most important jobs for a",
+   "o": [
+    "Client",
+    "Investor",
+    "Production team",
+    "Project manager"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 20,
+   "q": "Which of the following risks are derived from the software or hardware technologies that are used to develop the system?",
+   "o": [
+    "Managerial risks",
+    "Technology risks",
+    "Estimation risks",
+    "Organizational risks"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 21,
+   "q": "Processes for evolving a software product depend on:",
+   "o": [
+    "Type of software to be maintained",
+    "Development processes used",
+    "Skills and experience of the people involved",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 22,
+   "q": "What is an AI ‘agent’?",
+   "o": [
+    "Takes input from the surroundings and uses its intelligence and performs the desired operations",
+    "An embedded program controlling line following robot",
+    "Perceives its environment through sensors and acting upon that environment through actuators",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 23,
+   "q": "Which of the following is an example of artificial intelligent agent/agents?",
+   "o": [
+    "Autonomous Spacecraft",
+    "Human",
+    "Robot",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 24,
+   "q": "Which of the following is an expansion of Artificial Intelligence application?",
+   "o": [
+    "Game Playing",
+    "Planning and Scheduling",
+    "Diagnosis",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 25,
+   "q": "Which of the following contains the output segments of Artificial Intelligence programming?",
+   "o": [
+    "Printed language and synthesized speech",
+    "Manipulation of physical object",
+    "Locomotion",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 26,
+   "q": "LISP was created by?",
+   "o": [
+    "John McCarthy",
+    "Marvin Minsky",
+    "Alan Turing",
+    "Allen Newell and Herbert Simon"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 27,
+   "q": "The advantage of …………….. is that they solve the problem if sequential storage representation. But disadvantage in that is they are sequential lists.",
+   "o": [
+    "Lists",
+    "Linked Lists",
+    "Trees",
+    "Queues"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 28,
+   "q": "What will be the value of top, if there is a size of stack STACK_SIZE is 5",
+   "o": [
+    "5",
+    "6",
+    "4",
+    "None"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 29,
+   "q": "A graph is a collection of nodes, called ………. And line segments called arcs or ……….. that connect pair of nodes.",
+   "o": [
+    "vertices, edges",
+    "edges, vertices",
+    "vertices, paths",
+    "graph node, edges"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 30,
+   "q": "Which of the following is not the type of queue?",
+   "o": [
+    "Ordinary queue",
+    "Single ended queue",
+    "Circular queue",
+    "Priority queue"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 31,
+   "q": "The property of binary tree is",
+   "o": [
+    "The first subset is called left subtree",
+    "The second subtree is called right subtree",
+    "The root cannot contain NULL",
+    "The right subtree can be empty"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 32,
+   "q": "State true or false. i) The degree of root node is always zero. ii) Nodes that are not root and not leaf are called as internal nodes.",
+   "o": [
+    "True, True",
+    "True, False",
+    "False, True",
+    "False, False"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 33,
+   "q": "Any node is the path from the root to the node is called",
+   "o": [
+    "Successor node",
+    "Ancestor node",
+    "Internal node",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 34,
+   "q": "State true or false. i) A node is a parent if it has successor nodes. ii) A node is child node if its degree is one.",
+   "o": [
+    "True, True",
+    "True, False",
+    "False, True",
+    "False, False"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 35,
+   "q": "………………. is not an operation performed on linear list a) Insertion b) Deletion c) Retrieval d) Traversal",
+   "o": [
+    "only a,b and c",
+    "only a and b",
+    "All of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 36,
+   "q": "Which is/are the application(s) of stack",
+   "o": [
+    "Function calls",
+    "Large number Arithmetic",
+    "Evaluation of arithmetic expressions",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 37,
+   "q": "Physical or logical arrangement of network is __________",
+   "o": [
+    "Topology",
+    "Routing",
+    "Networking",
+    "Control"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 38,
+   "q": "Which network topology requires a central controller or hub?",
+   "o": [
+    "Star",
+    "Mesh",
+    "Ring",
+    "Bus"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 39,
+   "q": "_______ topology requires a multipoint connection.",
+   "o": [
+    "Star",
+    "Mesh",
+    "Ring",
+    "Bus"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 40,
+   "q": "Data communication system spanning states, countries, or the whole world is ________",
+   "o": [
+    "LAN",
+    "WAN",
+    "MAN",
+    "PAN"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 41,
+   "q": "Data communication system within a building or campus is________",
+   "o": [
+    "LAN",
+    "WAN",
+    "MAN",
+    "PAN"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 42,
+   "q": "What is the role of a constructor in classes?",
+   "o": [
+    "To modify the data whenever required",
+    "To destroy an object",
+    "To initialize the data members of an object when it is created",
+    "To call private functions from the outer world"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 43,
+   "q": "Why constructors are efficient instead of a function init() defined by the user to initialize the data members of an object?",
+   "o": [
+    "Because user may forget to call init() using that object leading segmentation fault",
+    "Because user may call init() more than once which leads to overwriting values",
+    "Because user may forget to define init() function",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 44,
+   "q": "What is a copy constructor?",
+   "o": [
+    "A constructor that allows a user to move data from one object to another",
+    "A constructor to initialize an object with the values of another object",
+    "A constructor to check the whether to objects are equal or not",
+    "A constructor to kill other copies of a given object."
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 45,
+   "q": "What happens if a user forgets to define a constructor inside a class?",
+   "o": [
+    "Error occurs",
+    "Segmentation fault",
+    "Objects are not created properly",
+    "Compiler provides a default constructor to avoid faults/errors"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 46,
+   "q": "What is the role of destructors in Classes?",
+   "o": [
+    "To modify the data whenever required",
+    "To destroy an object when the lifetime of an object ends",
+    "To initialize the data members of an object when it is created",
+    "To call private functions from the outer world"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 47,
+   "q": "What is syntax of defining a destructor of class A?",
+   "o": [
+    "A(){}",
+    "~A(){}",
+    "A::A(){}",
+    "~A(){};"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 48,
+   "q": "Which header file is required to use file I/O operations?",
+   "o": [
+    "<ifstream>",
+    "<ostream>",
+    "<fstream>",
+    "<iostream>"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 49,
+   "q": "Which of the following is the default mode of the opening using the ofstream\nclass?",
+   "o": [
+    "ios::in",
+    "ios::out",
+    "ios::app",
+    "ios::trunc"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  },
+  {
+   "n": 50,
+   "q": "Which of the following is not used to seek file pointer?",
+   "o": [
+    "ios::set",
+    "ios::end",
+    "ios::cur",
+    "ios::beg"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 9"
+  }
+ ]
+}

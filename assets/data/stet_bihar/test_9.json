@@ -1,0 +1,769 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "What happens if the following C++ statement is compiled and executed?\n\nint *ptr = NULL;\ndelete ptr;",
+   "o": [
+    "The program is not semantically correct",
+    "The program is compiled and executed successfully",
+    "The program gives a compile-time error",
+    "The program compiled successfully but throws an error during run-time"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 2,
+   "q": "Which of the following type is provided by C++ but not C?",
+   "o": [
+    "double",
+    "float",
+    "int",
+    "bool"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 3,
+   "q": "Which of the following escape sequence represents carriage return?",
+   "o": [
+    "\\r",
+    "\\n",
+    "\\n\\r",
+    "\\c"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 4,
+   "q": "Which of the following escape sequence represents tab?",
+   "o": [
+    "\\t",
+    "\\t\\r",
+    "\\b",
+    "\\a"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 5,
+   "q": "Which of the following is called insertion/put to operator?",
+   "o": [
+    "<<",
+    ">>",
+    ">",
+    "<"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 6,
+   "q": "Which of the following provides a programmer with the facility of using object\nof a class inside other classes?",
+   "o": [
+    "Inheritance",
+    "Composition",
+    "Abstraction",
+    "Encapsulation"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 7,
+   "q": "How many types of polymorphism are there in C++?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 8,
+   "q": "In which part of the for loop termination condition is checked? for(I;II;III) {IV}",
+   "o": [
+    "I",
+    "II",
+    "III",
+    "IV"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 9,
+   "q": "Which of the following is the scope resolution operator?",
+   "o": [
+    ".",
+    "*",
+    "::",
+    "~"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 10,
+   "q": "Which of the following operator is used with this pointer to access members of\na class?",
+   "o": [
+    ".",
+    "!",
+    "->",
+    "~"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 11,
+   "q": "What is the other name of compile-time polymorphism?",
+   "o": [
+    "Static polymorphism",
+    "Dynamic polymorphism",
+    "Executing polymorphism",
+    "Non-executing polymorphism"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 12,
+   "q": "What is the other name of run-time polymorphism?",
+   "o": [
+    "Static polymorphism",
+    "Dynamic polymorphism",
+    "Executing polymorphism",
+    "Non-executing polymorphism"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 13,
+   "q": "Which of the following computers are lower than mainframe computers in terms of speed and storage capacity?",
+   "o": [
+    "Mainframes",
+    "Hybrid",
+    "Mini",
+    "Super"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 14,
+   "q": "speed and, 2. storage capacity. 14. Which unit is responsible for converting the data received from the user into a computer understandable format?",
+   "o": [
+    "Memory Unit",
+    "Arithmetic & Logic Unit",
+    "Input Unit",
+    "Output Unit"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 15,
+   "q": "The smallest unit of data in computer is ________________",
+   "o": [
+    "Byte",
+    "Nibble",
+    "Bit",
+    "KB"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 16,
+   "q": "One nibble is equivalent to how many bits?",
+   "o": [
+    "2",
+    "4",
+    "8",
+    "1"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 17,
+   "q": "VDU stands for __________",
+   "o": [
+    "Virtual Display Unit",
+    "Visual Display Unit",
+    "Virtual Detection Unit",
+    "Visual Detection Unit"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 18,
+   "q": "The devices that used to give single or multiple colored images and drawings are ____________",
+   "o": [
+    "Monitors",
+    "Printers",
+    "Plotters",
+    "VDUs"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 19,
+   "q": "PCI stands for _________",
+   "o": [
+    "Peripheral Component Interconnect",
+    "Partial Component Interconnect",
+    "Peripheral Component Interaction",
+    "Partial Component Interaction"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 20,
+   "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+   "o": [
+    "Candidate key",
+    "Sub key",
+    "Super key",
+    "Foreign key"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 21,
+   "q": "Consider attributes ID, CITY and NAME. Which one of this can be considered as a super key?",
+   "o": [
+    "NAME",
+    "ID",
+    "CITY",
+    "CITY, ID"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 22,
+   "q": "A _____ is a property of the entire relation, rather than of the individual tuples in which each tuple is unique.",
+   "o": [
+    "Rows",
+    "Key",
+    "Attribute",
+    "Fields"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 23,
+   "q": "SELECT * FROM employee  What type of statement is this?",
+   "o": [
+    "DML",
+    "DDL",
+    "View",
+    "Integrity constraint"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 24,
+   "q": "The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.",
+   "o": [
+    "Fixed, equal",
+    "Equal, variable",
+    "Fixed, variable",
+    "Variable, equal"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 25,
+   "q": "To remove a relation from an SQL database, we use the ______ command.",
+   "o": [
+    "Delete",
+    "Purge",
+    "Remove",
+    "Drop table"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 26,
+   "q": "DELETE FROM r; //r - relation  This command performs which of the following action?",
+   "o": [
+    "Remove relation",
+    "Clear relation entries",
+    "Delete fields",
+    "Delete rows"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 27,
+   "q": "INSERT INTO instructor VALUES (10211, ’Smith’, ’Biology’, 66000); What type of statement is this?",
+   "o": [
+    "Query",
+    "DML",
+    "Relational",
+    "DDL"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 28,
+   "q": "Here which of the following displays the unique values of the column?  SELECT ……………… dept_name FROM instructor;",
+   "o": [
+    "All",
+    "From",
+    "Distinct",
+    "Name"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 29,
+   "q": "The ________ clause is used to list the attributes desired in the result of a query.",
+   "o": [
+    "Where",
+    "Select",
+    "From",
+    "Distinct"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 30,
+   "q": "The smallest entity of memory is called _______",
+   "o": [
+    "Cell",
+    "Block",
+    "Instance",
+    "Unit"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 31,
+   "q": "The collection of the above mentioned entities where data is stored is called ______",
+   "o": [
+    "Block",
+    "Set",
+    "Word",
+    "Byte"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 32,
+   "q": "To get the physical address from the logical address generated by CPU we use ____________",
+   "o": [
+    "MAR",
+    "MMU",
+    "Overlays",
+    "TLB"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 33,
+   "q": "During the transfer of data between the processor and memory we use ______",
+   "o": [
+    "Cache",
+    "TLB",
+    "Buffers",
+    "Registers"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 34,
+   "q": "Physical memory is divided into sets of finite size called as ______",
+   "o": [
+    "Frames",
+    "Pages",
+    "Blocks",
+    "Vectors"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 35,
+   "q": "The BOOT sector files of the system are stored in ___________",
+   "o": [
+    "Harddisk",
+    "ROM",
+    "RAM",
+    "Fast solid state chips in the motherboard"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 36,
+   "q": "Which HTML tag is used for making character appearance bold?",
+   "o": [
+    "<u>content</u>",
+    "<b>content</b>",
+    "<br>content</br>",
+    "<i>content</i>"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 37,
+   "q": "Which HTML tag is used to insert an image?",
+   "o": [
+    "<img url=”htmllogo.jpg” />",
+    "<img alt=”htmllogo.jpg” />",
+    "<img src=”htmllogo.jpg” />",
+    "<img link=”htmllogo.jpg” />"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 38,
+   "q": "HTML is a subset of ___________",
+   "o": [
+    "SGMT",
+    "SGML",
+    "SGME",
+    "XHTML"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 39,
+   "q": "Which character is used to represent when a tag is closed in HTML?",
+   "o": [
+    "#",
+    "!",
+    "/",
+    "\\"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 40,
+   "q": "Among the following, which is the HTML paragraph tag?",
+   "o": [
+    "<p>",
+    "<pre>",
+    "<hr>",
+    "<a>"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 41,
+   "q": "Which of the following HTML tag is used to create an unordered list?",
+   "o": [
+    "<ol>",
+    "<ul>",
+    "<li>",
+    "<ll>"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 42,
+   "q": "Convert the hexadecimal number (1E2)16 to decimal.",
+   "o": [
+    "480",
+    "483",
+    "482",
+    "484"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 43,
+   "q": "(170)10 is equivalent to ____________",
+   "o": [
+    "(FD)16",
+    "(DF)16",
+    "(AA)16",
+    "(AF)16"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 44,
+   "q": "Convert (214)8 into decimal.",
+   "o": [
+    "(140)10",
+    "(141)10",
+    "(142)10",
+    "(130)10"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 45,
+   "q": "Octal to binary conversion: (24)8 =?",
+   "o": [
+    "(111101)2",
+    "(010100)2",
+    "(111100)2",
+    "(101010)2"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 46,
+   "q": "Convert binary to octal: (110110001010)2 =?",
+   "o": [
+    "(5512)8",
+    "(6612)8",
+    "(4532)8",
+    "(6745)8"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 47,
+   "q": "OSI stands for __________",
+   "o": [
+    "open system interconnection",
+    "operating system interface",
+    "optical service implementation",
+    "open service Internet"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 48,
+   "q": "The number of layers in ISO OSI reference model is __________",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 49,
+   "q": "TCP/IP model does not have ______ layer but OSI model have this layer.",
+   "o": [
+    "session layer",
+    "transport layer",
+    "application layer",
+    "network layer"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 50,
+   "q": "Which layer is used to link the network support layers and user support layers?",
+   "o": [
+    "session layer",
+    "data link layer",
+    "transport layer",
+    "network layer"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  },
+  {
+   "n": 51,
+   "q": "Which address is used on the internet for employing the TCP/IP protocols?",
+   "o": [
+    "physical address and logical address",
+    "port address",
+    "specific address",
+    "all of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 4"
+  }
+ ]
+}

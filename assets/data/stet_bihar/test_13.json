@@ -1,0 +1,754 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which layer is used for wireless connection in IoT devices?",
+   "o": [
+    "Application layer",
+    "Network layer",
+    "Data link layer",
+    "Transport layer"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 2,
+   "q": "Which of the following is false about the IoT components?",
+   "o": [
+    "A light sensor (photoresistor) is an analog sensor",
+    "A microphone is a digital sensor",
+    "A push button is a digital sensor",
+    "A keyboard is a digital sensor"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 3,
+   "q": "Which of the following is used to capture data from the physical world in IoT devices?",
+   "o": [
+    "Sensors",
+    "Actuators",
+    "Microprocessors",
+    "Microcontrollers"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 4,
+   "q": "Which of the following command is used to trigger the Amazon echo IOT device?",
+   "o": [
+    "Hello",
+    "Suri",
+    "Alexa",
+    "Hey"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 5,
+   "q": "Which of the following is false about the MANET IoT network?",
+   "o": [
+    "It is a self-configuring network",
+    "It has a low data rate",
+    "It doesn’t have any encryption",
+    "Power is readily available for complex security"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 6,
+   "q": "Network congestion occurs _________",
+   "o": [
+    "in case of traffic overloading",
+    "when a system terminates",
+    "when connection between two nodes terminates",
+    "in case of transfer failure"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 7,
+   "q": "Which of the following networks extends a private network across public networks?",
+   "o": [
+    "local area network",
+    "virtual private network",
+    "enterprise private network",
+    "storage area network"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 8,
+   "q": "StarBand provides __________",
+   "o": [
+    "FTTH internet access",
+    "Cable access",
+    "Telephone access",
+    "Satellite access"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 9,
+   "q": "Home Internet Access is provided by __________",
+   "o": [
+    "DSL",
+    "FTTP",
+    "Cable",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 10,
+   "q": "Software Maintenance includes",
+   "o": [
+    "Error corrections",
+    "Enhancements of capabilities",
+    "Deletion of obsolete capabilities",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 11,
+   "q": "Maintenance is classified into how many categories ?",
+   "o": [
+    "two",
+    "three",
+    "four",
+    "five"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 12,
+   "q": "The modification of the software to match changes in the ever changing environment, falls under which category of software maintenance?",
+   "o": [
+    "Corrective",
+    "Adaptive",
+    "Perfective",
+    "Preventive"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 13,
+   "q": "The process of generating analysis and design documents is known as",
+   "o": [
+    "Software engineering",
+    "Software re-engineering",
+    "Reverse engineering",
+    "Re-engineering"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 14,
+   "q": "What is a software patch?",
+   "o": [
+    "Required or Critical Fix",
+    "Emergency Fix",
+    "Daily or routine Fix",
+    "None of the mentioned"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 15,
+   "q": "Which of the following manuals is not a user documentation?",
+   "o": [
+    "Beginner’s Guide",
+    "Installation guide",
+    "Reference Guide",
+    "SRS"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 16,
+   "q": "Which of the following manuals is a user documentation?",
+   "o": [
+    "SRS -Software Requirement Specification",
+    "SDD -Software Design Document",
+    "System Overview",
+    "None of the mentioned"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 17,
+   "q": "Which of the following is not an application of artificial intelligence?",
+   "o": [
+    "Face recognition system",
+    "Chatbots",
+    "LIDAR",
+    "DBMS"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 18,
+   "q": "Which of the following machine requires input from the humans but can interpret the outputs themselves?",
+   "o": [
+    "Actuators",
+    "Sensor",
+    "Agents",
+    "AI system"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 19,
+   "q": "Which of the following are the approaches to Artificial Intelligence?",
+   "o": [
+    "Applied approach",
+    "Strong approach",
+    "Weak approach",
+    "All of the mentioned"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 20,
+   "q": "Face Recognition system is based on which type of approach?",
+   "o": [
+    "Weak AI approach",
+    "Applied AI approach",
+    "Cognitive AI approach",
+    "Strong AI approach"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 21,
+   "q": "Which of the following is an advantage of artificial intelligence?",
+   "o": [
+    "Reduces the time taken to solve the problem",
+    "Helps in providing security",
+    "Have the ability to think hence makes the work easier",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 22,
+   "q": "Which of the following can improve the performance of an AI agent?",
+   "o": [
+    "Perceiving",
+    "Learning",
+    "Observing",
+    "All of the mentioned"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 23,
+   "q": "Which of the following is/are the composition for AI agents?",
+   "o": [
+    "Program only",
+    "Architecture only",
+    "Both Program and Architecture",
+    "None of the mentioned"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 24,
+   "q": "Which if the following is/are the levels of implementation of data structure",
+   "o": [
+    "Abstract level",
+    "Application level",
+    "Implementation level",
+    "All of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 25,
+   "q": "A binary search tree whose left subtree and right subtree differ in height by at most 1 unit is called ……",
+   "o": [
+    "AVL tree",
+    "Red-black tree",
+    "Lemma tree",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 26,
+   "q": "Stack is also called as",
+   "o": [
+    "Last in first out",
+    "First in last out",
+    "Last in last out",
+    "First in first out"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 27,
+   "q": "Which of the following is true about the characteristics of abstract data types? i) It exports a type. ii) It exports a set of operations",
+   "o": [
+    "True, False",
+    "False, True",
+    "True, True",
+    "False, False"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 28,
+   "q": "Which of the following is not the part of ADT description?",
+   "o": [
+    "Data",
+    "Operations",
+    "Both of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 29,
+   "q": "Inserting an item into the stack when stack is not full is called …………. Operation and deletion of item form the stack, when stack is not empty is called ………..operation.",
+   "o": [
+    "push, pop",
+    "pop, push",
+    "insert, delete",
+    "delete, insert"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 30,
+   "q": "……………. Is a pile in which items are added at one end and removed from the other.",
+   "o": [
+    "Stack",
+    "Queue",
+    "List",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 31,
+   "q": "………… is very useful in situation when data have to stored and then retrieved in reverse order.",
+   "o": [
+    "Stack",
+    "Queue",
+    "List",
+    "Link list"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 32,
+   "q": "Which data structure allows deleting data elements from and inserting at rear?",
+   "o": [
+    "Stacks",
+    "Queues",
+    "Dequeues",
+    "Binary search tree"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 33,
+   "q": "Which of the following data structure can’t store the non-homogeneous data elements?",
+   "o": [
+    "Arrays",
+    "Records",
+    "Pointers",
+    "Stacks"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 34,
+   "q": "A ……. is a data structure that organizes data similar to a line in the supermarket, where the first one in line is the first one out.",
+   "o": [
+    "Queue linked list",
+    "Stacks linked list",
+    "Both of them",
+    "Neither of them"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 35,
+   "q": "Which of the following is non-liner data structure?",
+   "o": [
+    "Stacks",
+    "List",
+    "Strings",
+    "Trees"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 36,
+   "q": "Which data structure is used in breadth first search of a graph to hold nodes?",
+   "o": [
+    "Stack",
+    "queue",
+    "Tree",
+    "Array"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 37,
+   "q": "Identify the data structure which allows deletions at both ends of the list but insertion at only one end.",
+   "o": [
+    "Input restricted dequeue",
+    "Output restricted qequeue",
+    "Priority queues",
+    "Stack"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 38,
+   "q": "Which of the following data structure is non linear type?",
+   "o": [
+    "Strings",
+    "Lists",
+    "Stacks",
+    "Graph"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 39,
+   "q": "Which of the following permits function overloading on c++?",
+   "o": [
+    "type",
+    "number of arguments",
+    "type & number of arguments",
+    "number of objects"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 40,
+   "q": "Function overloading is also similar to which of the following?",
+   "o": [
+    "operator overloading",
+    "constructor overloading",
+    "destructor overloading",
+    "function overloading"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 41,
+   "q": "If the user did not supply the value, what value will it take?",
+   "o": [
+    "default value",
+    "rise an error",
+    "both default value & rise an error",
+    "error"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 42,
+   "q": "Which keyword is used to declare the friend function?",
+   "o": [
+    "firend",
+    "friend",
+    "classfriend",
+    "myfriend"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 43,
+   "q": "Where does keyword ‘friend’ should be placed?",
+   "o": [
+    "function declaration",
+    "function definition",
+    "main function",
+    "block function"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 44,
+   "q": "Which of these following members are not accessed by using direct member access operator?",
+   "o": [
+    "public",
+    "private",
+    "protected",
+    "both private & protected"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 45,
+   "q": "Which of this is not a guided media?",
+   "o": [
+    "Fiber optical cable",
+    "Coaxial cable",
+    "Wireless LAN",
+    "Copper wire"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 46,
+   "q": "UTP is commonly used in __________",
+   "o": [
+    "DSL",
+    "FTTP",
+    "HTTP",
+    "None of the mentioned"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 47,
+   "q": "Geostationary satellites ___________",
+   "o": [
+    "Are placed at a fixed point above the earth",
+    "Rotate the earth about a fixed axis",
+    "Rotate the earth about a varying axis",
+    "All of the mentioned"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 48,
+   "q": "Which of the following is the fastest means of memory access for CPU?",
+   "o": [
+    "Registers",
+    "Cache",
+    "Main memory",
+    "Virtual Memory"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 49,
+   "q": "MAR stands for ___________",
+   "o": [
+    "Memory address register",
+    "Main address register",
+    "Main accessible register",
+    "Memory accessible register"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  },
+  {
+   "n": 50,
+   "q": "The operation that does not involves clock cycles is ____________",
+   "o": [
+    "Installation of a device",
+    "Execute",
+    "Fetch",
+    "Decode"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "STET 2023 Mock Test 8"
+  }
+ ]
+}
