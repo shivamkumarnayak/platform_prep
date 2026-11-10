@@ -1,0 +1,2044 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "The floor of a rectangular hall has a perimeter 250 meters. If the cost of painting the four walls at the rate of ₹10 per (meter)² is ₹15,000, then the height of the hall is",
+   "o": [
+    "7 meters",
+    "16 meters",
+    "6 meters",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 31
+  },
+  {
+   "n": 2,
+   "q": "Which of the following statements is not true?",
+   "o": [
+    "Every natural number is a whole number.",
+    "Every integer is a whole number.",
+    "Every natural number is an integer number.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 32
+  },
+  {
+   "n": 3,
+   "q": "The average of 7 consecutive numbers is 20. The largest of these numbers is",
+   "o": [
+    "20",
+    "21",
+    "23",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 33
+  },
+  {
+   "n": 4,
+   "q": "The equation ax² + bx + c = 0 has two distinct real roots, if",
+   "o": [
+    "b² - 4ac < 0",
+    "b² - 4ac > 0",
+    "b² - 4ac = 0",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 34
+  },
+  {
+   "n": 5,
+   "q": "Mohan can do a bit of work in 25 days which can be completed by Sohan in 20 days. Both together labour for 5 days and afterward Mohan leaves off. How long will Sohan take to complete the remaining work?",
+   "o": [
+    "20 days",
+    "11 days",
+    "14 days",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 35
+  },
+  {
+   "n": 6,
+   "q": "If X = a² - b², Y = 30 and a + b = 15, then",
+   "o": [
+    "X is lesser than Y if a = b",
+    "X is greater thanY if a > b",
+    "Y is greater than X if a = b",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 36
+  },
+  {
+   "n": 7,
+   "q": "The probability of a non leap year selected at random will contain 53 Sundays is 1",
+   "o": [
+    "1/7",
+    "2/53",
+    "1/53",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 37
+  },
+  {
+   "n": 8,
+   "q": "If 7^(12x+6) = 49^(3x+12), then the value of x is",
+   "o": [
+    "3",
+    "4",
+    "7",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 38
+  },
+  {
+   "n": 9,
+   "q": "Myopia is a disease in which a person cannot see",
+   "o": [
+    "distant objects clearly",
+    "nearby objects clearly",
+    "nearby as well as distant objects clearly",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 39
+  },
+  {
+   "n": 10,
+   "q": "The term ‘heredity’ chiefly refers to",
+   "o": [
+    "anatomy",
+    "meiosis",
+    "genetics",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 40
+  },
+  {
+   "n": 11,
+   "q": "The cans in which food is packed are coated with tin and not zinc because",
+   "o": [
+    "tin is more reactive than zinc",
+    "zinc is more reactive than tin",
+    "zinc is costlier than tin",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 41
+  },
+  {
+   "n": 12,
+   "q": "The process in which atmospheric carbon dioxide is converted into carbohydrates during photosynthesis is",
+   "o": [
+    "oxidation",
+    "reduction",
+    "hydrolysis",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 42
+  },
+  {
+   "n": 13,
+   "q": "The quality of a printer is determined as",
+   "o": [
+    "words per inch",
+    "strike per inch",
+    "dots per inch",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 43
+  },
+  {
+   "n": 14,
+   "q": "Trachoma disease is related to",
+   "o": [
+    "lungs",
+    "ears",
+    "eyes",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 44
+  },
+  {
+   "n": 15,
+   "q": "Which of the following makes use of Newton’s third law of motion?",
+   "o": [
+    "Archery",
+    "Space rocket",
+    "Venturimeter",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 45
+  },
+  {
+   "n": 16,
+   "q": "Particles which can be added to the nucleus of an atom without changing its chemical properties are",
+   "o": [
+    "neutrons",
+    "electrons",
+    "protons",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 46
+  },
+  {
+   "n": 17,
+   "q": "Before Elon Musk announced change of the signature Blue Bird logo to Sign ‘X’ logo, who is regarded as the creator of Twitter’s iconic Bird in its final version in 2012?",
+   "o": [
+    "Jack Dorsey",
+    "Martin Grasser",
+    "Noah Glass",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 47
+  },
+  {
+   "n": 18,
+   "q": "Who is the Director of the famous film Oppenheimer, a film about high-concept science, released this year?",
+   "o": [
+    "Christopher Nolan",
+    "Guy Ritchie",
+    "Laura McGann",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 48
+  },
+  {
+   "n": 19,
+   "q": "Which one of the following has pulled out from hosting the 2026 edition of Commonwealth Games due to huge estimated expenditure on its organization?",
+   "o": [
+    "London, UK",
+    "Kuala Lumpur, Malaysia",
+    "Victoria, Australia",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 49
+  },
+  {
+   "n": 20,
+   "q": "What is the full form of INDIA, a recently formed alliance of opposition political parties?",
+   "o": [
+    "Indian National Developmental Inclusive Alliance",
+    "Indian National Development for Improvement Alliance",
+    "Indian National Developmental Inclusive Association",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 50
+  },
+  {
+   "n": 21,
+   "q": "What message was sent by Chandrayaan–2 lunar orbiter to Chandrayaan–3’s lander module when it established contact with it in August 2023?",
+   "o": [
+    "“Welcome home”",
+    "“Chalo chand ke paar chalein”",
+    "“Welcome, buddy”",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 51
+  },
+  {
+   "n": 22,
+   "q": "Name the former President of China who crushed the pro-democracy movement in 1989.",
+   "o": [
+    "Mao Tse Tung",
+    "Yang Shangkun",
+    "Jiang Zemin",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 52
+  },
+  {
+   "n": 23,
+   "q": "Who has elected for the second term as Ireland’s Prime Minister?",
+   "o": [
+    "Sanna Marin",
+    "Robert Abela",
+    "Leo Varadkar",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 53
+  },
+  {
+   "n": 24,
+   "q": "African Union was made a permanent member in the G–20 Summit held in India. Who is the Chairman of the African Union?",
+   "o": [
+    "Azali Assoumani",
+    "Justin Trudeau",
+    "Ursula von der Leyen",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 54
+  },
+  {
+   "n": 25,
+   "q": "As per geographical area, arrange the following physiographic units of India in ascending order 1. Central highlands 2. Great plains 3. Coastal plains 4. Northern Mountains Select the correct answer using the codes given below.",
+   "o": [
+    "3, 1, 2, 4",
+    "1, 2, 3, 4",
+    "2, 4, 1, 3",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 55
+  },
+  {
+   "n": 26,
+   "q": "Arrange the following ranges from North to South in sequence : 1. Ladakh 2. Karakoram 3. Pir Panjal 4. Zanskar Select the correct answer using the codes given below.",
+   "o": [
+    "1, 3, 2, 4",
+    "2, 1, 4, 3",
+    "3, 4, 1, 2",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 56
+  },
+  {
+   "n": 27,
+   "q": "During the monsoon season in India, most of the cyclones have their origin",
+   "o": [
+    "between 8° N and 13° N latitude",
+    "between 10° N and 15° N latitude",
+    "between 16° N and 21° N latitude",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 57
+  },
+  {
+   "n": 28,
+   "q": "Which of the following areas is not landslide-prone area?",
+   "o": [
+    "Western Ghats",
+    "Eastern Ghats",
+    "Himalayan Regions",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 58
+  },
+  {
+   "n": 29,
+   "q": "Which of the following coasts of India is most affected by violent tropical cyclones?",
+   "o": [
+    "Malabar",
+    "Coromandel",
+    "Konkan",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 59
+  },
+  {
+   "n": 30,
+   "q": "When running water cuts through clayey soils and makes deep channels, they lead to",
+   "o": [
+    "gully erosion",
+    "sheet erosion",
+    "deforestation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 60
+  },
+  {
+   "n": 31,
+   "q": "Which of the following receives heavy rainfall in the month of October and November?",
+   "o": [
+    "Hills of Garo, Khasi and Jaintia",
+    "Coromandel Coasts",
+    "Plateau of Chota Nagpur",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 61
+  },
+  {
+   "n": 32,
+   "q": "Cultivation of fruits and vegetables is called",
+   "o": [
+    "floriculture",
+    "agriculture",
+    "horticulture",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 62
+  },
+  {
+   "n": 33,
+   "q": "Who provided leadership in the districts of Patna, Ara and Shahabad during the Revolt of 1857 in Bihar?",
+   "o": [
+    "Raj Kumar Shukla",
+    "Namdar Khan",
+    "Kunwar Singh",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 63
+  },
+  {
+   "n": 34,
+   "q": "The Partition of Bengal was made effective on",
+   "o": [
+    "14 October, 1905",
+    "15 October, 1905",
+    "16 October, 1905",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 64
+  },
+  {
+   "n": 35,
+   "q": "The Quit India Resolution was adopted by the Congress in Bombay on",
+   "o": [
+    "7 August, 1942",
+    "8 August, 1942",
+    "9 August, 1942",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 65
+  },
+  {
+   "n": 36,
+   "q": "The British ruled India for a long period due to the",
+   "o": [
+    "liberal policies of the Congress",
+    "imprisonment of Indian leaders",
+    "policy of Divide and Rule",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 66
+  },
+  {
+   "n": 37,
+   "q": "Queen Victoria’s Proclamation was issued on which of the following dates?",
+   "o": [
+    "1 November, 1857",
+    "27 March, 1858",
+    "1 November, 1858",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 67
+  },
+  {
+   "n": 38,
+   "q": "Which of the following statements is/are correct?",
+   "o": [
+    "Raja Rammohan Roy was the pioneer of modern education.",
+    "Swami Dayanand proclaimed India for Indians.",
+    "Vivekananda participated in the Parliament of World Religions.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 68
+  },
+  {
+   "n": 39,
+   "q": "Who among the following became India’s unofficial Ambassador to England?",
+   "o": [
+    "Surendranath Banerjee",
+    "Dadabhai Naoroji",
+    "Swami Vivekananda",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 69
+  },
+  {
+   "n": 40,
+   "q": "Who described the Government of India Act, 1935 as a ‘Charter of Slavery’ ?",
+   "o": [
+    "Mahatma Gandhi",
+    "Netaji Subhas Chandra Bose",
+    "Maulana Hasrat Mohani",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 70
+  },
+  {
+   "n": 41,
+   "q": "The brain of computer is",
+   "o": [
+    "CPU",
+    "memory",
+    "I/O device",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 71
+  },
+  {
+   "n": 42,
+   "q": "Intel 8085 microprocessor is of _____ generation.",
+   "o": [
+    "first",
+    "second",
+    "third",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 72
+  },
+  {
+   "n": 43,
+   "q": "The maximum memory size of third generation microprocessor is",
+   "o": [
+    "4 GB",
+    "16 MB",
+    "16 GB",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 73
+  },
+  {
+   "n": 44,
+   "q": "CPU on a single chip is called",
+   "o": [
+    "microprocessor",
+    "microcontroller",
+    "solid-state device",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 74
+  },
+  {
+   "n": 45,
+   "q": "Computer on a single chip is called",
+   "o": [
+    "microcontroller",
+    "microprocessor",
+    "assembler",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 75
+  },
+  {
+   "n": 46,
+   "q": "Which one of the following is used for playing video games?",
+   "o": [
+    "Mouse",
+    "Trackball",
+    "Joystick",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 76
+  },
+  {
+   "n": 47,
+   "q": "_____ is used to store softwares that does not update.",
+   "o": [
+    "SRAM",
+    "DRAM",
+    "ROM",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 77
+  },
+  {
+   "n": 48,
+   "q": "Which of the following contains a laser?",
+   "o": [
+    "CD Drive",
+    "RAM",
+    "Hard Disk Drive",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 78
+  },
+  {
+   "n": 49,
+   "q": "A computer program that converts an assembly language program into equivalent machine language program is called",
+   "o": [
+    "compiler",
+    "assembler",
+    "linker",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 79
+  },
+  {
+   "n": 50,
+   "q": "A computer program that converts a high-level language program into an equivalent machine language program is called",
+   "o": [
+    "assembler",
+    "compiler",
+    "loader",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 80
+  },
+  {
+   "n": 51,
+   "q": "A computer program that translates high-level language program into machine language program statement-by-statement is called",
+   "o": [
+    "compiler",
+    "loader",
+    "interpreter",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 81
+  },
+  {
+   "n": 52,
+   "q": "Which of the following is not an operating system?",
+   "o": [
+    "Linux",
+    "Windows",
+    "Oracle",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 82
+  },
+  {
+   "n": 53,
+   "q": "A software that runs on a computer hardware and serves as a platform for other softwares to run is called",
+   "o": [
+    "system software",
+    "operating system",
+    "application software",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 83
+  },
+  {
+   "n": 54,
+   "q": "Which of the following is not a system tool?",
+   "o": [
+    "Scandisk",
+    "Format",
+    "Folder",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 84
+  },
+  {
+   "n": 55,
+   "q": "The key/keys used to delete a file without allowing it to store in recycle bin is/are",
+   "o": [
+    "Delete",
+    "Shift + Delete",
+    "Ctrl + Delete",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 85
+  },
+  {
+   "n": 56,
+   "q": "The three main components of a digital computer system are",
+   "o": [
+    "memory, I/O, DMA",
+    "ALU, CPU, memory",
+    "memory, CPU, I/O",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 86
+  },
+  {
+   "n": 57,
+   "q": "FFFF will be the last memory location in a memory of size",
+   "o": [
+    "16K",
+    "32K",
+    "64K",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 87
+  },
+  {
+   "n": 58,
+   "q": "The cost of storing a bit is minimum in",
+   "o": [
+    "cache",
+    "register",
+    "magnetic tape",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 88
+  },
+  {
+   "n": 59,
+   "q": "Tera means",
+   "o": [
+    "2^20",
+    "2^40",
+    "2^30",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 89
+  },
+  {
+   "n": 60,
+   "q": "Which of the following system softwares resides always in main memory?",
+   "o": [
+    "Loader",
+    "Linker",
+    "Assembler",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 90
+  },
+  {
+   "n": 61,
+   "q": "The postfix expression equivalent of the prefix expression * + ab - cd is",
+   "o": [
+    "ab + cd -*",
+    "abcd + -*",
+    "ab + cd* -",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 91
+  },
+  {
+   "n": 62,
+   "q": "Which data structure is used to convert infix notation to postfix notation?",
+   "o": [
+    "Stack",
+    "Queue",
+    "Tree",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 92
+  },
+  {
+   "n": 63,
+   "q": "The data structure in which data are added at the rear and deleted from front is called",
+   "o": [
+    "stack",
+    "queue",
+    "linked list",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 93
+  },
+  {
+   "n": 64,
+   "q": "Queue data structure uses",
+   "o": [
+    "FIFO",
+    "LIFO",
+    "LILO",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 94
+  },
+  {
+   "n": 65,
+   "q": "Stack data structure uses",
+   "o": [
+    "FIFO",
+    "LIFO",
+    "LILO",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 95
+  },
+  {
+   "n": 66,
+   "q": "A constructor is called whenever",
+   "o": [
+    "an object is created",
+    "a class is created",
+    "a class is declared",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 96
+  },
+  {
+   "n": 67,
+   "q": "All members of a structure in C++ are _____ by default.",
+   "o": [
+    "public",
+    "private",
+    "protected",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 97
+  },
+  {
+   "n": 68,
+   "q": "In C++, all members of a class are _____ by default.",
+   "o": [
+    "public",
+    "private",
+    "protected",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 98
+  },
+  {
+   "n": 69,
+   "q": "In C++, what does a class hold?",
+   "o": [
+    "Array",
+    "Data",
+    "Data and functions",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 99
+  },
+  {
+   "n": 70,
+   "q": "The number of access specifiers in class of C++ is",
+   "o": [
+    "2",
+    "3",
+    "4",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 100
+  },
+  {
+   "n": 71,
+   "q": "Which of the following is used to define the members of a class externally in C++?",
+   "o": [
+    ":",
+    ": :",
+    "#",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 101
+  },
+  {
+   "n": 72,
+   "q": "Which concept of C++ is used to reuse the written code?",
+   "o": [
+    "Polymorphism",
+    "Inheritance",
+    "Encapsulation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 102
+  },
+  {
+   "n": 73,
+   "q": "What will be the output of the following program fragment?\nint i = 10;\nvoid main( )\n{ int i = 20;\n  { int i = 30;\n    printf(\"%d, %d\", i, ::i);\n  }\n}",
+   "o": [
+    "30,10",
+    "30,20",
+    "20,30",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 103
+  },
+  {
+   "n": 74,
+   "q": "Choose the correct statement about inline function in C++.",
+   "o": [
+    "It speeds up the execution.",
+    "It slows down the execution.",
+    "It decreases the code size.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 104
+  },
+  {
+   "n": 75,
+   "q": "What will be the output of the following?\nint a = 5;\ncout << \"FIRST\" << (a<<2) << \"SECOND\";",
+   "o": [
+    "FIRST 52 SECOND",
+    "FIRST 20 SECOND",
+    "SECOND 25 FIRST",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 105
+  },
+  {
+   "n": 76,
+   "q": "cout in C++ stands for",
+   "o": [
+    "class output",
+    "character output",
+    "common output",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 106
+  },
+  {
+   "n": 77,
+   "q": "Group of instructions that directs a computer is called",
+   "o": [
+    "memory",
+    "storage",
+    "program",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 107
+  },
+  {
+   "n": 78,
+   "q": "A computer program consists of",
+   "o": [
+    "system flowchart",
+    "program flowchart",
+    "algorithms written in computer language",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 108
+  },
+  {
+   "n": 79,
+   "q": "The topology with highest reliability is",
+   "o": [
+    "star",
+    "ring",
+    "mesh",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 109
+  },
+  {
+   "n": 80,
+   "q": "End-to-end connectivity is provided from host-to-host in",
+   "o": [
+    "network layer",
+    "transport layer",
+    "session layer",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 110
+  },
+  {
+   "n": 81,
+   "q": "The _____ measures the number of lost or garbled messages as a fraction of the total sent in the sampling period.",
+   "o": [
+    "residual error rate",
+    "transfer failure probability",
+    "connection release failure probability",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 111
+  },
+  {
+   "n": 82,
+   "q": "A high-speed communication equipment typically would not be needed for",
+   "o": [
+    "e-mail",
+    "transferring large volume of data",
+    "supporting communication between nodes in a LAN",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 112
+  },
+  {
+   "n": 83,
+   "q": "A _____ topology uses a single connection to connect all devices together.",
+   "o": [
+    "bus",
+    "star",
+    "ring",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 113
+  },
+  {
+   "n": 84,
+   "q": "A _____ is used to connect networking devices that are in a very close geographic area such as a floor of a building.",
+   "o": [
+    "WAN",
+    "LAN",
+    "MAN",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 114
+  },
+  {
+   "n": 85,
+   "q": "In computer network, what is the size of IP address in IPv4?",
+   "o": [
+    "8 bits",
+    "16 bits",
+    "32 bits",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 115
+  },
+  {
+   "n": 86,
+   "q": "What is the size of MAC address in computer network?",
+   "o": [
+    "32 bits",
+    "16 bits",
+    "48 bits",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 116
+  },
+  {
+   "n": 87,
+   "q": "What is the name given to the act of gaining illegal entry to computer files through remote terminals or microcomputers?",
+   "o": [
+    "Hacking",
+    "Decoding",
+    "Beating the system",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 117
+  },
+  {
+   "n": 88,
+   "q": "A computer virus is a software program which has the essential ability to",
+   "o": [
+    "damage data",
+    "damage program",
+    "clone itself",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 118
+  },
+  {
+   "n": 89,
+   "q": "Copying computer program/ software without the permission of its authors is called",
+   "o": [
+    "larceny",
+    "software piracy",
+    "highway robbery",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 119
+  },
+  {
+   "n": 90,
+   "q": "A hard disk becomes totally inaccessible when a computer virus corrupts",
+   "o": [
+    "partition table",
+    "file allocation table",
+    "root directory",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 120
+  },
+  {
+   "n": 91,
+   "q": "An attribute of one table matching the primary key of another table is called as",
+   "o": [
+    "foreign key",
+    "secondary key",
+    "candidate key",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 121
+  },
+  {
+   "n": 92,
+   "q": "If every non-key attribute is fully dependent on the primary key, then the relation will be in",
+   "o": [
+    "First Normal Form (1NF)",
+    "Second Normal Form (2NF)",
+    "Third Normal Form (3NF)",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 122
+  },
+  {
+   "n": 93,
+   "q": "In relational database, the data type of values in each column of a table is called",
+   "o": [
+    "attribute",
+    "domain",
+    "relation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 123
+  },
+  {
+   "n": 94,
+   "q": "In relational database, the number of attributes of a relation is called the _____ of relation.",
+   "o": [
+    "domain",
+    "degree",
+    "cardinality",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 124
+  },
+  {
+   "n": 95,
+   "q": "Which of the following SQL commands is used to change the attribute values of one or more rows in a table?",
+   "o": [
+    "Update",
+    "Insert",
+    "Alter",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 125
+  },
+  {
+   "n": 96,
+   "q": "To retrieve information from a database, which of the following SQL commands is used?",
+   "o": [
+    "Display",
+    "Show",
+    "Select",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 126
+  },
+  {
+   "n": 97,
+   "q": "Which of the following SQL commands is used to modify the structure of a table?",
+   "o": [
+    "Alter",
+    "Modify",
+    "Update",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 127
+  },
+  {
+   "n": 98,
+   "q": "Which of the following SQL keywords is used to display data from a table based on certain pattern?",
+   "o": [
+    "IN",
+    "LIKE",
+    "BETWEEN",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 128
+  },
+  {
+   "n": 99,
+   "q": "Degree and cardinality of a relation in relational database are 4 and 3 respectively. If 3 attributes and 4 tuples are added to the relation, what will be its new cardinality and degree?",
+   "o": [
+    "7, 6",
+    "7, 7",
+    "8, 6",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 129
+  },
+  {
+   "n": 100,
+   "q": "Which SQL command is used to remove a table from a database?",
+   "o": [
+    "DELETE",
+    "DROP",
+    "ERASE",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 130
+  },
+  {
+   "n": 101,
+   "q": "The register that contains the address of the next instruction to be executed is called",
+   "o": [
+    "program counter",
+    "instruction register",
+    "accumulator",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 131
+  },
+  {
+   "n": 102,
+   "q": "The register that contains the instruction that is being executed is called",
+   "o": [
+    "accumulator",
+    "program counter",
+    "instruction register",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 132
+  },
+  {
+   "n": 103,
+   "q": "The register which holds the address of location of memory to and from which data are to be transferred is known as",
+   "o": [
+    "index register",
+    "memory address register",
+    "memory buffer register",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 133
+  },
+  {
+   "n": 104,
+   "q": "A storage device used to compensate the difference in flow of data is known as",
+   "o": [
+    "main memory",
+    "auxiliary memory",
+    "buffer",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 134
+  },
+  {
+   "n": 105,
+   "q": "Memory in which any location can be reached in a fixed amount of time after specifying its address is called",
+   "o": [
+    "Sequential Access Memory",
+    "Random Access Memory",
+    "Secondary Memory",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 135
+  },
+  {
+   "n": 106,
+   "q": "If (X567)₈ + (2YX5)₈ = (71YX)₈, then the values of X and Y are",
+   "o": [
+    "4, 3",
+    "3, 3",
+    "4, 4",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 136
+  },
+  {
+   "n": 107,
+   "q": "The range of the numbers that can be represented in 8-bit using 2’s complement representation is",
+   "o": [
+    "–128 to +128",
+    "–127 to +127",
+    "–128 to +127",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 137
+  },
+  {
+   "n": 108,
+   "q": "If (11X1Y)₈ = (12C9)₁₆, then the values of X and Y are",
+   "o": [
+    "5, 1",
+    "5, 7",
+    "3, 1",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 138
+  },
+  {
+   "n": 109,
+   "q": "Which of the following 4-bit numbers equals its 2’s complement?",
+   "o": [
+    "1010",
+    "0101",
+    "1000",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 139
+  },
+  {
+   "n": 110,
+   "q": "The number of 1's in the binary representation of the value of the decimal expression 16³×9 + 16²×7 + 16×5 + 3 is",
+   "o": [
+    "15",
+    "9",
+    "12",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 140
+  },
+  {
+   "n": 111,
+   "q": "The Boolean expression x + x 'y equals",
+   "o": [
+    "x + y",
+    "x + xy",
+    "y + yx",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 141
+  },
+  {
+   "n": 112,
+   "q": "The Boolean expression AB + AB '+ A'C + AC is independent of Boolean variable",
+   "o": [
+    "A",
+    "B",
+    "C",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 142
+  },
+  {
+   "n": 113,
+   "q": "The Boolean expression A + BC equals",
+   "o": [
+    "(A'+ B)(A'+C)",
+    "(A + B)(A'+C)",
+    "(A + B)(A +C)",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 143
+  },
+  {
+   "n": 114,
+   "q": "The Boolean expression x + xy will be equal to",
+   "o": [
+    "x",
+    "y",
+    "x + y",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 144
+  },
+  {
+   "n": 115,
+   "q": "The Boolean expression x(x + y) is equal to",
+   "o": [
+    "x",
+    "y",
+    "xy",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 145
+  },
+  {
+   "n": 116,
+   "q": "If x is a Boolean variable, then (((x ')')')' will be",
+   "o": [
+    "x '",
+    "x",
+    "x + x '",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 146
+  },
+  {
+   "n": 117,
+   "q": "In two-valued Boolean algebra, the maximum number of Boolean functions for two variables will be",
+   "o": [
+    "8",
+    "12",
+    "16",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 147
+  },
+  {
+   "n": 118,
+   "q": "Simplified Boolean function of Boolean function F = A'C + A'B + AB 'C + BC is",
+   "o": [
+    "F = C + A'B",
+    "F = A'B + B 'C",
+    "F = BC + A'B",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 148
+  },
+  {
+   "n": 119,
+   "q": "Which of the following logic gates is called universal gate?",
+   "o": [
+    "AND",
+    "OR",
+    "NAND",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 149
+  },
+  {
+   "n": 120,
+   "q": "The minimum number of NAND gates required to implement Boolean function f = x 'y + xy' is",
+   "o": [
+    "3",
+    "4",
+    "6",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – PGT Computer Science – 15 Dec 2023",
+   "on": 150
+  }
+ ]
+}

@@ -34,5 +34,17 @@
     "negative": 0,
     "negativeLabel": "",
     "note": "Based on previous Bihar STET papers. Tap any picture to zoom."
+  },
+  {
+    "id": 4,
+    "key": "bpsc_tre",
+    "name": "BPSC TRE",
+    "title": "BPSC TRE (Computer Science)",
+    "subtitle": "Bihar Teacher Recruitment – PGT / Class 11-12",
+    "icon": "school",
+    "color": "FF0F766E",
+    "negative": 0.25,
+    "negativeLabel": "1/4",
+    "note": "GS + Computer Science sections only (Language qualifying part not included). Answers: official key for 15 Dec 2023 (2 corrections); other papers solved independently."
   }
 ]

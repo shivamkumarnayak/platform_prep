@@ -14,22 +14,24 @@ class Question {
   final String text;
   final List<String> options;
   final int answer; // 0..3
-  final String? image; // asset-relative path, used when text can't hold the question
+  final String?
+      image; // asset-relative path, used when text can't hold the question
   final List<String?> optionImages;
 
   String get ref => '$testId:$n';
 
   factory Question.fromJson(Map<String, dynamic> j, int testId) {
+    final options = (j['o'] as List<dynamic>).map((e) => e as String).toList();
     final oi = j['oi'] as List<dynamic>?;
     return Question(
       testId: testId,
       n: j['n'] as int,
       text: j['q'] as String,
-      options: (j['o'] as List<dynamic>).map((e) => e as String).toList(),
+      options: options,
       answer: j['a'] as int,
       image: j['qi'] as String?,
       optionImages: oi == null
-          ? List<String?>.filled(4, null)
+          ? List<String?>.filled(options.length, null)
           : oi.map((e) => e as String?).toList(),
     );
   }

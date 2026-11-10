@@ -1,0 +1,2044 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "Which of the following is the value of (x + 1/x)² ?",
+   "o": [
+    "x² + 1/x²",
+    "x² - 1/x²",
+    "x² + 1/x² + 1",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 31
+  },
+  {
+   "n": 2,
+   "q": "An article is at 10% more than the CP. If discount of 10% is allowed then which of the following is right ?",
+   "o": [
+    "1% gain",
+    "1% loss",
+    "no gain no loss",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 32
+  },
+  {
+   "n": 3,
+   "q": "By what number should 81 be divided to get a perfect cube ?",
+   "o": [
+    "3",
+    "6",
+    "7",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 33
+  },
+  {
+   "n": 4,
+   "q": "The difference between two whole numbers is 66. The ratio of the two numbers is 2:5. The two numbers are :",
+   "o": [
+    "60 and 6",
+    "100 and 33",
+    "110 and 44",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 34
+  },
+  {
+   "n": 5,
+   "q": "In a parallelogram ABCD, angle A and angle B are in the ratio 1:2. Find the angle A.",
+   "o": [
+    "30°",
+    "45°",
+    "60°",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 35
+  },
+  {
+   "n": 6,
+   "q": "The height of a cylinder whose radius is 7 cm and the total surface area is 968 cm² is :",
+   "o": [
+    "15 cm",
+    "17 cm",
+    "19 cm",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 36
+  },
+  {
+   "n": 7,
+   "q": "If (–3)m+1 × (–3)5 = (–3)7, then the value of m is :",
+   "o": [
+    "5",
+    "7",
+    "1",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 37
+  },
+  {
+   "n": 8,
+   "q": "If x and y are inversely proportional, then:",
+   "o": [
+    "y/x = constant",
+    "xy = constant",
+    "x/y = constant",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 38
+  },
+  {
+   "n": 9,
+   "q": "A piece of wire of resistance R is cut into 5 equal parts. These parts are then connected in parallel. If the equivalent resistance of the combination is R', then the ratio R/R' is ___",
+   "o": [
+    "1/25",
+    "1/5",
+    "25",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 39
+  },
+  {
+   "n": 10,
+   "q": "An electric heater of resistance 8 Ω draws 15 A current from a service mains for 2 hours. What will be the rate at which heat is developed in the heater ?",
+   "o": [
+    "220 watt",
+    "120 watt",
+    "210 watt",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 40
+  },
+  {
+   "n": 11,
+   "q": "Which of the following lenses would you prefer to use while reading small letters found in the dictionary ?",
+   "o": [
+    "A convex lens of 50 cm",
+    "A concave lens of 50 cm",
+    "A concave lens of 5 cm",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 41
+  },
+  {
+   "n": 12,
+   "q": "The human eye forms the image of an object at its ________",
+   "o": [
+    "Cornea",
+    "Iris",
+    "Retina",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 42
+  },
+  {
+   "n": 13,
+   "q": "Which of the following is not a part of the female reproductive system in human beings ?",
+   "o": [
+    "Ovary",
+    "Uterus",
+    "Vas deferens",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 43
+  },
+  {
+   "n": 14,
+   "q": "The anther contains _________",
+   "o": [
+    "Sepals",
+    "Ovules",
+    "Pollen grains",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 44
+  },
+  {
+   "n": 15,
+   "q": "Asexual reproduction takes place through budding in ______",
+   "o": [
+    "Amoeba",
+    "Yeast",
+    "Plasmodium",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 45
+  },
+  {
+   "n": 16,
+   "q": "Which one of the following types of medicines used for treating indigestion ?",
+   "o": [
+    "Antibiotic",
+    "Antacid",
+    "Analgesic",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 46
+  },
+  {
+   "n": 17,
+   "q": "The task of processing citizenship applications under the CAA will be undertaken by",
+   "o": [
+    "Postal Department",
+    "Census Department",
+    "Central Security IB",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 47
+  },
+  {
+   "n": 18,
+   "q": "In which of the following country India launched its UPI ?",
+   "o": [
+    "Thailand",
+    "Myanmar",
+    "Mauritius",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 48
+  },
+  {
+   "n": 19,
+   "q": "What is the name of space craft to be launched by ISRO in 2024 to carry astronauts ?",
+   "o": [
+    "Akashyan",
+    "Gaganyan",
+    "Bhramyan",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 49
+  },
+  {
+   "n": 20,
+   "q": "Which country is not a member of G 7 ?",
+   "o": [
+    "Russia",
+    "Canada",
+    "USA",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 50
+  },
+  {
+   "n": 21,
+   "q": "The process involved in achieving Green hydrogen is",
+   "o": [
+    "Electrolysis",
+    "Dehydrogenesis",
+    "Dehydration",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 51
+  },
+  {
+   "n": 22,
+   "q": "Which technology can be used to revise deceased individuals ?",
+   "o": [
+    "Deepfake",
+    "AI",
+    "Chatbot",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 52
+  },
+  {
+   "n": 23,
+   "q": "In cost of living index parameter 2024 which country is better than India ?",
+   "o": [
+    "Nigeria",
+    "Pakistan",
+    "Bangladesh",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 53
+  },
+  {
+   "n": 24,
+   "q": "Who supported Gandhiji in Champaran Satyagraha in 1917 in support of farmers ?",
+   "o": [
+    "Birsa Munda",
+    "Rajendra Prasad",
+    "Satya Narayan Sinha",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 54
+  },
+  {
+   "n": 25,
+   "q": "Which is the moon-like planet ?",
+   "o": [
+    "Mercury",
+    "Mars",
+    "Earth",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 55
+  },
+  {
+   "n": 26,
+   "q": "On the basis of fossils which is the origin place of man ?",
+   "o": [
+    "Rift valley of Africa",
+    "Central Asia",
+    "Jerusalem",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 56
+  },
+  {
+   "n": 27,
+   "q": "In India dry point settlement is found in",
+   "o": [
+    "Flood prone area",
+    "Bikaner",
+    "Aravali region",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 57
+  },
+  {
+   "n": 28,
+   "q": "In which district of Bihar Paddy crop production is maximum ?",
+   "o": [
+    "Bhojpur",
+    "Rohtas",
+    "Nalanda",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 58
+  },
+  {
+   "n": 29,
+   "q": "On which mountain is Tehran situated ?",
+   "o": [
+    "Alburz",
+    "Zagros",
+    "Makran",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 59
+  },
+  {
+   "n": 30,
+   "q": "The highest peak in the Eastern Ghats of India is :",
+   "o": [
+    "Anai Mudi",
+    "Kanchenjunga",
+    "Mahendragiri",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 60
+  },
+  {
+   "n": 31,
+   "q": "Which of these statements is not a valid reason for the depletion of flora and fauna ?",
+   "o": [
+    "Agricultural expansion",
+    "Large scale development projects",
+    "Grazzing and fuel wood collection",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 61
+  },
+  {
+   "n": 32,
+   "q": "In which district of Bihar silk textile production is maximum ?",
+   "o": [
+    "Madhubani",
+    "Bhagalpur",
+    "Aurangabad",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 62
+  },
+  {
+   "n": 33,
+   "q": "Who was the viceroy of India during the Jallianwala Bagh massacre ?",
+   "o": [
+    "Lord Curzon",
+    "Lord Chelmsford",
+    "Lord Irwin",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 63
+  },
+  {
+   "n": 34,
+   "q": "The first President of the Indian National Congress was:",
+   "o": [
+    "Dadabhai Naoroji",
+    "W. C. Bonnerjee",
+    "Badruddin Tyabji",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 64
+  },
+  {
+   "n": 35,
+   "q": "Who among the following is also known as the Grand old man of India ?",
+   "o": [
+    "Bal Gangadhar Tilak",
+    "Dadabhai Naoroji",
+    "Gopal Krishna Gokhale",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 65
+  },
+  {
+   "n": 36,
+   "q": "Which of the following movements was started by M. K. Gandhi ?",
+   "o": [
+    "Quit India Movement",
+    "Non cooperation movement",
+    "Swadesi movement",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 66
+  },
+  {
+   "n": 37,
+   "q": "Who was the leader of the Bardoli Satyagraha ?",
+   "o": [
+    "Sardar Vallabhbhai Patel",
+    "Bal Gangadhar Tilak",
+    "Jawaharlal Nehru",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 67
+  },
+  {
+   "n": 38,
+   "q": "Who among the following is not associated with Home rule movement ?",
+   "o": [
+    "Annie Besant",
+    "Bal Gangadhar Tilak",
+    "Sarojini Naidu",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 68
+  },
+  {
+   "n": 39,
+   "q": "Who founded the Bihar provincial congress committee in 1920 ?",
+   "o": [
+    "Dr. Rajendra Prasad",
+    "Anugrah Narayan Sinha",
+    "Jai Prakash Narayan",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 69
+  },
+  {
+   "n": 40,
+   "q": "The All India Kisan Sabha (AIKS) was founded in 1936 in Bihar under the leadership of :",
+   "o": [
+    "Dr. Rajendra Prasad",
+    "Jai Prakash Narayan",
+    "Swami Sahajanand Saraswati",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 70
+  },
+  {
+   "n": 41,
+   "q": "Digital circuit can be made by the repeated use of the _________.",
+   "o": [
+    "NAND gate",
+    "NOR gate",
+    "AND gate",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 71
+  },
+  {
+   "n": 42,
+   "q": "Which of the following is correct for Digital Circuits?",
+   "o": [
+    "They use analog signals for communication",
+    "They process information using continuous voltage levels",
+    "They are not suitable for high speed operations",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 72
+  },
+  {
+   "n": 43,
+   "q": "Which of the following is an example of a digital Electronic?",
+   "o": [
+    "Computers",
+    "Mobile phones",
+    "Digital cameras",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 73
+  },
+  {
+   "n": 44,
+   "q": "An OR gate has 4 inputs. The number of words in truth table will be _______.",
+   "o": [
+    "4",
+    "8",
+    "16",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 74
+  },
+  {
+   "n": 45,
+   "q": "When does a negative level triggered flip-flop in Digital Electronics changes its state?",
+   "o": [
+    "When the clock is Negative",
+    "When the clock is Positive",
+    "When the inputs are all zero",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 75
+  },
+  {
+   "n": 46,
+   "q": "What is the result of the operation 1010 AND 1100 in binary?",
+   "o": [
+    "1000",
+    "1110",
+    "100",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 76
+  },
+  {
+   "n": 47,
+   "q": "In a half-adder circuit, what are the outputs?",
+   "o": [
+    "Sum and Carry",
+    "Difference and Borrow",
+    "Sum and Difference",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 77
+  },
+  {
+   "n": 48,
+   "q": "Which of the following is the type of Read Only Memory (ROM)?",
+   "o": [
+    "PROM",
+    "EPROM",
+    "MROM",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 78
+  },
+  {
+   "n": 49,
+   "q": "What is a PLA?",
+   "o": [
+    "Programmable Logic Application",
+    "Programmable Logic Array",
+    "Programmable Logic Architecture",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 79
+  },
+  {
+   "n": 50,
+   "q": "How many select lines are required for an 8-to-1 multiplexer?",
+   "o": [
+    "2",
+    "3",
+    "4",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 80
+  },
+  {
+   "n": 51,
+   "q": "Convert the decimal number 1234 to binary, octal, and hexadecimal. Which of the following options correctly represents these conversions?",
+   "o": [
+    "Binary: 10011010010, Octal: 2322, Hexadecimal: 4D2",
+    "Binary: 11001110010, Octal: 1712, Hexadecimal: 72A",
+    "Binary: 11100110010, Octal: 1642, Hexadecimal: 3CD",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 81
+  },
+  {
+   "n": 52,
+   "q": "What is Booth’s algorithm used for?",
+   "o": [
+    "Binary to decimal conversion",
+    "Decimal to binary conversion",
+    "Binary multiplication",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 82
+  },
+  {
+   "n": 53,
+   "q": "Which of the following is error detection code used in digital logic?",
+   "o": [
+    "Hamming code",
+    "Cyclic redundancy check (CRC)",
+    "Checksum",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 83
+  },
+  {
+   "n": 54,
+   "q": "When performing BCD addition, what is the maximum value that can be represented in a single BCD digit?",
+   "o": [
+    "2",
+    "10",
+    "15",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 84
+  },
+  {
+   "n": 55,
+   "q": "Convert the binary number 1011.1101 to its decimal equivalent. Which of the following is the correct decimal value?",
+   "o": [
+    "11.75",
+    "12.125",
+    "13.5",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 85
+  },
+  {
+   "n": 56,
+   "q": "What is De Morgan’s theorem used for in digital logic?",
+   "o": [
+    "Simplifying Boolean expressions",
+    "Implementing NAND gates",
+    "Performing binary addition",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 86
+  },
+  {
+   "n": 57,
+   "q": "What is the purpose of the “don’t care” condition in digital logic?",
+   "o": [
+    "To indicate that the value of a variable does not affect the output",
+    "To prioritize certain inputs over others",
+    "To ensure that all possible input combinations are covered in truth tables",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 87
+  },
+  {
+   "n": 58,
+   "q": "Which of the following data structures stores elements in a non-linear relationship?",
+   "o": [
+    "Stack",
+    "Queue",
+    "Array",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 88
+  },
+  {
+   "n": 59,
+   "q": "Which data structure is used for efficient searching, insertion, and deletion of elements?",
+   "o": [
+    "Stack",
+    "Queue",
+    "Hash Table",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 89
+  },
+  {
+   "n": 60,
+   "q": "In a binary search tree, which subtree of a node contains elements that are greater than the node’s value?",
+   "o": [
+    "Left subtree",
+    "Right subtree",
+    "Both subtrees",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 90
+  },
+  {
+   "n": 61,
+   "q": "The result of evaluating the postfix expression 10 5 + 60 6 / * 8 - is",
+   "o": [
+    "142",
+    "213",
+    "284",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 91
+  },
+  {
+   "n": 62,
+   "q": "In a balanced binary tree, the height of two sub-trees of every node can not differ by more than",
+   "o": [
+    "2",
+    "1",
+    "0",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 92
+  },
+  {
+   "n": 63,
+   "q": "Write the output of the following program: int a[ ] = {1,2,3}, *p;",
+   "o": [
+    "Junk value",
+    "3",
+    "Runtime error",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 93
+  },
+  {
+   "n": 64,
+   "q": "A queue has configuration a, b, c, d. If you want to get the configuration d, c, b, a, you need a minimum of _______.",
+   "o": [
+    "2 deletions and 3 additions",
+    "3 deletions and 3 additions",
+    "4 deletions and 4 additions",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 94
+  },
+  {
+   "n": 65,
+   "q": "The order of the binary search algorithm is _______.",
+   "o": [
+    "N",
+    "N log n",
+    "N2",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 95
+  },
+  {
+   "n": 66,
+   "q": "The preorder traversal of a binary search tree is 15, 10, 12, 11,20, 18, 16, 19. Which one of the following is the postorder traversal of the tree?",
+   "o": [
+    "20, 19, 18, 16, 15, 12, 11,10",
+    "11, 12, 10, 16,19,18,20,15",
+    "19, 16, 18,20,11,12,10,15",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 96
+  },
+  {
+   "n": 67,
+   "q": "How many distinct binary search trees can be created out of 4 distinct keys?",
+   "o": [
+    "8",
+    "24",
+    "14",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 97
+  },
+  {
+   "n": 68,
+   "q": "What is the output of the following program? (Assume size of an integer is 4 bytes)\n#include <stdio.h>\nint main()\n{\n  int i = 5, j = 10, k = 15;\n  printf(\"%d \", sizeof(k /= i+j));\n  printf(\"%d\", k);\n  return 0;\n}",
+   "o": [
+    "2 1",
+    "4 1",
+    "4 15",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 98
+  },
+  {
+   "n": 69,
+   "q": "Which of the following statements is true about Big-O notation?",
+   "o": [
+    "It represents the lower bound of an algorithm’s runtime.",
+    "It represents the upper bound of an algorithm’s runtime",
+    "It represents the average runtime of an algorithm.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 99
+  },
+  {
+   "n": 70,
+   "q": "Which of the following is NOT a step in the Divide and Conquer algorithm?",
+   "o": [
+    "Combine",
+    "Conquer",
+    "Divide",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 100
+  },
+  {
+   "n": 71,
+   "q": "Merge Sort is an example of which algorithm design paradigm?",
+   "o": [
+    "Greedy",
+    "Divide and Conquer",
+    "Dynamic Programming",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 101
+  },
+  {
+   "n": 72,
+   "q": "How many edges does a spanning tree of a graph with N vertices have?",
+   "o": [
+    "N",
+    "N-1",
+    "N(N-1)/2",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 102
+  },
+  {
+   "n": 73,
+   "q": "Which of the following is NOT a graph traversal algorithm?",
+   "o": [
+    "Greedy",
+    "Divide and Conquer",
+    "Dynamic Programming",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 103
+  },
+  {
+   "n": 74,
+   "q": "Which of the following is NOT an NP-Complete problem?",
+   "o": [
+    "Traveling Salesman Problem",
+    "Boolean Satisfiability Problem",
+    "Shortest Path Problem",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 104
+  },
+  {
+   "n": 75,
+   "q": "Which of the following is an advantage of using arrays?",
+   "o": [
+    "Constant time insertion and deletion",
+    "Ability to store elements of different data types",
+    "Random access to elements using an index",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 105
+  },
+  {
+   "n": 76,
+   "q": "Which of the following is NOT a basic operation performed on a data structure?",
+   "o": [
+    "Encryption",
+    "Deletion",
+    "Insertion",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 106
+  },
+  {
+   "n": 77,
+   "q": "Which of the following is a type of operating system?",
+   "o": [
+    "Real-time operating system",
+    "Embedded operating system",
+    "Network operating system",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 107
+  },
+  {
+   "n": 78,
+   "q": "Which of the following is NOT a memory management technique used by operating systems?",
+   "o": [
+    "Paging",
+    "Segmentation",
+    "Fragmentation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 108
+  },
+  {
+   "n": 79,
+   "q": "Which of the following is a file system commonly used in operating systems?",
+   "o": [
+    "NTFS",
+    "FAT32",
+    "HFS+",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 109
+  },
+  {
+   "n": 80,
+   "q": "Which of the following is NOT a type of interrupt?",
+   "o": [
+    "Hardware interrupt",
+    "Memory interrupt",
+    "Software interrupt",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 110
+  },
+  {
+   "n": 81,
+   "q": "What is a page in paging?",
+   "o": [
+    "A fixed-size block of virtual memory",
+    "A fixed-size block of physical memory",
+    "A type of memory allocation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 111
+  },
+  {
+   "n": 82,
+   "q": "In a system with a page size of 4 KB and a physical address space of 64 GB, what is the number of bits required for the page offset?",
+   "o": [
+    "10 bits",
+    "12 bits",
+    "14 bits",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 112
+  },
+  {
+   "n": 83,
+   "q": "What is a segment base in segmentation?",
+   "o": [
+    "The starting address of a segment in physical memory",
+    "The starting address of a segment in virtual memory",
+    "The ending address of a segment in physical memory",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 113
+  },
+  {
+   "n": 84,
+   "q": "What causes thrashing to occur?",
+   "o": [
+    "Excessive paging activity",
+    "Insufficient disk space",
+    "Hardware failures",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 114
+  },
+  {
+   "n": 85,
+   "q": "Consider a system with a total physical memory of 8 GB and total virtual memory of 16 GB. If the system is using 6 GB of physical memory and 10 GB of virtual memory, how much memory is being swapped out?",
+   "o": [
+    "2 GB",
+    "4 GB",
+    "6 GB",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 115
+  },
+  {
+   "n": 86,
+   "q": "How is the TLB typically organized?",
+   "o": [
+    "As a direct-mapped cache",
+    "As an associative cache",
+    "As a set-associative cache",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 116
+  },
+  {
+   "n": 87,
+   "q": "Which of the following is a common file operation?",
+   "o": [
+    "Create",
+    "Delete",
+    "Rename",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 117
+  },
+  {
+   "n": 88,
+   "q": "Consider a disk queue with requests for I/O to blocks on cylinders. 98 183 37 122 14 124 65 67 considering FCFS (First Come First Served) scheduling, the total number of head movements is, if the disk head is initially at 53 is?",
+   "o": [
+    "640",
+    "620",
+    "630",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 118
+  },
+  {
+   "n": 89,
+   "q": "Thread shares with other threads belonging to the same process its",
+   "o": [
+    "thread ID",
+    "program counter",
+    "code section and data section",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 119
+  },
+  {
+   "n": 90,
+   "q": "Which of the following is NOT a type of DBMS?",
+   "o": [
+    "Relational DBMS",
+    "Object-Oriented DBMS",
+    "Sequential DBMS",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 120
+  },
+  {
+   "n": 91,
+   "q": "In a relational database, what is a primary key?",
+   "o": [
+    "A key used to uniquely identify each record in a table",
+    "A key used to establish relationships between tables",
+    "A key used to sort records in a table",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 121
+  },
+  {
+   "n": 92,
+   "q": "Which normal form ensures that every non-prime attribute in a table is fully functionally dependent on the primary key?",
+   "o": [
+    "First Normal Form (1NF)",
+    "Second Normal Form (2NF)",
+    "Third Normal Form (3NF)",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 122
+  },
+  {
+   "n": 93,
+   "q": "Which SQL command is used to add new rows to a database table?",
+   "o": [
+    "ADD",
+    "CREATE",
+    "INSERT",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 123
+  },
+  {
+   "n": 94,
+   "q": "Which of the following is a disadvantage of using a distributed database system?",
+   "o": [
+    "Improved data accessibility",
+    "Increased data security",
+    "Data inconsistency",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 124
+  },
+  {
+   "n": 95,
+   "q": "What is the primary function of a router in a computer network?",
+   "o": [
+    "To connect devices within the same network",
+    "To connect multiple networks together",
+    "To filter incoming traffic based on IP addresses",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 125
+  },
+  {
+   "n": 96,
+   "q": "In the OSI model, which layer is responsible for routing and forwarding data packets?",
+   "o": [
+    "Data Link Layer",
+    "Transport Layer",
+    "Physical Layer",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 126
+  },
+  {
+   "n": 97,
+   "q": "Which device is used to connect multiple devices within the same local area network (LAN)?",
+   "o": [
+    "Router",
+    "Switch",
+    "Bridge",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 127
+  },
+  {
+   "n": 98,
+   "q": "Which protocol is used to send email over the Internet?",
+   "o": [
+    "FTP",
+    "SMTP",
+    "HTTP",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 128
+  },
+  {
+   "n": 99,
+   "q": "What is the purpose of a subnet mask in TCP/IP networking?",
+   "o": [
+    "To identify the network portion of an IP address",
+    "To identify the host portion of an IP address",
+    "To convert IP addresses into domain names",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 129
+  },
+  {
+   "n": 100,
+   "q": "What is the maximum data rate of Bluetooth version 5.0?",
+   "o": [
+    "1 Mbps",
+    "2 Mbps",
+    "5 Mbps",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 130
+  },
+  {
+   "n": 101,
+   "q": "Which of the following is a software development life cycle model?",
+   "o": [
+    "Waterfall model",
+    "Agile model",
+    "Spiral model",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 131
+  },
+  {
+   "n": 102,
+   "q": "Which of the following is NOT a software development requirement?",
+   "o": [
+    "Functional requirements",
+    "System requirements",
+    "Physical requirements",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 132
+  },
+  {
+   "n": 103,
+   "q": "What is the main difference between verification and validation in software testing?",
+   "o": [
+    "Verification ensures that the software is bug-free, while validation ensures that it meets the requirements.",
+    "Verification is done before coding, while validation is done after coding.",
+    "Verification checks if the software is built right, while validation checks if the right software is built.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 133
+  },
+  {
+   "n": 104,
+   "q": "What is the purpose of a software prototype?",
+   "o": [
+    "To serve as the final version of the software",
+    "To replace detailed documentation",
+    "To speed up the software development process",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 134
+  },
+  {
+   "n": 105,
+   "q": "What is the primary goal of software engineering?",
+   "o": [
+    "To write code efficiently",
+    "To develop software that meets user requirements within budget and schedule constraints",
+    "To develop software with the latest technologies",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 135
+  },
+  {
+   "n": 106,
+   "q": "Which of the following is a pillar of OOP?",
+   "o": [
+    "Inheritance",
+    "Encapsulation",
+    "Abstraction",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 136
+  },
+  {
+   "n": 107,
+   "q": "Which keyword is used in Java to implement inheritance?",
+   "o": [
+    "extends",
+    "inherits",
+    "implements",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 137
+  },
+  {
+   "n": 108,
+   "q": "What is the access specifier used to make members of a class accessible only within the same package?",
+   "o": [
+    "private",
+    "public",
+    "package-private",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 138
+  },
+  {
+   "n": 109,
+   "q": "Inheritance in OOP allows a class to:",
+   "o": [
+    "Inherit properties and behavior from another class",
+    "Create instances of another class",
+    "Override methods of another class",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 139
+  },
+  {
+   "n": 110,
+   "q": "What is the purpose of HTML in a web application?",
+   "o": [
+    "To define the structure of web pages",
+    "To style web pages",
+    "To add interactivity to web pages",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 140
+  },
+  {
+   "n": 111,
+   "q": "Which of the following is an example of a server-side scripting language commonly used in web applications?",
+   "o": [
+    "HTML",
+    "CSS",
+    "C++",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 141
+  },
+  {
+   "n": 112,
+   "q": "What is the computational complexity of the halting problem?",
+   "o": [
+    "O(1)",
+    "O(n)",
+    "Not computable",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 142
+  },
+  {
+   "n": 113,
+   "q": "Which of the following is NOT a component of a Turing machine?",
+   "o": [
+    "Input tape",
+    "Output tape",
+    "Control unit",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 143
+  },
+  {
+   "n": 114,
+   "q": "Which wireless communication technology is commonly used in IoT devices for short-range communication?",
+   "o": [
+    "Bluetooth",
+    "Wi-Fi",
+    "4G LTE",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 144
+  },
+  {
+   "n": 115,
+   "q": "Which of the following is an example of an IoT protocol used for device communication?",
+   "o": [
+    "HTTP",
+    "FTP",
+    "MQTT",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 145
+  },
+  {
+   "n": 116,
+   "q": "Which of the following is a subfield of AI?",
+   "o": [
+    "Machine Learning",
+    "Robotics",
+    "Natural Language Processing",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 146
+  },
+  {
+   "n": 117,
+   "q": "Which of the following is a supervised learning algorithm?",
+   "o": [
+    "Decision Tree",
+    "K-means Clustering",
+    "Reinforcement Learning",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 147
+  },
+  {
+   "n": 118,
+   "q": "Which of the following is NOT a common type of E-Commerce model?",
+   "o": [
+    "Business-to-Consumer (B2C)",
+    "Consumer-to-Business (C2B)",
+    "Consumer-to-Consumer (C2C)",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 148
+  },
+  {
+   "n": 119,
+   "q": "Which of the following is an example of a B2C E-Commerce website?",
+   "o": [
+    "Alibaba",
+    "Amazon",
+    "Google",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 149
+  },
+  {
+   "n": 120,
+   "q": "Which of the following is a multimedia authoring tool?",
+   "o": [
+    "Microsoft Word",
+    "Adobe Photoshop",
+    "Adobe Flash",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 3.0 – Class 11-12 Computer Science – 22 Jul 2024",
+   "on": 150
+  }
+ ]
+}

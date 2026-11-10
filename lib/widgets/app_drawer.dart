@@ -22,6 +22,7 @@ class AppDrawer extends StatelessWidget {
     this.onFeedbackTap,
     this.onAboutTap,
     this.onPrivacyTap,
+    this.onDisclaimerTap,
   });
 
   /// Called when an exam is tapped in the drawer (drawer is closed first).
@@ -31,6 +32,7 @@ class AppDrawer extends StatelessWidget {
   final VoidCallback? onFeedbackTap;
   final VoidCallback? onAboutTap;
   final VoidCallback? onPrivacyTap;
+  final VoidCallback? onDisclaimerTap; 
 
   @override
   Widget build(BuildContext context) {
@@ -63,6 +65,10 @@ class AppDrawer extends StatelessWidget {
                     icon: Icons.privacy_tip_outlined,
                     label: 'Privacy Policy',
                     onTap: onPrivacyTap),
+                _item(context,
+                    icon: Icons.warning_amber_rounded,
+                    label: 'Disclaimer',
+                    onTap: onDisclaimerTap),
                 _item(context,
                     icon: Icons.info_outline_rounded,
                     label: 'About',

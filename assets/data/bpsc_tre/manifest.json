@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "title": "TRE 2.0 – Class 11-12 GS & CS",
+  "subtitle": "26 Aug 2023",
+  "count": 120,
+  "duration": 120
+ },
+ {
+  "id": 2,
+  "title": "TRE 2.0 – PGT Computer Science",
+  "subtitle": "15 Dec 2023",
+  "count": 120,
+  "duration": 120
+ },
+ {
+  "id": 3,
+  "title": "TRE 3.0 – Class 11-12 Computer Science",
+  "subtitle": "22 Jul 2024",
+  "count": 120,
+  "duration": 120
+ }
+]

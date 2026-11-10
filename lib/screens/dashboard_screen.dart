@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:prepmock/screens/about_screen.dart';
+import 'package:prepmock/screens/disclaimer_screen.dart';
 import 'package:prepmock/screens/feedback_screen.dart';
 import 'package:prepmock/screens/model/exam.dart';
 import 'package:prepmock/screens/model/models.dart';
@@ -54,7 +55,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
     Navigator.of(context).push(MaterialPageRoute<void>(builder: (_) => page));
   }
 
-
   @override
   Widget build(BuildContext context) {
     final repo = Repo.instance;
@@ -73,8 +73,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
         backgroundColor: GalleryThemeData.bodyBackgroundColor,
         drawer: AppDrawer(
           onExamTap: _open,
-          onFeedbackTap: () =>_push(const FeedbackScreen()),
+          onFeedbackTap: () => _push(const FeedbackScreen()),
           onPrivacyTap: () => _push(const PrivacyScreen()),
+          onDisclaimerTap: () => _push(const DisclaimerScreen()),
           onAboutTap: () => _push(const AboutScreen()),
         ),
         body: Column(

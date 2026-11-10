@@ -1,0 +1,2044 @@
+{
+ "questions": [
+  {
+   "n": 1,
+   "q": "How many three-digit numbers are divisible by 5?",
+   "o": [
+    "180",
+    "200",
+    "120",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 1
+  },
+  {
+   "n": 2,
+   "q": "The value of (1 + 1/2)(1 + 1/3)(1 + 1/4) … (1 + 1/120) is",
+   "o": [
+    "60·5",
+    "30·0",
+    "40·5",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 2
+  },
+  {
+   "n": 3,
+   "q": "The distance between Delhi and Agra is 200 km. Suppose you are travelling from Delhi to Agra by a car. If you can maintain an average speed of 90 km/hr for 120 km and 40 km/hr for the remaining distance, how much time will you take, on average, to reach Agra?",
+   "o": [
+    "3 hr 20 min",
+    "3 hr 30 min",
+    "4 hr 45 min",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 3
+  },
+  {
+   "n": 4,
+   "q": "10% loss on selling price is what percent loss on cost price?",
+   "o": [
+    "9 1/11 %",
+    "9 2/11 %",
+    "10%",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 4
+  },
+  {
+   "n": 5,
+   "q": "A pizza boy delivered two-fifths of his pizzas on day 1, three-fourths of his pizzas on day 2 and 9/16 of his pizzas on day 3. On which day did he deliver the most pizzas if he had the same number of pizzas in the beginning of each day?",
+   "o": [
+    "Day 1",
+    "Day 2",
+    "Day 3",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 5
+  },
+  {
+   "n": 6,
+   "q": "The cost of carpeting a room 18 m long with a carpet 75 cm wide at ₹4·50 per metre is ₹810. The breadth of the room is",
+   "o": [
+    "7 m",
+    "7·5 m",
+    "8 m",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 6
+  },
+  {
+   "n": 7,
+   "q": "Two persons A and B complete a task in 15 days, when they work together. Person A completes the task in 20 days if he works alone. How many days will B take to finish the task alone?",
+   "o": [
+    "35 days",
+    "25 days",
+    "60 days",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 7
+  },
+  {
+   "n": 8,
+   "q": "The sum of the numerator and denominator of a fraction is 11. If 1 is added to the numerator and 2 is subtracted from the denominator, it becomes 2/3. The fraction is",
+   "o": [
+    "5/6",
+    "6/5",
+    "3/8",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 8
+  },
+  {
+   "n": 9,
+   "q": "An isotropic source of 2 candela produces light flux equal to",
+   "o": [
+    "2π lumen",
+    "4π lumen",
+    "8π lumen",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 9
+  },
+  {
+   "n": 10,
+   "q": "The spray bottles used as window or household cleaner or perfume sprayer work on",
+   "o": [
+    "capillary action",
+    "Bernoulli’s principle",
+    "Pascal’s law",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 10
+  },
+  {
+   "n": 11,
+   "q": "The trade name of basic lead carbonate is",
+   "o": [
+    "white lead",
+    "red lead",
+    "litharge",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 11
+  },
+  {
+   "n": 12,
+   "q": "Which of the following elements has the largest atomic radius?",
+   "o": [
+    "Lithium",
+    "Beryllium",
+    "Boron",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 12
+  },
+  {
+   "n": 13,
+   "q": "The phenomenon of photoperiodism in plants was discovered by",
+   "o": [
+    "Garner and Allard",
+    "Steward and Salisbury",
+    "Thimann and Skoog",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 13
+  },
+  {
+   "n": 14,
+   "q": "Silent Valley of Kerala is preserved because",
+   "o": [
+    "it contains very rare species of plants and animals",
+    "the soil is rich in minerals",
+    "the areas of land were used extensively for agriculture purposes",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 14
+  },
+  {
+   "n": 15,
+   "q": "During normal respiration in a mammal, the diaphragm is",
+   "o": [
+    "arched",
+    "flattened",
+    "lowered",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 15
+  },
+  {
+   "n": 16,
+   "q": "The most important cell type associated with the immunity of the body is",
+   "o": [
+    "platelets",
+    "lymphocytes",
+    "RBCs",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 16
+  },
+  {
+   "n": 17,
+   "q": "The book entitled, Gyan Deepak was authored by a great saint",
+   "o": [
+    "Salar Masood Ghazi",
+    "Dariya Saheb",
+    "Imam Shah Faqih",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 17
+  },
+  {
+   "n": 18,
+   "q": "Which agency in India has launched UTSAH portal?",
+   "o": [
+    "UGC",
+    "AICTE",
+    "MCI",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 18
+  },
+  {
+   "n": 19,
+   "q": "A. P. J. Abdul Kalam Satellite Launch Vehicle Mission was launched on",
+   "o": [
+    "13th February, 2023",
+    "20th February, 2023",
+    "19th February, 2023",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 19
+  },
+  {
+   "n": 20,
+   "q": "In which city was the first pure green hydrogen plant commissioned?",
+   "o": [
+    "Hyderabad",
+    "Mumbai",
+    "Pune",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 20
+  },
+  {
+   "n": 21,
+   "q": "Which year has been declared by the UNO as the ‘International Year of Millets’?",
+   "o": [
+    "2023",
+    "2022",
+    "2024",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 21
+  },
+  {
+   "n": 22,
+   "q": "Who among the following won the 2022 Nobel Peace Prize?",
+   "o": [
+    "Ales Bialiatski",
+    "Nadia Murad",
+    "Maria Ressa",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 22
+  },
+  {
+   "n": 23,
+   "q": "Who is the Chairman of the State Commission for Backward Classes appointed by the Bihar Government on 2nd January, 2022?",
+   "o": [
+    "Justice Sanjay Kumar",
+    "Justice Balmiki Prasad Sinha",
+    "Justice Iqbal A. Ansari",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 23
+  },
+  {
+   "n": 24,
+   "q": "Which was the first movie in Bhojpuri?",
+   "o": [
+    "Ganga Maiya Tohe Piyari Chadhaibo",
+    "Kanyadan",
+    "Nadiya Ke Paar",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 24
+  },
+  {
+   "n": 25,
+   "q": "Arrange the following thermal power projects of India from east to west : 1. Kota 2. Namrup 3. Obra 4. Parichha Select the correct answer using the codes given below.",
+   "o": [
+    "1, 2, 3, 4",
+    "2, 4, 1, 3",
+    "2, 3, 4, 1",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 25
+  },
+  {
+   "n": 26,
+   "q": "Which type of climate is in India according to Trewartha?",
+   "o": [
+    "Savanna type",
+    "Subtropical monsoon climate",
+    "Mediterranean type",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 26
+  },
+  {
+   "n": 27,
+   "q": "What is the normal date of withdrawal of south-west monsoon at Hyderabad?",
+   "o": [
+    "1st October",
+    "15th October",
+    "1st November",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 27
+  },
+  {
+   "n": 28,
+   "q": "Which of the following States has maximum urbanization?",
+   "o": [
+    "Goa",
+    "Maharashtra",
+    "Karnataka",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 28
+  },
+  {
+   "n": 29,
+   "q": "‘Malnad’ region is associated with which of the following plateaus of India?",
+   "o": [
+    "Telangana Plateau",
+    "Maharashtra Plateau",
+    "Karnataka Plateau",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 29
+  },
+  {
+   "n": 30,
+   "q": "South Peninsular Upland is a part of",
+   "o": [
+    "Gondwana Land",
+    "Laurentia Land",
+    "Antarctica Continent",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 30
+  },
+  {
+   "n": 31,
+   "q": "The percentage of population of Bihar with respect to India’s total population is",
+   "o": [
+    "8·58%",
+    "10·10%",
+    "12·25%",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 31
+  },
+  {
+   "n": 32,
+   "q": "Which of the following pairs is not correctly matched with respect to south of Ganga region in Bihar?",
+   "o": [
+    "Patna–Munger",
+    "Gaya–Arwal",
+    "Patna–Vaishali",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 32
+  },
+  {
+   "n": 33,
+   "q": "Who is called the ‘Prophet of New India’?",
+   "o": [
+    "Raja Ram Mohan Roy",
+    "Dayananda Saraswati",
+    "Dadabhai Naoroji",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 33
+  },
+  {
+   "n": 34,
+   "q": "Which revolt is mentioned in Anandamath of Bankim Chandra Chattopadhyay?",
+   "o": [
+    "Sannyasi",
+    "Santhal",
+    "Indigo",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 34
+  },
+  {
+   "n": 35,
+   "q": "Who was the founder of ‘Abhinav Bharat’ in London?",
+   "o": [
+    "Vinayak Damodar Savarkar",
+    "P. M. Bapat",
+    "Shyamji Krishna Varma",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 35
+  },
+  {
+   "n": 36,
+   "q": "Where was the Ghadar Party established?",
+   "o": [
+    "France",
+    "Germany",
+    "United States of America",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 36
+  },
+  {
+   "n": 37,
+   "q": "Who was appointed as the ‘Commander in Chief’ by Birsa Munda?",
+   "o": [
+    "Demka Munda",
+    "Gaya Munda",
+    "Sundar Munda",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 37
+  },
+  {
+   "n": 38,
+   "q": "Who formed the Bihar Socialist Party?",
+   "o": [
+    "Phulan Chand Tiwari and Rajendra Prasad",
+    "Phulan Prasad Varma and Jayaprakash Narayan",
+    "Raj Kumar Shukla and Swami Agnivesh",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 38
+  },
+  {
+   "n": 39,
+   "q": "In which year was the ‘Bihar Provincial Congress Committee’ formed with its headquarters at Patna?",
+   "o": [
+    "1908",
+    "1910",
+    "1906",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 39
+  },
+  {
+   "n": 40,
+   "q": "Who established a branch of the Anushilan Samiti in Patna in 1913?",
+   "o": [
+    "Ramananda Sinha",
+    "Satish Jha",
+    "Sachindra Nath Sanyal",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "General Studies",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 40
+  },
+  {
+   "n": 41,
+   "q": "Which of the following is a technique that marks the beginning of computer communications?",
+   "o": [
+    "User Environment",
+    "Batch Environment",
+    "Time Sharing",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 41
+  },
+  {
+   "n": 42,
+   "q": "Which language is better for writing structured code?",
+   "o": [
+    "PASCAL",
+    "FORTRAN",
+    "BASIC",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 42
+  },
+  {
+   "n": 43,
+   "q": "Which language does a browser use to display information from the World Wide Web?",
+   "o": [
+    "Machine code",
+    "Assembly language",
+    "C++",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 43
+  },
+  {
+   "n": 44,
+   "q": "Select the true statement for compiler.",
+   "o": [
+    "The input of the compiler is source program.",
+    "It translates the source code into object code as a whole.",
+    "The output of the compiler is object code.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 44
+  },
+  {
+   "n": 45,
+   "q": "_____ is used to shift processes so they are contiguous, and all free memory is in one block.",
+   "o": [
+    "Fragmentation",
+    "Compaction",
+    "External Fragmentation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 45
+  },
+  {
+   "n": 46,
+   "q": "Which of the following is not a valid variable name in most programming languages?",
+   "o": [
+    "myVariable",
+    "123Variable",
+    "_myVariable",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 46
+  },
+  {
+   "n": 47,
+   "q": "Secondary memory is the long-term store for programs and data while main memory holds program and data currently in use. What kind of an organization is this?",
+   "o": [
+    "Physical",
+    "Logical",
+    "Structural",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 47
+  },
+  {
+   "n": 48,
+   "q": "If a semicolon is not used at the end of the statement, what message will be displayed by C++?",
+   "o": [
+    "Semicolon missing",
+    "Statement missing",
+    "Error in statements",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 48
+  },
+  {
+   "n": 49,
+   "q": "A set of libraries that provides programmatically access to some kind of graphics 2D functions is",
+   "o": [
+    "Graphics package",
+    "Formatting package",
+    "Animation package",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 49
+  },
+  {
+   "n": 50,
+   "q": "Which shortcut key is used to compile and run the program in C++?",
+   "o": [
+    "Alt+F9",
+    "Alt+F5",
+    "Ctrl+F9",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 50
+  },
+  {
+   "n": 51,
+   "q": "What does the control unit generate to control other units?",
+   "o": [
+    "Timing signals",
+    "Command signals",
+    "Control signals",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 51
+  },
+  {
+   "n": 52,
+   "q": "Which of the following is user-defined header file extension used in C++?",
+   "o": [
+    "hg",
+    "cpp",
+    "h",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 52
+  },
+  {
+   "n": 53,
+   "q": "The most common addressing technique employed by a CPU is",
+   "o": [
+    "direct",
+    "indirect",
+    "immediate",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 53
+  },
+  {
+   "n": 54,
+   "q": "What will happen if the following C++ statement is compiled and executed?\nint *ptr = NULL;\ndelete ptr;",
+   "o": [
+    "The program is not semantically correct",
+    "The program is compiled and executed successfully",
+    "The program gives a compile-time error",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 54
+  },
+  {
+   "n": 55,
+   "q": "In various devices, _____ are used to overcome the difference in data transfer speed.",
+   "o": [
+    "multiple buses",
+    "buffer registers",
+    "speed-enhancing circuitries",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 55
+  },
+  {
+   "n": 56,
+   "q": "What do we use to extend the connectivity of the processor bus?",
+   "o": [
+    "PCI bus",
+    "Multiple bus",
+    "SCSI bus",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 56
+  },
+  {
+   "n": 57,
+   "q": "In memory mapped I/O",
+   "o": [
+    "the I/O devices and the memory share the same address space",
+    "the I/O devices have a separate address space",
+    "the memory and I/O devices have an associated address space",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 57
+  },
+  {
+   "n": 58,
+   "q": "What is the addressing called that is used in an instruction of the form ADD X Y?",
+   "o": [
+    "Indirect",
+    "Index",
+    "Absolute",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 58
+  },
+  {
+   "n": 59,
+   "q": "Which of the following correctly declares an array in C++?",
+   "o": [
+    "array{10};",
+    "int array;",
+    "int array[10];",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 59
+  },
+  {
+   "n": 60,
+   "q": "SQL views are also known as",
+   "o": [
+    "simple tables",
+    "virtual tables",
+    "complex tables",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 60
+  },
+  {
+   "n": 61,
+   "q": "How many primary keys can be there in a table?",
+   "o": [
+    "Only 1",
+    "Only 2",
+    "Depends on number of columns",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 61
+  },
+  {
+   "n": 62,
+   "q": "What will be the output of the following C++ code?\n#include<iostream>\n#include<string>\nusing namespace std;\nint main(int argc, char const *argv[ ])\n{\n  char s1[6]=\"Hello\";\n  char s2[6]=\"World\";\n  char s3[12]=s1+\" \"+s2;\n  cout<<s3;\n  return 0;\n}",
+   "o": [
+    "Hello",
+    "World",
+    "Error",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 62
+  },
+  {
+   "n": 63,
+   "q": "Which of the following is not constraint in SQL?",
+   "o": [
+    "Primary key",
+    "Not null",
+    "Union",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 63
+  },
+  {
+   "n": 64,
+   "q": "Which of the following is not a valid aggregate function?",
+   "o": [
+    "COUNT",
+    "COMPUTE",
+    "SUM",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 64
+  },
+  {
+   "n": 65,
+   "q": "Who is the father of computer?",
+   "o": [
+    "James Gosling",
+    "Charles Babbage",
+    "Dennis Ritchie",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 65
+  },
+  {
+   "n": 66,
+   "q": "If we have not specified ASC or DESC after an SQL ORDER BY clause, which of the following is used by default?",
+   "o": [
+    "DESC",
+    "ASC",
+    "There is no default value",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 66
+  },
+  {
+   "n": 67,
+   "q": "In IA-32 architecture along with the general flags, which of the following conditional flags is provided?",
+   "o": [
+    "TF",
+    "IOPL",
+    "IF",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 67
+  },
+  {
+   "n": 68,
+   "q": "Which of the following is true about the HAVING clause?",
+   "o": [
+    "Similar to the WHERE clause but is used for columns rather than groups",
+    "Similar to WHERE clause but is used for rows rather than columns",
+    "Similar to WHERE clause but is used for groups rather than rows",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 68
+  },
+  {
+   "n": 69,
+   "q": "The method of accessing the I/O devices by repeatedly checking the status flags is",
+   "o": [
+    "program-controlled I/O",
+    "memory-mapped I/O",
+    "I/O-mapped I/O",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 69
+  },
+  {
+   "n": 70,
+   "q": "_____ clause creates temporary relation for the query on which it is defined.",
+   "o": [
+    "WITH",
+    "FROM",
+    "WHERE",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 70
+  },
+  {
+   "n": 71,
+   "q": "The SQL statement SELECT ROUND (65.726, -1) FROM DUAL; prints",
+   "o": [
+    "70",
+    "garbage",
+    "726",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 71
+  },
+  {
+   "n": 72,
+   "q": "The matrix contains m rows and n columns. The matrix is called Sparse Matrix if",
+   "o": [
+    "total number of zero elements > (m * n)/2",
+    "total number of zero elements = m + n",
+    "total number of zero elements = m / n",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 72
+  },
+  {
+   "n": 73,
+   "q": "_____ command makes the updates performed by the transaction permanent in the database.",
+   "o": [
+    "ROLLBACK",
+    "COMMIT",
+    "TRUNCATE",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 73
+  },
+  {
+   "n": 74,
+   "q": "Which of the following is the basic approach for joining tables?",
+   "o": [
+    "Union JOIN",
+    "Natural JOIN",
+    "Subqueries",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 74
+  },
+  {
+   "n": 75,
+   "q": "What is the time complexity of an infix to postfix conversion algorithm?",
+   "o": [
+    "O(N log N)",
+    "O(N)",
+    "O(N²)",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 75
+  },
+  {
+   "n": 76,
+   "q": "Which of the following is the advantage of the array data structure?",
+   "o": [
+    "Elements of mixed data types can be stored",
+    "Easier to access the elements in an array",
+    "Index of the first element starts from 1",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 76
+  },
+  {
+   "n": 77,
+   "q": "Which data structure is mainly used for implementing the recursive algorithm?",
+   "o": [
+    "Queue",
+    "Stack",
+    "Binary tree",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 77
+  },
+  {
+   "n": 78,
+   "q": "What is the postfix expression for the corresponding infix expression? a + b * c + (d * e)",
+   "o": [
+    "abc*+de*+",
+    "abc+*de*+",
+    "a+bc*de+*",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 78
+  },
+  {
+   "n": 79,
+   "q": "Which one of the following is not the type of queue?",
+   "o": [
+    "Linear queue",
+    "Circular queue",
+    "Double-ended queue",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 79
+  },
+  {
+   "n": 80,
+   "q": "The necessary condition to be checked before deletion from the queue is",
+   "o": [
+    "overflow",
+    "underflow",
+    "rear value",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 80
+  },
+  {
+   "n": 81,
+   "q": "After performing the following set of operations, what does the final list contain?\nInsertFront(10);\nInsertFront(20);\nInsertRear(30);\nDeleteFront( );\nInsertRear(40);\nInsertRear(10);\nDeleteRear( );\nInsertRear(15);\ndisplay( );",
+   "o": [
+    "10 30 10 15",
+    "20 30 40 15",
+    "10 30 40 15",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 81
+  },
+  {
+   "n": 82,
+   "q": "A linear data structure in which insertion and deletion operations can be performed from both the ends is",
+   "o": [
+    "queue",
+    "circular queue",
+    "deque",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 82
+  },
+  {
+   "n": 83,
+   "q": "If circular queue is implemented using array having size MAX_SIZE in which array index starts with 0, front points to the first element in the queue, and rear points to the last element in the queue. Which one of the following conditions is used to specify that the circular queue is empty?",
+   "o": [
+    "Front=rear= -1",
+    "Front=rear=0",
+    "Front=rear +1",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 83
+  },
+  {
+   "n": 84,
+   "q": "What is the functionality of the following piece of code?\npublic void fun(int x)\n{\n  q1.offer(x);\n}",
+   "o": [
+    "Perform push( ) with push as the costlier operation",
+    "Perform push( ) with pop as the costlier operation",
+    "Perform pop( ) with push as the costlier operation",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 84
+  },
+  {
+   "n": 85,
+   "q": "Which one of the following techniques is not used in the binary tree?",
+   "o": [
+    "Randomized traversal",
+    "Preorder traversal",
+    "Postorder traversal",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 85
+  },
+  {
+   "n": 86,
+   "q": "Which of the following is not a feature of DBMS?",
+   "o": [
+    "Minimum duplication and redundancy of data",
+    "High-level of security",
+    "Single-user access only",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 86
+  },
+  {
+   "n": 87,
+   "q": "Which of the following statements is not true about the doubly linked list?",
+   "o": [
+    "We can traverse in both the directions.",
+    "It requires extra space.",
+    "Implementation of doubly linked list is easier than the singly linked list.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 87
+  },
+  {
+   "n": 88,
+   "q": "The values appearing in given attributes of any tuple in the referencing relation must likewise occur in specified attributes of at least one tuple in the referenced relation, according to _____ integrity constraint.",
+   "o": [
+    "referential",
+    "primary",
+    "referencing",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 88
+  },
+  {
+   "n": 89,
+   "q": "Which of the following options is not true about the binary search tree?",
+   "o": [
+    "The value of the left child should be less than the root node.",
+    "The value of the right child should be greater than the root node.",
+    "The left and right subtrees should also be a binary search tree.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 89
+  },
+  {
+   "n": 90,
+   "q": "The expression Y=AB+BC+AC shows the _____ operation.",
+   "o": [
+    "EX-OR",
+    "SOP",
+    "POS",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 90
+  },
+  {
+   "n": 91,
+   "q": "What are the canonical forms of Boolean expressions?",
+   "o": [
+    "OR and XOR",
+    "NOR and XNOR",
+    "SOM and POM",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 91
+  },
+  {
+   "n": 92,
+   "q": "Derive the Boolean expression for the logic circuit described below: inputs A and B feed an OR gate; the OR output and input C feed a first AND gate; that output and input D feed a second AND gate; that output and input E feed a third (final) AND gate.",
+   "o": [
+    "C(A+B)DE",
+    "[C(A+B)D + E']",
+    "[[C(A+B)D]E']",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 92
+  },
+  {
+   "n": 93,
+   "q": "Boolean algebra can be used",
+   "o": [
+    "for designing the digital computers",
+    "in building logic symbols",
+    "in circuit theory",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 93
+  },
+  {
+   "n": 94,
+   "q": "What does the control unit generate to control other units?",
+   "o": [
+    "Transfer signals",
+    "Command signals",
+    "Control signals",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 94
+  },
+  {
+   "n": 95,
+   "q": "To display time in railway stations which digital circuit is used?",
+   "o": [
+    "Seven-segment decoder",
+    "Eight-segment encoder",
+    "8 : 3 multiplexer",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 95
+  },
+  {
+   "n": 96,
+   "q": "What kind of transmission medium is most appropriate to carry data in a computer network that is exposed to electrical interference?",
+   "o": [
+    "Unshielded twisted pair",
+    "Optical fiber",
+    "Coaxial cable",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 96
+  },
+  {
+   "n": 97,
+   "q": "Which network topology requires a central controller or hub?",
+   "o": [
+    "Star",
+    "Mesh",
+    "Ring",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 97
+  },
+  {
+   "n": 98,
+   "q": "A collection of hyperlinked documents on the Internet forms the",
+   "o": [
+    "World Wide Web (WWW)",
+    "e-mail system",
+    "mailing list",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 98
+  },
+  {
+   "n": 99,
+   "q": "Which of the following is not a step in the Header translation procedure?",
+   "o": [
+    "The IPv6 mapped address is changed to an IPv4 address by extracting the rightmost 32 bits",
+    "The value of the IPv6 priority field is discarded",
+    "The IPv6 flow label is considered",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 99
+  },
+  {
+   "n": 100,
+   "q": "Which one of the following would breach the integrity of a system?",
+   "o": [
+    "Locking the room to prevent theft",
+    "Full access rights for all users",
+    "Fitting the system with an anti-theft device",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 100
+  },
+  {
+   "n": 101,
+   "q": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+   "o": [
+    "Logical link control sublayer",
+    "Media access control sublayer",
+    "Network interface control sublayer",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 101
+  },
+  {
+   "n": 102,
+   "q": "Which one of the following is not a network topology?",
+   "o": [
+    "Peer-to-peer",
+    "Ring",
+    "Bus",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 102
+  },
+  {
+   "n": 103,
+   "q": "How do structures and classes in C++ differ?",
+   "o": [
+    "Structures by default hide every member whereas classes do not",
+    "In structures, members are public by default, whereas, in classes, they are private by default",
+    "Structures cannot have private members, whereas classes can have",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 103
+  },
+  {
+   "n": 104,
+   "q": "When the mail server sends mail to other mail servers it becomes",
+   "o": [
+    "SMTP client",
+    "SMTP server",
+    "peer",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 104
+  },
+  {
+   "n": 105,
+   "q": "The length of an IPv6 address is",
+   "o": [
+    "32 bits",
+    "64 bits",
+    "256 bits",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 4,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 105
+  },
+  {
+   "n": 106,
+   "q": "What is the use of ios::trunc mode?",
+   "o": [
+    "To open a file in input mode",
+    "To open a file in output mode",
+    "To truncate an existing file to zero",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 106
+  },
+  {
+   "n": 107,
+   "q": "Which layer of the TCP/IP stack corresponds to the OSI model transport layer?",
+   "o": [
+    "Host-to-host",
+    "Application",
+    "Internet",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 107
+  },
+  {
+   "n": 108,
+   "q": "Which of the following statements is/are correct? 1. It is not possible to combine two or more files opening mode in open( ) method. 2. It is possible to combine two or more files opening mode in open( ) method. 3. ios::in and ios::out are input and output file opening modes respectively.",
+   "o": [
+    "1, 3",
+    "2, 3",
+    "3 only",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 108
+  },
+  {
+   "n": 109,
+   "q": "Which of the following is true with regard to the ping command?",
+   "o": [
+    "Ping stands for Packet Internet Generator.",
+    "The ping command checks the port level connectivity between source destinations endpoints.",
+    "Ping summarizes the packet loss and round-trip delay between two IP endpoints.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 109
+  },
+  {
+   "n": 110,
+   "q": "The correct statement for a function that takes pointer to a float, a pointer to a pointer to a char and returns a pointer to a pointer to an integer is",
+   "o": [
+    "int **fun(float **, char **)",
+    "int *fun(float *, char *)",
+    "int **fun(float *, char **)",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 110
+  },
+  {
+   "n": 111,
+   "q": "The private key in asymmetric key cryptography is kept by",
+   "o": [
+    "sender",
+    "receiver",
+    "sender and receiver",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 111
+  },
+  {
+   "n": 112,
+   "q": "What will be the output of the following C++ code?\n#include<iostream>\nusing namespace std;\nlong factorial (long a)\n{\n  if (a>1)\n    return (a * factorial (a+1));\n  else\n    return(1);\n}\nint main( )\n{\n  long num = 3;\n  cout <<num<<\"!=\"<<factorial(num);\n  return 0;\n}",
+   "o": [
+    "6",
+    "24",
+    "Segmentation fault",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 112
+  },
+  {
+   "n": 113,
+   "q": "Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+   "o": [
+    "Encapsulation",
+    "Inheritance",
+    "Polymorphism",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 113
+  },
+  {
+   "n": 114,
+   "q": "Which is correct syntax of inheritance?",
+   "o": [
+    "class base_classname : access derived_classname {/*define class body*/};",
+    "class derived_classname : access base_classname {/*define class body*/};",
+    "class derived_classname : base_classname {/*define class body*/};",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 2,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 114
+  },
+  {
+   "n": 115,
+   "q": "Which one of the following is the correct definition of “is_array( );” function in C++?",
+   "o": [
+    "It checks that the specified variable is of the array or not",
+    "It checks that the specified array is of single dimension or not",
+    "It checks that the specified array is of multi-dimension or not",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 115
+  },
+  {
+   "n": 116,
+   "q": "Which of the following statements is correct about the class?",
+   "o": [
+    "An object is an instance of its class.",
+    "A class is an instance of its object.",
+    "An object is the instance of the data type of that class.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 116
+  },
+  {
+   "n": 117,
+   "q": "Which of the following can be used to create an abstract class in the C++ programming language?",
+   "o": [
+    "By using the pure virtual function in the class",
+    "By declaring a virtual function in the base class",
+    "By declaring the virtual keyword afterward the class declaration",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 117
+  },
+  {
+   "n": 118,
+   "q": "Which of the following statements is correct about the C++ programming language?",
+   "o": [
+    "In C++, both the static and dynamic types checking are allowed.",
+    "In C++, member function are allowed to be of the type const.",
+    "In C++, dynamic checking is allowed.",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 3,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 118
+  },
+  {
+   "n": 119,
+   "q": "Which feature of OOP is indicated by the following code?\nclass student{int marks;};\nclass topper: public student{int age; topper(int age) {this.age=age;}};",
+   "o": [
+    "Encapsulation and inheritance",
+    "Inheritance and polymorphism",
+    "Polymorphism",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 119
+  },
+  {
+   "n": 120,
+   "q": "Which of the following natural elements is the primary element in computer chips?",
+   "o": [
+    "Carbon",
+    "Silicon",
+    "Iron",
+    "More than one of the above",
+    "None of the above"
+   ],
+   "a": 1,
+   "qi": null,
+   "oi": null,
+   "section": "Computer Science",
+   "source": "BPSC TRE 2.0 – Sr. Secondary (GS & CS) – 26 Aug 2023",
+   "on": 120
+  }
+ ]
+}
